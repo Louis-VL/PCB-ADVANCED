@@ -1,0 +1,186 @@
+Removed Pin From Net: NetName=DDR2.DQS1_N Pin=U?-A8
+Removed Pin From Net: NetName=DDR2.DQ14 Pin=U?-B1
+Removed Pin From Net: NetName=DDR2.DM1 Pin=U?-B3
+Removed Pin From Net: NetName=DDR2.DQS1_P Pin=U?-B7
+Removed Pin From Net: NetName=DDR2.DQ15 Pin=U?-B9
+Removed Pin From Net: NetName=DDR2.DQ9 Pin=U?-C2
+Removed Pin From Net: NetName=DDR2.DQ8 Pin=U?-C8
+Removed Pin From Net: NetName=DDR2.DQ12 Pin=U?-D1
+Removed Pin From Net: NetName=DDR2.DQ11 Pin=U?-D3
+Removed Pin From Net: NetName=DDR2.DQ10 Pin=U?-D7
+Removed Pin From Net: NetName=DDR2.DQ13 Pin=U?-D9
+Removed Pin From Net: NetName=DDR2.DQS0_N Pin=U?-E8
+Removed Pin From Net: NetName=DDR2.DQ6 Pin=U?-F1
+Removed Pin From Net: NetName=DDR2.DM0 Pin=U?-F3
+Removed Pin From Net: NetName=DDR2.DQS0_P Pin=U?-F7
+Removed Pin From Net: NetName=DDR2.DQ7 Pin=U?-F9
+Removed Pin From Net: NetName=DDR2.DQ1 Pin=U?-G2
+Removed Pin From Net: NetName=DDR2.DQ0 Pin=U?-G8
+Removed Pin From Net: NetName=DDR2.DQ4 Pin=U?-H1
+Removed Pin From Net: NetName=DDR2.DQ3 Pin=U?-H3
+Removed Pin From Net: NetName=DDR2.DQ2 Pin=U?-H7
+Removed Pin From Net: NetName=DDR2.DQ5 Pin=U?-H9
+Removed Pin From Net: NetName=DDR2.CK_P Pin=U?-J8
+Removed Pin From Net: NetName=DDR2.CKE Pin=U?-K2
+Removed Pin From Net: NetName=DDR2.NWE Pin=U?-K3
+Removed Pin From Net: NetName=DDR2.NRAS Pin=U?-K7
+Removed Pin From Net: NetName=DDR2.CK_N Pin=U?-K8
+Removed Pin From Net: NetName=DDR2.ODT Pin=U?-K9
+Removed Pin From Net: NetName=DDR2.BA2 Pin=U?-L1
+Removed Pin From Net: NetName=DDR2.BA0 Pin=U?-L2
+Removed Pin From Net: NetName=DDR2.BA1 Pin=U?-L3
+Removed Pin From Net: NetName=DDR2.NCAS Pin=U?-L7
+Removed Pin From Net: NetName=DDR2.NCS Pin=U?-L8
+Removed Pin From Net: NetName=DDR2.A10 Pin=U?-M2
+Removed Pin From Net: NetName=DDR2.A1 Pin=U?-M3
+Removed Pin From Net: NetName=DDR2.A2 Pin=U?-M7
+Removed Pin From Net: NetName=DDR2.A0 Pin=U?-M8
+Removed Pin From Net: NetName=DDR2.A3 Pin=U?-N2
+Removed Pin From Net: NetName=DDR2.A5 Pin=U?-N3
+Removed Pin From Net: NetName=DDR2.A6 Pin=U?-N7
+Removed Pin From Net: NetName=DDR2.A4 Pin=U?-N8
+Removed Pin From Net: NetName=DDR2.A7 Pin=U?-P2
+Removed Pin From Net: NetName=DDR2.A9 Pin=U?-P3
+Removed Pin From Net: NetName=DDR2.A11 Pin=U?-P7
+Removed Pin From Net: NetName=DDR2.A8 Pin=U?-P8
+Removed Pin From Net: NetName=DDR2.A12 Pin=U?-R2
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=U2
+Removed Member From Class: ClassName=U_POWER_SUPPLY Member=U2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Added Pin To Net: NetName=DDR2.DQS1_N Pin=U3-A8
+Added Pin To Net: NetName=DDR2.DQ14 Pin=U3-B1
+Added Pin To Net: NetName=DDR2.DM1 Pin=U3-B3
+Added Pin To Net: NetName=DDR2.DQS1_P Pin=U3-B7
+Added Pin To Net: NetName=DDR2.DQ15 Pin=U3-B9
+Added Pin To Net: NetName=DDR2.DQ9 Pin=U3-C2
+Added Pin To Net: NetName=DDR2.DQ8 Pin=U3-C8
+Added Pin To Net: NetName=DDR2.DQ12 Pin=U3-D1
+Added Pin To Net: NetName=DDR2.DQ11 Pin=U3-D3
+Added Pin To Net: NetName=DDR2.DQ10 Pin=U3-D7
+Added Pin To Net: NetName=DDR2.DQ13 Pin=U3-D9
+Added Pin To Net: NetName=DDR2.DQS0_N Pin=U3-E8
+Added Pin To Net: NetName=DDR2.DQ6 Pin=U3-F1
+Added Pin To Net: NetName=DDR2.DM0 Pin=U3-F3
+Added Pin To Net: NetName=DDR2.DQS0_P Pin=U3-F7
+Added Pin To Net: NetName=DDR2.DQ7 Pin=U3-F9
+Added Pin To Net: NetName=DDR2.DQ1 Pin=U3-G2
+Added Pin To Net: NetName=DDR2.DQ0 Pin=U3-G8
+Added Pin To Net: NetName=DDR2.DQ4 Pin=U3-H1
+Added Pin To Net: NetName=DDR2.DQ3 Pin=U3-H3
+Added Pin To Net: NetName=DDR2.DQ2 Pin=U3-H7
+Added Pin To Net: NetName=DDR2.DQ5 Pin=U3-H9
+Added Pin To Net: NetName=DDR2.CK_P Pin=U3-J8
+Added Pin To Net: NetName=DDR2.CKE Pin=U3-K2
+Added Pin To Net: NetName=DDR2.NWE Pin=U3-K3
+Added Pin To Net: NetName=DDR2.NRAS Pin=U3-K7
+Added Pin To Net: NetName=DDR2.CK_N Pin=U3-K8
+Added Pin To Net: NetName=DDR2.ODT Pin=U3-K9
+Added Pin To Net: NetName=DDR2.BA2 Pin=U3-L1
+Added Pin To Net: NetName=DDR2.BA0 Pin=U3-L2
+Added Pin To Net: NetName=DDR2.BA1 Pin=U3-L3
+Added Pin To Net: NetName=DDR2.NCAS Pin=U3-L7
+Added Pin To Net: NetName=DDR2.NCS Pin=U3-L8
+Added Pin To Net: NetName=DDR2.A10 Pin=U3-M2
+Added Pin To Net: NetName=DDR2.A1 Pin=U3-M3
+Added Pin To Net: NetName=DDR2.A2 Pin=U3-M7
+Added Pin To Net: NetName=DDR2.A0 Pin=U3-M8
+Added Pin To Net: NetName=DDR2.A3 Pin=U3-N2
+Added Pin To Net: NetName=DDR2.A5 Pin=U3-N3
+Added Pin To Net: NetName=DDR2.A6 Pin=U3-N7
+Added Pin To Net: NetName=DDR2.A4 Pin=U3-N8
+Added Pin To Net: NetName=DDR2.A7 Pin=U3-P2
+Added Pin To Net: NetName=DDR2.A9 Pin=U3-P3
+Added Pin To Net: NetName=DDR2.A11 Pin=U3-P7
+Added Pin To Net: NetName=DDR2.A8 Pin=U3-P8
+Added Pin To Net: NetName=DDR2.A12 Pin=U3-R2
+Added Pin To Net: NetName=FTDI_CS Pin=U?-1
+Added Pin To Net: NetName=FTDI_CK Pin=U?-2
+Added Pin To Net: NetName=FTDI_DA Pin=U?-3
+Added Pin To Net: NetName=NetR?_2 Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=+3.3V Pin=U?-8
+Change Class Name : Old Net Name=U_SDRAM New Net Name=U_USB
+Added Class: Name=U_SDRAM
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component D?
+Added Member To Class: ClassName=U_USB Member=Component D?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component L?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component L?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R?
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component R?
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component U? MX25V1635FM2I
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component U? LTC3569EUD#TRPBF
+Added Member To Class: ClassName=U_USB Member=Component U? 93LC56B/SN
+Added Member To Class: ClassName=U_USB Member=Component X? EC2620TS-12.000M TR
