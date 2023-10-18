@@ -1,0 +1,745 @@
+Removed Pin From Net: NetName=GND Pin=C?-1
+Removed Pin From Net: NetName=+1.8V Pin=C?-2
+Removed Pin From Net: NetName=+1.8V Pin=C?-2
+Removed Pin From Net: NetName=+1.8V Pin=C?-2
+Removed Pin From Net: NetName=+1.8V Pin=C?-2
+Removed Pin From Net: NetName=+1.8V Pin=C?-2
+Removed Pin From Net: NetName=+1.8V Pin=C?-2
+Removed Pin From Net: NetName=+1.8V Pin=C?-2
+Removed Pin From Net: NetName=+1.8V Pin=U1-G2
+Removed Pin From Net: NetName=+1.8V Pin=U1-K2
+Removed Pin From Net: NetName=+1.8V Pin=U1-N2
+Removed Pin From Net: NetName=+1.8V Pin=U3-A1
+Removed Pin From Net: NetName=GND Pin=U3-A3
+Removed Pin From Net: NetName=GND Pin=U3-A7
+Removed Pin From Net: NetName=+1.8V Pin=U3-A9
+Removed Pin From Net: NetName=GND Pin=U3-B2
+Removed Pin From Net: NetName=GND Pin=U3-B8
+Removed Pin From Net: NetName=+1.8V Pin=U3-C1
+Removed Pin From Net: NetName=+1.8V Pin=U3-C3
+Removed Pin From Net: NetName=+1.8V Pin=U3-C7
+Removed Pin From Net: NetName=+1.8V Pin=U3-C9
+Removed Pin From Net: NetName=GND Pin=U3-D2
+Removed Pin From Net: NetName=GND Pin=U3-D8
+Removed Pin From Net: NetName=+1.8V Pin=U3-E1
+Removed Pin From Net: NetName=GND Pin=U3-E3
+Removed Pin From Net: NetName=GND Pin=U3-E7
+Removed Pin From Net: NetName=+1.8V Pin=U3-E9
+Removed Pin From Net: NetName=GND Pin=U3-F2
+Removed Pin From Net: NetName=GND Pin=U3-F8
+Removed Pin From Net: NetName=+1.8V Pin=U3-G1
+Removed Pin From Net: NetName=+1.8V Pin=U3-G3
+Removed Pin From Net: NetName=+1.8V Pin=U3-G7
+Removed Pin From Net: NetName=+1.8V Pin=U3-G9
+Removed Pin From Net: NetName=GND Pin=U3-H2
+Removed Pin From Net: NetName=GND Pin=U3-H8
+Removed Pin From Net: NetName=+1.8V Pin=U3-J1
+Removed Pin From Net: NetName=GND Pin=U3-J3
+Removed Pin From Net: NetName=GND Pin=U3-J7
+Removed Pin From Net: NetName=+1.8V Pin=U3-J9
+Removed Pin From Net: NetName=+1.8V Pin=U3-M9
+Removed Pin From Net: NetName=GND Pin=U3-N1
+Removed Pin From Net: NetName=GND Pin=U3-P9
+Removed Pin From Net: NetName=+1.8V Pin=U3-R1
+Removed Pin From Net: NetName=FTDI_CS Pin=U?-1
+Removed Pin From Net: NetName=FTDI_CK Pin=U?-2
+Removed Pin From Net: NetName=FTDI_DA Pin=U?-3
+Removed Pin From Net: NetName=GND Pin=U?-5
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=D?
+Removed Member From Class: ClassName=U_GPIO_Connectors Member=D?
+Removed Member From Class: ClassName=U_USB Member=D?
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=P?
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=R?
+Removed Member From Class: ClassName=U_GPIO_Connectors Member=R?
+Removed Member From Class: ClassName=U_USB Member=R?
+Removed Member From Class: ClassName=U_POWER_SUPPLY Member=U?
+Removed Member From Class: ClassName=U_USB Member=U?
+Change Component Footprint: Designator=C? Old Footprint=CAP_0603 New Footprint=CAP_1210
+Change Component Footprint: Designator=C? Old Footprint=CAP_1210 New Footprint=CAP_0805
+Change Component Footprint: Designator=C? Old Footprint=CAP_1210 New Footprint=CAP_0805
+Change Component Footprint: Designator=C? Old Footprint=CAP_1210 New Footprint=CAP_0805
+Change Component Footprint: Designator=C? Old Footprint=CAP_1210 New Footprint=CAP_0805
+Change Component Comment : Designator=MH? Old Comment= New Comment=MH
+Change Component Comment : Designator=MH? Old Comment= New Comment=MH
+Change Component Comment : Designator=MH? Old Comment= New Comment=MH
+Change Component Comment : Designator=MH? Old Comment= New Comment=MH
+Change Component Designator: OldDesignator=C? NewDesignator=C100
+Change Component Designator: OldDesignator=C? NewDesignator=C101
+Change Component Designator: OldDesignator=C? NewDesignator=C102
+Change Component Designator: OldDesignator=C? NewDesignator=C103
+Change Component Designator: OldDesignator=C? NewDesignator=C105
+Change Component Designator: OldDesignator=C? NewDesignator=C107
+Change Component Designator: OldDesignator=C? NewDesignator=C200
+Change Component Designator: OldDesignator=C? NewDesignator=C202
+Change Component Designator: OldDesignator=C? NewDesignator=C203
+Change Component Designator: OldDesignator=C? NewDesignator=C204
+Change Component Designator: OldDesignator=C? NewDesignator=C206
+Change Component Designator: OldDesignator=C? NewDesignator=C207
+Change Component Designator: OldDesignator=C? NewDesignator=C209
+Change Component Designator: OldDesignator=C? NewDesignator=C300
+Change Component Designator: OldDesignator=C? NewDesignator=C301
+Change Component Designator: OldDesignator=C? NewDesignator=C302
+Change Component Designator: OldDesignator=C? NewDesignator=C303
+Change Component Designator: OldDesignator=C? NewDesignator=C304
+Change Component Designator: OldDesignator=C? NewDesignator=C305
+Change Component Designator: OldDesignator=C? NewDesignator=C306
+Change Component Designator: OldDesignator=C? NewDesignator=C308
+Change Component Designator: OldDesignator=C? NewDesignator=C309
+Change Component Designator: OldDesignator=C? NewDesignator=C311
+Change Component Designator: OldDesignator=C? NewDesignator=C312
+Change Component Designator: OldDesignator=C? NewDesignator=C314
+Change Component Designator: OldDesignator=C? NewDesignator=C400
+Change Component Designator: OldDesignator=C? NewDesignator=C401
+Change Component Designator: OldDesignator=C? NewDesignator=C500
+Change Component Designator: OldDesignator=C? NewDesignator=C501
+Change Component Designator: OldDesignator=C? NewDesignator=C502
+Change Component Designator: OldDesignator=C? NewDesignator=C503
+Change Component Designator: OldDesignator=C? NewDesignator=C504
+Change Component Designator: OldDesignator=C? NewDesignator=C505
+Change Component Designator: OldDesignator=C? NewDesignator=C506
+Change Component Designator: OldDesignator=C? NewDesignator=C507
+Change Component Designator: OldDesignator=C? NewDesignator=C508
+Change Component Designator: OldDesignator=C? NewDesignator=C509
+Change Component Designator: OldDesignator=C? NewDesignator=C510
+Change Component Designator: OldDesignator=C? NewDesignator=C511
+Change Component Designator: OldDesignator=C? NewDesignator=C512
+Change Component Designator: OldDesignator=C? NewDesignator=C513
+Change Component Designator: OldDesignator=D? NewDesignator=D100
+Change Component Designator: OldDesignator=D? NewDesignator=D101
+Change Component Designator: OldDesignator=D? NewDesignator=D300
+Change Component Designator: OldDesignator=D? NewDesignator=D301
+Change Component Designator: OldDesignator=D? NewDesignator=D400
+Change Component Designator: OldDesignator=D? NewDesignator=D600
+Change Component Designator: OldDesignator=D? NewDesignator=D601
+Change Component Designator: OldDesignator=D? NewDesignator=D602
+Change Component Designator: OldDesignator=D? NewDesignator=D603
+Change Component Designator: OldDesignator=D? NewDesignator=D604
+Change Component Designator: OldDesignator=D? NewDesignator=D605
+Change Component Designator: OldDesignator=D? NewDesignator=D606
+Change Component Designator: OldDesignator=D? NewDesignator=D607
+Change Component Designator: OldDesignator=F? NewDesignator=F600
+Change Component Designator: OldDesignator=F? NewDesignator=F601
+Change Component Designator: OldDesignator=F? NewDesignator=F602
+Change Component Designator: OldDesignator=J? NewDesignator=J100
+Change Component Designator: OldDesignator=MH? NewDesignator=MH600
+Change Component Designator: OldDesignator=MH? NewDesignator=MH601
+Change Component Designator: OldDesignator=MH? NewDesignator=MH602
+Change Component Designator: OldDesignator=MH? NewDesignator=MH603
+Change Component Designator: OldDesignator=P? NewDesignator=P600
+Change Component Designator: OldDesignator=P? NewDesignator=P601
+Change Component Designator: OldDesignator=R? NewDesignator=R100
+Change Component Designator: OldDesignator=R? NewDesignator=R101
+Change Component Designator: OldDesignator=R? NewDesignator=R102
+Change Component Designator: OldDesignator=R? NewDesignator=R103
+Change Component Designator: OldDesignator=R? NewDesignator=R104
+Change Component Designator: OldDesignator=R? NewDesignator=R105
+Change Component Designator: OldDesignator=R? NewDesignator=R106
+Change Component Designator: OldDesignator=R? NewDesignator=R107
+Change Component Designator: OldDesignator=R? NewDesignator=R300
+Change Component Designator: OldDesignator=R? NewDesignator=R301
+Change Component Designator: OldDesignator=R? NewDesignator=R302
+Change Component Designator: OldDesignator=R? NewDesignator=R303
+Change Component Designator: OldDesignator=R? NewDesignator=R304
+Change Component Designator: OldDesignator=R? NewDesignator=R305
+Change Component Designator: OldDesignator=R? NewDesignator=R306
+Change Component Designator: OldDesignator=R? NewDesignator=R307
+Change Component Designator: OldDesignator=R? NewDesignator=R308
+Change Component Designator: OldDesignator=R? NewDesignator=R309
+Change Component Designator: OldDesignator=R? NewDesignator=R310
+Change Component Designator: OldDesignator=R? NewDesignator=R311
+Change Component Designator: OldDesignator=R? NewDesignator=R312
+Change Component Designator: OldDesignator=R? NewDesignator=R313
+Change Component Designator: OldDesignator=R? NewDesignator=R400
+Change Component Designator: OldDesignator=R? NewDesignator=R401
+Change Component Designator: OldDesignator=R? NewDesignator=R403
+Change Component Designator: OldDesignator=R? NewDesignator=R404
+Change Component Designator: OldDesignator=R? NewDesignator=R405
+Change Component Designator: OldDesignator=R? NewDesignator=R406
+Change Component Designator: OldDesignator=R? NewDesignator=R407
+Change Component Designator: OldDesignator=R? NewDesignator=R408
+Change Component Designator: OldDesignator=R? NewDesignator=R409
+Change Component Designator: OldDesignator=R? NewDesignator=R410
+Change Component Designator: OldDesignator=R? NewDesignator=R412
+Change Component Designator: OldDesignator=R? NewDesignator=R413
+Change Component Designator: OldDesignator=R? NewDesignator=R414
+Change Component Designator: OldDesignator=R? NewDesignator=R415
+Change Component Designator: OldDesignator=R? NewDesignator=R416
+Change Component Designator: OldDesignator=R? NewDesignator=R417
+Change Component Designator: OldDesignator=R? NewDesignator=R418
+Change Component Designator: OldDesignator=R? NewDesignator=R419
+Change Component Designator: OldDesignator=R? NewDesignator=R420
+Change Component Designator: OldDesignator=R? NewDesignator=R421
+Change Component Designator: OldDesignator=R? NewDesignator=R600
+Change Component Designator: OldDesignator=R? NewDesignator=R601
+Change Component Designator: OldDesignator=R? NewDesignator=R602
+Change Component Designator: OldDesignator=R? NewDesignator=R603
+Change Component Designator: OldDesignator=R? NewDesignator=R604
+Change Component Designator: OldDesignator=R? NewDesignator=R605
+Change Component Designator: OldDesignator=R? NewDesignator=R606
+Change Component Designator: OldDesignator=R? NewDesignator=R607
+Change Component Designator: OldDesignator=R? NewDesignator=R608
+Change Component Designator: OldDesignator=R? NewDesignator=R609
+Change Component Designator: OldDesignator=R? NewDesignator=R610
+Change Component Designator: OldDesignator=R? NewDesignator=R611
+Change Component Designator: OldDesignator=R? NewDesignator=R612
+Change Component Designator: OldDesignator=R? NewDesignator=R613
+Change Component Designator: OldDesignator=R? NewDesignator=R614
+Change Component Designator: OldDesignator=R? NewDesignator=R615
+Change Component Designator: OldDesignator=R? NewDesignator=R616
+Change Component Designator: OldDesignator=R? NewDesignator=R617
+Change Component Designator: OldDesignator=R? NewDesignator=R618
+Change Component Designator: OldDesignator=R? NewDesignator=R619
+Change Component Designator: OldDesignator=R? NewDesignator=R620
+Change Component Designator: OldDesignator=R? NewDesignator=R621
+Change Component Designator: OldDesignator=R? NewDesignator=R622
+Change Component Designator: OldDesignator=R? NewDesignator=R623
+Change Component Designator: OldDesignator=R? NewDesignator=R624
+Change Component Designator: OldDesignator=R? NewDesignator=R625
+Change Component Designator: OldDesignator=R? NewDesignator=R626
+Change Component Designator: OldDesignator=R? NewDesignator=R627
+Change Component Designator: OldDesignator=R? NewDesignator=R628
+Change Component Designator: OldDesignator=R? NewDesignator=R629
+Change Component Designator: OldDesignator=R? NewDesignator=R630
+Change Component Designator: OldDesignator=R? NewDesignator=R631
+Change Component Designator: OldDesignator=U2 NewDesignator=U300
+Change Component Designator: OldDesignator=U? NewDesignator=U100
+Change Component Designator: OldDesignator=U? NewDesignator=U401
+Change Component Designator: OldDesignator=X? NewDesignator=X300
+Change component parameters: Designator = "C?" ("C101"); Footprint = "CAP_0603"; UniqueID = "\AVARRDRK" ("\AVARRDRK")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R?" ("R401"); Footprint = "RES_0603"; UniqueID = "\CDYKGXCC" ("\CDYKGXCC")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "470R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R?" ("R300"); Footprint = "RES_0603"; UniqueID = "\UDINMQVR" ("\UDINMQVR")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K5"; VariantName = "[No Variations]"
+Added Component: Designator=C104(CAP_1210)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "8u"; VariantName = "[No Variations]"
+Added Component: Designator=C106(CAP_1210)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "13u"; VariantName = "[No Variations]"
+Added Component: Designator=C108(CAP_1210)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "8u"; VariantName = "[No Variations]"
+Added Component: Designator=C201(CAP_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Added Component: Designator=C205(CAP_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Added Component: Designator=C208(CAP_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Added Component: Designator=F603(Fiducial30mil)
+Added Component: Designator=F604(Fiducial30mil)
+Added Component: Designator=F605(Fiducial30mil)
+Added Component: Designator=FB100(CAP_0805)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "650mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance-Max"; Value = "1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max DC Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BLM15AG_SN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "25%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=FB300(CAP_0805)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "650mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance-Max"; Value = "1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max DC Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BLM15AG_SN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "25%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=FB301(CAP_0805)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "650mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance-Max"; Value = "1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max DC Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BLM15AG_SN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "25%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=L100(IND4x4mm)
+Add component (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2u"; VariantName = "[No Variations]"
+Added Component: Designator=L101(IND4x4mm)
+Add component (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2u"; VariantName = "[No Variations]"
+Added Component: Designator=L102(IND4x4mm)
+Add component (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2u"; VariantName = "[No Variations]"
+Added Component: Designator=R402(RES_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470R"; VariantName = "[No Variations]"
+Added Component: Designator=R411(RES_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C104-1
+Added Pin To Net: NetName=+3.3V Pin=C104-2
+Added Pin To Net: NetName=GND Pin=C106-1
+Added Pin To Net: NetName=+1.0V Pin=C106-2
+Added Pin To Net: NetName=GND Pin=C108-1
+Added Pin To Net: NetName=+1.8V Pin=C108-2
+Added Pin To Net: NetName=GND Pin=C201-1
+Added Pin To Net: NetName=+1.8V Pin=C201-2
+Added Pin To Net: NetName=GND Pin=C205-1
+Added Pin To Net: NetName=+1.0V Pin=C205-2
+Added Pin To Net: NetName=GND Pin=C208-1
+Added Pin To Net: NetName=+1.0V Pin=C208-2
+Added Pin To Net: NetName=+3.3V Pin=C500-2
+Added Pin To Net: NetName=+3.3V Pin=C501-2
+Added Pin To Net: NetName=+3.3V Pin=C502-2
+Added Pin To Net: NetName=+3.3V Pin=C503-2
+Added Pin To Net: NetName=+3.3V Pin=C504-2
+Added Pin To Net: NetName=+3.3V Pin=C505-2
+Added Pin To Net: NetName=+3.3V Pin=C506-2
+Added Pin To Net: NetName=USBV Pin=FB100-1
+Added Pin To Net: NetName=+5 Pin=FB100-2
+Added Pin To Net: NetName=+3.3V Pin=FB300-1
+Added Pin To Net: NetName=FTDI_VPLL Pin=FB300-2
+Added Pin To Net: NetName=+3.3V Pin=FB301-1
+Added Pin To Net: NetName=FTDI_VPHY Pin=FB301-2
+Added Pin To Net: NetName=+3.3V Pin=L100-2
+Added Pin To Net: NetName=+1.0V Pin=L101-2
+Added Pin To Net: NetName=+1.8V Pin=L102-2
+Added Pin To Net: NetName=DONE Pin=R402-1
+Added Pin To Net: NetName=+3.3V Pin=R402-2
+Added Pin To Net: NetName=LEDONE Pin=R411-1
+Added Pin To Net: NetName=DONE Pin=R411-2
+Added Pin To Net: NetName=+3.3V Pin=U1-G2
+Added Pin To Net: NetName=+3.3V Pin=U1-K2
+Added Pin To Net: NetName=+3.3V Pin=U1-N2
+Added Pin To Net: NetName=FLASH_CS Pin=U401-1
+Added Pin To Net: NetName=GND Pin=U401-4
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC103_1
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD300_1
+Change Net Name : Old Net Name=NetP?_3 New Net Name=NetP600_3
+Change Net Name : Old Net Name=NetP?_4 New Net Name=NetP601_4
+Change Net Name : Old Net Name=NetP?_5 New Net Name=NetP600_5
+Change Net Name : Old Net Name=NetP?_6 New Net Name=NetP601_6
+Change Net Name : Old Net Name=NetP?_9 New Net Name=NetP600_9
+Change Net Name : Old Net Name=NetP?_10 New Net Name=NetP601_10
+Change Net Name : Old Net Name=NetP?_11 New Net Name=NetP601_11
+Change Net Name : Old Net Name=NetP?_12 New Net Name=NetP600_12
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR405_1
+Added Pin To Net: NetName=NetC105_1 Pin=C105-1
+Added Pin To Net: NetName=NetC105_1 Pin=R104-1
+Added Pin To Net: NetName=NetC105_1 Pin=R106-2
+Added Pin To Net: NetName=NetC105_1 Pin=U100-8
+Added Net: Name=NetC105_1
+Added Pin To Net: NetName=NetC107_1 Pin=C107-1
+Added Pin To Net: NetName=NetC107_1 Pin=R105-1
+Added Pin To Net: NetName=NetC107_1 Pin=R107-2
+Added Pin To Net: NetName=NetC107_1 Pin=U100-6
+Added Net: Name=NetC107_1
+Added Pin To Net: NetName=NetD101_1 Pin=D101-1
+Added Pin To Net: NetName=NetD101_1 Pin=R102-1
+Added Net: Name=NetD101_1
+Added Pin To Net: NetName=NetD301_1 Pin=D301-1
+Added Pin To Net: NetName=NetD301_1 Pin=R311-1
+Added Net: Name=NetD301_1
+Added Pin To Net: NetName=NetD600_1 Pin=D600-1
+Added Pin To Net: NetName=NetD600_1 Pin=R618-1
+Added Net: Name=NetD600_1
+Added Pin To Net: NetName=NetD601_1 Pin=D601-1
+Added Pin To Net: NetName=NetD601_1 Pin=R619-1
+Added Net: Name=NetD601_1
+Added Pin To Net: NetName=NetD602_1 Pin=D602-1
+Added Pin To Net: NetName=NetD602_1 Pin=R620-1
+Added Net: Name=NetD602_1
+Added Pin To Net: NetName=NetD603_1 Pin=D603-1
+Added Pin To Net: NetName=NetD603_1 Pin=R621-1
+Added Net: Name=NetD603_1
+Added Pin To Net: NetName=NetD604_1 Pin=D604-1
+Added Pin To Net: NetName=NetD604_1 Pin=R622-1
+Added Net: Name=NetD604_1
+Added Pin To Net: NetName=NetD605_1 Pin=D605-1
+Added Pin To Net: NetName=NetD605_1 Pin=R623-1
+Added Net: Name=NetD605_1
+Added Pin To Net: NetName=NetD606_1 Pin=D606-1
+Added Pin To Net: NetName=NetD606_1 Pin=R624-1
+Added Net: Name=NetD606_1
+Added Pin To Net: NetName=NetD607_1 Pin=D607-1
+Added Pin To Net: NetName=NetD607_1 Pin=R625-1
+Added Net: Name=NetD607_1
+Added Pin To Net: NetName=NetL100_1 Pin=L100-1
+Added Pin To Net: NetName=NetL100_1 Pin=U100-18
+Added Net: Name=NetL100_1
+Added Pin To Net: NetName=NetL101_1 Pin=L101-1
+Added Pin To Net: NetName=NetL101_1 Pin=U100-15
+Added Net: Name=NetL101_1
+Added Pin To Net: NetName=NetL102_1 Pin=L102-1
+Added Pin To Net: NetName=NetL102_1 Pin=U100-1
+Added Net: Name=NetL102_1
+Added Pin To Net: NetName=NetP600_4 Pin=P600-4
+Added Pin To Net: NetName=NetP600_4 Pin=R604-1
+Added Net: Name=NetP600_4
+Added Pin To Net: NetName=NetP600_6 Pin=P600-6
+Added Pin To Net: NetName=NetP600_6 Pin=R612-1
+Added Net: Name=NetP600_6
+Added Pin To Net: NetName=NetP600_10 Pin=P600-10
+Added Pin To Net: NetName=NetP600_10 Pin=R605-2
+Added Net: Name=NetP600_10
+Added Pin To Net: NetName=NetP600_11 Pin=P600-11
+Added Pin To Net: NetName=NetP600_11 Pin=R609-2
+Added Net: Name=NetP600_11
+Added Pin To Net: NetName=NetP601_3 Pin=P601-3
+Added Pin To Net: NetName=NetP601_3 Pin=R602-1
+Added Net: Name=NetP601_3
+Added Pin To Net: NetName=NetP601_5 Pin=P601-5
+Added Pin To Net: NetName=NetP601_5 Pin=R610-1
+Added Net: Name=NetP601_5
+Added Pin To Net: NetName=NetP601_9 Pin=P601-9
+Added Pin To Net: NetName=NetP601_9 Pin=R603-2
+Added Net: Name=NetP601_9
+Added Pin To Net: NetName=NetP601_12 Pin=P601-12
+Added Pin To Net: NetName=NetP601_12 Pin=R615-2
+Added Net: Name=NetP601_12
+Added Pin To Net: NetName=NetR307_2 Pin=R307-2
+Added Pin To Net: NetName=NetR307_2 Pin=R312-2
+Added Net: Name=NetR307_2
+Added Pin To Net: NetName=NetR404_1 Pin=R404-1
+Added Pin To Net: NetName=NetR404_1 Pin=R412-1
+Added Pin To Net: NetName=NetR404_1 Pin=U401-3
+Added Net: Name=NetR404_1
+Added Pin To Net: NetName=NetR407_1 Pin=R407-1
+Added Pin To Net: NetName=NetR407_1 Pin=U401-5
+Added Net: Name=NetR407_1
+Added Pin To Net: NetName=NetR408_1 Pin=R408-1
+Added Pin To Net: NetName=NetR408_1 Pin=U401-2
+Added Net: Name=NetR408_1
+Added Pin To Net: NetName=NetR409_1 Pin=R409-1
+Added Pin To Net: NetName=NetR409_1 Pin=U1-A7
+Added Net: Name=NetR409_1
+Added Pin To Net: NetName=NetR414_1 Pin=R414-1
+Added Pin To Net: NetName=NetR414_1 Pin=U1-P7
+Added Net: Name=NetR414_1
+Added Pin To Net: NetName=NetR416_1 Pin=R416-1
+Added Pin To Net: NetName=NetR416_1 Pin=U1-P6
+Added Net: Name=NetR416_1
+Added Pin To Net: NetName=NetR417_1 Pin=R417-1
+Added Pin To Net: NetName=NetR417_1 Pin=U1-M6
+Added Net: Name=NetR417_1
+Added Pin To Net: NetName=NetR616_2 Pin=R616-2
+Added Net: Name=NetR616_2
+Added Pin To Net: NetName=NetR617_2 Pin=R617-2
+Added Net: Name=NetR617_2
+Added Pin To Net: NetName=NetR626_2 Pin=R626-2
+Added Net: Name=NetR626_2
+Added Pin To Net: NetName=NetR627_2 Pin=R627-2
+Added Net: Name=NetR627_2
+Added Pin To Net: NetName=NetR628_2 Pin=R628-2
+Added Net: Name=NetR628_2
+Added Pin To Net: NetName=NetR629_2 Pin=R629-2
+Added Net: Name=NetR629_2
+Added Pin To Net: NetName=NetR630_2 Pin=R630-2
+Added Net: Name=NetR630_2
+Added Pin To Net: NetName=NetR631_2 Pin=R631-2
+Added Net: Name=NetR631_2
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C100
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C101
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C102
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C103
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C104
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C105
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C106
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C107
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C108
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C200
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C201
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C202
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C203
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C204
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C205
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C206
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C207
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C208
+Added Member To Class: ClassName=U_FPGA_POWER Member=Component C209
+Added Member To Class: ClassName=U_USB Member=Component C300
+Added Member To Class: ClassName=U_USB Member=Component C301
+Added Member To Class: ClassName=U_USB Member=Component C302
+Added Member To Class: ClassName=U_USB Member=Component C303
+Added Member To Class: ClassName=U_USB Member=Component C304
+Added Member To Class: ClassName=U_USB Member=Component C305
+Added Member To Class: ClassName=U_USB Member=Component C306
+Added Member To Class: ClassName=U_USB Member=Component C308
+Added Member To Class: ClassName=U_USB Member=Component C309
+Added Member To Class: ClassName=U_USB Member=Component C311
+Added Member To Class: ClassName=U_USB Member=Component C312
+Added Member To Class: ClassName=U_USB Member=Component C314
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component C400
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component C401
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C500
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C501
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C502
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C503
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C504
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C505
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C506
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C507
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C508
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C509
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C510
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C511
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C512
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C513
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component D100 USBLC6-2SC6
+Added Member To Class: ClassName=U_USB Member=Component D300
+Added Member To Class: ClassName=U_USB Member=Component D301
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component D400
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D600
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D601
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D602
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D603
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D604
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D605
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D606
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D607
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F601
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F602
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F603
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F604
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F605
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component FB100 180R
+Added Member To Class: ClassName=U_USB Member=Component FB300 180R
+Added Member To Class: ClassName=U_USB Member=Component FB301 180R
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component L100
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component L101
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component L102
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH600 MH
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH602 MH
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH603 MH
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component P600 Header 6X2
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R101
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R102
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R103
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R104
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R105
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R106
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R107
+Added Member To Class: ClassName=U_USB Member=Component R300
+Added Member To Class: ClassName=U_USB Member=Component R301
+Added Member To Class: ClassName=U_USB Member=Component R302
+Added Member To Class: ClassName=U_USB Member=Component R303
+Added Member To Class: ClassName=U_USB Member=Component R304
+Added Member To Class: ClassName=U_USB Member=Component R305
+Added Member To Class: ClassName=U_USB Member=Component R306
+Added Member To Class: ClassName=U_USB Member=Component R307
+Added Member To Class: ClassName=U_USB Member=Component R308
+Added Member To Class: ClassName=U_USB Member=Component R309
+Added Member To Class: ClassName=U_USB Member=Component R310
+Added Member To Class: ClassName=U_USB Member=Component R311
+Added Member To Class: ClassName=U_USB Member=Component R312
+Added Member To Class: ClassName=U_USB Member=Component R313
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R400
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R401
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R402
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R403
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R404
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R405
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R406
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R407
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R408
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R409
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R410
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R411
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R412
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R413
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R414
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R415
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R416
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R417
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R418
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R419
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R420
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component R421
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R600
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R601
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R602
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R603
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R604
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R605
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R606
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R607
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R608
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R609
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R610
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R611
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R612
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R613
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R614
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R615
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R616
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R617
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R618
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R619
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R620
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R621
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R622
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R623
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R624
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R625
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R626
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R627
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R628
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R629
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R630
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component R631
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component U100 LTC3569EUD#TRPBF

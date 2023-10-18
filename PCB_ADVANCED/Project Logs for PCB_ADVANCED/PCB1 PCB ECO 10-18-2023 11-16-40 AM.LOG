@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=U100
+Added Pin To Net: NetName=GND Pin=C512-1
+Change Net Color : Old Net Color=RGB(110, 255, 110) New Net Color=RGB(110, 110, 255)
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F600
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component P601 Header 6X2
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component R100
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component U401 MX25V1635FM2I

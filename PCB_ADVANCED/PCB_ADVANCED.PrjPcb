@@ -38,10 +38,10 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=FPGA_CONFIG.SchDoc
+DocumentPath=POWER_SUPPLY.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
@@ -52,9 +52,60 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RGRTZNGZ
+DocumentUniqueId=TDFQXCPR
 
 [Document2]
+DocumentPath=FPGA_POWER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=200
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HIVHXNXE
+
+[Document3]
+DocumentPath=USB.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OGWRSZFG
+
+[Document4]
+DocumentPath=FPGA_CONFIG.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RGRTZNGZ
+
+[Document5]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,24 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SKHQWQXB
 
-[Document3]
-DocumentPath=FPGA_POWER.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HIVHXNXE
-
-[Document4]
+[Document6]
 DocumentPath=Passive.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LNYVLOVR
 
-[Document5]
+[Document7]
 DocumentPath=Schematic_Symbols.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,40 +156,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CLFHWGXW
 
-[Document6]
-DocumentPath=POWER_SUPPLY.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TDFQXCPR
-
-[Document7]
-DocumentPath=USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OGWRSZFG
-
 [Document8]
 DocumentPath=Spartan.SchDoc
 AnnotationEnabled=1
@@ -163,7 +163,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -176,11 +176,11 @@ DocumentUniqueId=BISILTST
 [Document9]
 DocumentPath=FPGA_BANKS.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=500
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -208,30 +208,13 @@ GenerateClassCluster=0
 DocumentUniqueId=BKUGRYKV
 
 [Document11]
-DocumentPath=SDRAM.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VBYJMFHU
-
-[Document12]
 DocumentPath=GPIO.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=600
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -1164,16 +1147,16 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Miscellaneous Devices.IntLib
-ComponentDesignItemID0=Cap
-ComponentSymbolReference0=Cap
+ComponentLibraryIdentifier0=Schematic_Symbols.SchLib
+ComponentDesignItemID0=MH
+ComponentSymbolReference0=MH
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Schematic_Symbols.SchLib
-ComponentDesignItemID1=Ferrite Bead
-ComponentSymbolReference1=Ferrite Bead
-ComponentUpdate1=1
+ComponentLibIdentifierKind1=Library Name Only
+ComponentLibraryIdentifier1=Altium Content Vault
+ComponentDesignItemID1=CMP-0492-02156-1
+ComponentSymbolReference1=LT-LTC3569-UD-20
+ComponentUpdate1=0
 ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1188,111 +1171,62 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Case Code (Imperial)
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Case Code (Metric)
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Case/Package
+ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
-ParameterName3=Comment
+ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
-ParameterName4=Component Kind
+ParameterName4=ComponentLink2Description
 ParameterUpdate4=1
-ParameterName5=Core Material
+ParameterName5=ComponentLink2URL
 ParameterUpdate5=1
-ParameterName6=Current Rating
+ParameterName6=ComponentLink3Description
 ParameterUpdate6=1
-ParameterName7=DC Current
+ParameterName7=ComponentLink3URL
 ParameterUpdate7=1
-ParameterName8=DC Resistance (DCR)
+ParameterName8=DatasheetVersion
 ParameterUpdate8=1
-ParameterName9=DC Resistance-Max
+ParameterName9=Description
 ParameterUpdate9=1
-ParameterName10=Depth
+ParameterName10=Frequency Adjust Range
 ParameterUpdate10=1
-ParameterName11=Description
+ParameterName11=Library Reference
 ParameterUpdate11=1
-ParameterName12=Frequency
+ParameterName12=Manufacturer
 ParameterUpdate12=1
-ParameterName13=Height
+ParameterName13=Mounting Technology
 ParameterUpdate13=1
-ParameterName14=Impedance
+ParameterName14=Number of Outputs
 ParameterUpdate14=1
-ParameterName15=LatestRevisionDate
+ParameterName15=PackageDescription
 ParameterUpdate15=1
-ParameterName16=LatestRevisionNote
+ParameterName16=PackageReference
 ParameterUpdate16=1
-ParameterName17=Lead Free
+ParameterName17=PackageVersion
 ParameterUpdate17=1
-ParameterName18=Length
+ParameterName18=Packing
 ParameterUpdate18=1
-ParameterName19=Library Reference
+ParameterName19=PartNumber
 ParameterUpdate19=1
-ParameterName20=Material
+ParameterName20=RoHS
 ParameterUpdate20=1
-ParameterName21=Max Current Rating
-ParameterUpdate21=1
-ParameterName22=Max DC Current
-ParameterUpdate22=1
-ParameterName23=Max Operating Temperature
-ParameterUpdate23=1
-ParameterName24=Military Standard
-ParameterUpdate24=1
-ParameterName25=Min Operating Temperature
-ParameterUpdate25=1
-ParameterName26=Number of Circuits
-ParameterUpdate26=1
-ParameterName27=Number of Lines
-ParameterUpdate27=1
-ParameterName28=Number of Pins
-ParameterUpdate28=1
-ParameterName29=Package Quantity
-ParameterUpdate29=1
-ParameterName30=PackageDescription
-ParameterUpdate30=1
-ParameterName31=PackageReference
-ParameterUpdate31=1
-ParameterName32=Packaging
-ParameterUpdate32=1
-ParameterName33=Published
-ParameterUpdate33=1
-ParameterName34=Publisher
-ParameterUpdate34=1
-ParameterName35=Radiation Hardening
-ParameterUpdate35=1
-ParameterName36=REACH SVHC
-ParameterUpdate36=1
-ParameterName37=RoHS Compliant
-ParameterUpdate37=1
-ParameterName38=Series
-ParameterUpdate38=1
-ParameterName39=Shielding
-ParameterUpdate39=1
-ParameterName40=Termination
-ParameterUpdate40=1
-ParameterName41=Test Frequency
-ParameterUpdate41=1
-ParameterName42=Tolerance
-ParameterUpdate42=1
-ParameterName43=Value
-ParameterUpdate43=1
-ParameterName44=Width
-ParameterUpdate44=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CAP_0805
+ModelName0=LT-UD-20_L
 ModelUpdate0=1
-ModelTypeGroup1=SI
-ModelTypeUpdate1=1
-ModelType1=SI
-ModelName1=Cap
+ModelType1=PCBLIB
+ModelName1=LT-UD-20_M
 ModelUpdate1=1
-ModelTypeGroup2=SIM
-ModelTypeUpdate2=1
-ModelType2=SIM
-ModelName2=CAP
+ModelType2=PCBLIB
+ModelName2=LT-UD-20_N
 ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=MH3.2mm
+ModelUpdate3=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1305,7 +1239,7 @@ Net1=NetName=+0.9V|NetColor=$00FF6EFF
 Net2=NetName=+1.0V|NetColor=clYellow
 Net3=NetName=+1.8V|NetColor=$00FF6EFF
 Net4=NetName=+3.3V|NetColor=$006E6EFF
-Net5=NetName=GND|NetColor=$006EFF6E
+Net5=NetName=GND|NetColor=$00FF6E6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

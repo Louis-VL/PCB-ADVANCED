@@ -1,0 +1,32 @@
+Change Component Designator: OldDesignator= NewDesignator=F603
+Change Component Designator: OldDesignator= NewDesignator=F604
+Change Component Designator: OldDesignator= NewDesignator=F605
+Change Component Designator: OldDesignator= NewDesignator=MH600
+Change Component Designator: OldDesignator= NewDesignator=MH601
+Change Component Designator: OldDesignator= NewDesignator=MH602
+Change Component Designator: OldDesignator= NewDesignator=MH603
+Added Pin To Net: NetName=SW1 Pin=L100-1
+Added Pin To Net: NetName=SW3 Pin=L101-1
+Added Pin To Net: NetName=SW2 Pin=L102-1
+Added Pin To Net: NetName=SW2 Pin=U100-1
+Added Pin To Net: NetName=SW3 Pin=U100-15
+Added Pin To Net: NetName=SW1 Pin=U100-18
+Change Net Name : Old Net Name=NetC103_1 New Net Name=FB1
+Change Net Name : Old Net Name=NetC105_1 New Net Name=FB3
+Change Net Name : Old Net Name=NetC107_1 New Net Name=FB2
+Change Net Name : Old Net Name=NetR409_1 New Net Name=TCKFPGA
+Change Net Name : Old Net Name=NetR414_1 New Net Name=TDIFPGA
+Change Net Name : Old Net Name=NetR416_1 New Net Name=TDOFPGA
+Change Net Name : Old Net Name=NetR417_1 New Net Name=TMSFPGA
+Added Pin To Net: NetName=FTDI_DI Pin=R312-1
+Added Pin To Net: NetName=FTDI_DI Pin=U300-61
+Added Net: Name=FTDI_DI
+Added Pin To Net: NetName=FTDI_DO Pin=R307-2
+Added Pin To Net: NetName=FTDI_DO Pin=R312-2
+Added Net: Name=FTDI_DO
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F603
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F604
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component F605
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH600 MH
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH602 MH
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH603 MH
