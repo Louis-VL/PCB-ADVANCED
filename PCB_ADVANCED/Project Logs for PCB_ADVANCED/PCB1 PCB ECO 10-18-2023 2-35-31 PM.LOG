@@ -1,0 +1,16 @@
+Added Component: Designator=U301(SOIC8)
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P600-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revF, May-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Lead Plastic Small Outline (SN) - Narrow, 3.90mm Body [SOIC]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOIC-SN8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revBB, Aug-2009"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=FTDI_CS Pin=U301-1
+Added Pin To Net: NetName=FTDI_CK Pin=U301-2
+Added Pin To Net: NetName=FTDI_DI Pin=U301-3
+Added Pin To Net: NetName=FTDI_DO Pin=U301-4
+Added Pin To Net: NetName=GND Pin=U301-5
+Added Pin To Net: NetName=+3.3V Pin=U301-8
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C100
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C101
+Added Member To Class: ClassName=U_USB Member=Component U301 93LC56B/SN
