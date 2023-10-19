@@ -1,0 +1,187 @@
+Removed Pin From Net: NetName=TCK Pin=R409-2
+Removed Pin From Net: NetName=TDI Pin=R414-2
+Removed Pin From Net: NetName=TDO Pin=R416-2
+Removed Pin From Net: NetName=TMS Pin=R417-2
+Removed Pin From Net: NetName=H1_5 Pin=R601-1
+Removed Pin From Net: NetName=H2_5 Pin=R603-1
+Removed Pin From Net: NetName=H1_2 Pin=R604-2
+Removed Pin From Net: NetName=H1_6 Pin=R605-1
+Removed Pin From Net: NetName=H2_2 Pin=R606-2
+Removed Pin From Net: NetName=H2_6 Pin=R607-1
+Removed Pin From Net: NetName=H1_3 Pin=R608-2
+Removed Pin From Net: NetName=H1_7 Pin=R609-1
+Removed Pin From Net: NetName=H2_3 Pin=R610-2
+Removed Pin From Net: NetName=H2_7 Pin=R611-1
+Removed Pin From Net: NetName=H1_4 Pin=R612-2
+Removed Pin From Net: NetName=H2_4 Pin=R614-2
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=R409
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=R414
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=R416
+Removed Member From Class: ClassName=U_FPGA_CONFIG Member=R417
+Change Component Designator: OldDesignator=C? NewDesignator=C514
+Change Component Designator: OldDesignator=R? NewDesignator=R502
+Change Component Designator: OldDesignator=X? NewDesignator=X500
+Added Component: Designator=R500(RES_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470R"; VariantName = "[No Variations]"
+Added Component: Designator=R501(RES_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470R"; VariantName = "[No Variations]"
+Added Component: Designator=SW400(SPDT SWITCH)
+Added Component: Designator=SW600(SPDT SWITCH)
+Added Component: Designator=SW601(SPDT SWITCH)
+Added Component: Designator=SW602(SPDT SWITCH)
+Added Component: Designator=SW603(SPDT SWITCH)
+Added Component: Designator=SW604(SPDT SWITCH)
+Added Component: Designator=SW605(SPDT SWITCH)
+Added Component: Designator=SW606(SPDT SWITCH)
+Added Component: Designator=SW607(SPDT SWITCH)
+Added Pin To Net: NetName=+3.3V Pin=R500-2
+Added Pin To Net: NetName=GND Pin=R501-1
+Added Pin To Net: NetName=H1_2 Pin=R601-1
+Added Pin To Net: NetName=H2_2 Pin=R603-1
+Added Pin To Net: NetName=H1_3 Pin=R604-2
+Added Pin To Net: NetName=H1_4 Pin=R605-1
+Added Pin To Net: NetName=H2_3 Pin=R606-2
+Added Pin To Net: NetName=H2_4 Pin=R607-1
+Added Pin To Net: NetName=H1_5 Pin=R608-2
+Added Pin To Net: NetName=H1_6 Pin=R609-1
+Added Pin To Net: NetName=H2_5 Pin=R610-2
+Added Pin To Net: NetName=H2_6 Pin=R611-1
+Added Pin To Net: NetName=H1_7 Pin=R612-2
+Added Pin To Net: NetName=H2_7 Pin=R614-2
+Added Pin To Net: NetName=JTAG Pin=SW400-1
+Added Pin To Net: NetName=M2 Pin=SW400-2
+Added Pin To Net: NetName=MSPI Pin=SW400-3
+Added Pin To Net: NetName=+3.3V Pin=SW600-1
+Added Pin To Net: NetName=NetR616_2 Pin=SW600-2
+Added Pin To Net: NetName=GND Pin=SW600-3
+Added Pin To Net: NetName=+3.3V Pin=SW601-1
+Added Pin To Net: NetName=NetR617_2 Pin=SW601-2
+Added Pin To Net: NetName=GND Pin=SW601-3
+Added Pin To Net: NetName=+3.3V Pin=SW602-1
+Added Pin To Net: NetName=NetR626_2 Pin=SW602-2
+Added Pin To Net: NetName=GND Pin=SW602-3
+Added Pin To Net: NetName=+3.3V Pin=SW603-1
+Added Pin To Net: NetName=NetR627_2 Pin=SW603-2
+Added Pin To Net: NetName=GND Pin=SW603-3
+Added Pin To Net: NetName=+3.3V Pin=SW604-1
+Added Pin To Net: NetName=NetR628_2 Pin=SW604-2
+Added Pin To Net: NetName=GND Pin=SW604-3
+Added Pin To Net: NetName=+3.3V Pin=SW605-1
+Added Pin To Net: NetName=NetR629_2 Pin=SW605-2
+Added Pin To Net: NetName=GND Pin=SW605-3
+Added Pin To Net: NetName=+3.3V Pin=SW606-1
+Added Pin To Net: NetName=NetR630_2 Pin=SW606-2
+Added Pin To Net: NetName=GND Pin=SW606-3
+Added Pin To Net: NetName=+3.3V Pin=SW607-1
+Added Pin To Net: NetName=NetR631_2 Pin=SW607-2
+Added Pin To Net: NetName=GND Pin=SW607-3
+Added Pin To Net: NetName=LED6 Pin=U1-A2
+Added Pin To Net: NetName=SW7 Pin=U1-A3
+Added Pin To Net: NetName=LED0 Pin=U1-A4
+Added Pin To Net: NetName=LED1 Pin=U1-A5
+Added Pin To Net: NetName=TCK Pin=U1-A7
+Added Pin To Net: NetName=SW2 Pin=U1-A12
+Added Pin To Net: NetName=SW1 Pin=U1-A13
+Added Pin To Net: NetName=LED3 Pin=U1-B1
+Added Pin To Net: NetName=LED4 Pin=U1-B2
+Added Pin To Net: NetName=LED7 Pin=U1-B3
+Added Pin To Net: NetName=LED2 Pin=U1-B5
+Added Pin To Net: NetName=LED5 Pin=U1-B6
+Added Pin To Net: NetName=SW4 Pin=U1-B13
+Added Pin To Net: NetName=SW3 Pin=U1-B14
+Added Pin To Net: NetName=SW6 Pin=U1-C3
+Added Pin To Net: NetName=SW5 Pin=U1-C4
+Added Pin To Net: NetName=SW0 Pin=U1-C12
+Added Pin To Net: NetName=H1_4 Pin=U1-D12
+Added Pin To Net: NetName=H1_3 Pin=U1-D13
+Added Pin To Net: NetName=H1_1 Pin=U1-E12
+Added Pin To Net: NetName=H1_5 Pin=U1-E13
+Added Pin To Net: NetName=H1_2 Pin=U1-F12
+Added Pin To Net: NetName=H1_6 Pin=U1-F13
+Added Pin To Net: NetName=100Mhz Pin=U1-H12
+Added Pin To Net: NetName=100Mhz Pin=U1-H13
+Added Pin To Net: NetName=100Mhz Pin=U1-H14
+Added Pin To Net: NetName=H2_2 Pin=U1-J11
+Added Pin To Net: NetName=H2_1 Pin=U1-J12
+Added Pin To Net: NetName=H2_4 Pin=U1-J13
+Added Pin To Net: NetName=H2_3 Pin=U1-J14
+Added Pin To Net: NetName=H1_8 Pin=U1-L12
+Added Pin To Net: NetName=H1_7 Pin=U1-L13
+Added Pin To Net: NetName=TMS Pin=U1-M6
+Added Pin To Net: NetName=H2_6 Pin=U1-M11
+Added Pin To Net: NetName=H2_5 Pin=U1-M12
+Added Pin To Net: NetName=TDO Pin=U1-P6
+Added Pin To Net: NetName=TDI Pin=U1-P7
+Added Pin To Net: NetName=H2_8 Pin=U1-P12
+Added Pin To Net: NetName=H2_7 Pin=U1-P13
+Change Net Name : Old Net Name=NetR404_1 New Net Name=QSPI_D2
+Change Net Name : Old Net Name=NetR405_1 New Net Name=QSPI_D3
+Change Net Name : Old Net Name=NetR407_1 New Net Name=QSPI_D0
+Change Net Name : Old Net Name=NetR408_1 New Net Name=QSPI_D1
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(142, 134, 3)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(172, 174, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 191, 191)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Added Pin To Net: NetName=PUDC Pin=R500-1
+Added Pin To Net: NetName=PUDC Pin=R501-2
+Added Pin To Net: NetName=PUDC Pin=U1-B10
+Added Net: Name=PUDC
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component R500
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component R501
+Added Member To Class: ClassName=U_FPGA_CONFIG Member=Component SW400
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW600
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW601
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW602
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW603
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW604
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW605
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW606
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component SW607

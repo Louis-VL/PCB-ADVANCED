@@ -1,0 +1,53 @@
+Change Component Designator: OldDesignator= NewDesignator=X300
+Added Component: Designator=C?(CAP_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES_0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=X?(5X3.2MM CRYSTAL)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+3.3V Pin=C?-2
+Added Pin To Net: NetName=FLASH_DQ3 Pin=U1-B11
+Added Pin To Net: NetName=FLASH_DQ1 Pin=U1-B12
+Added Pin To Net: NetName=FLASH_DQ3 Pin=U1-C10
+Added Pin To Net: NetName=FLASH_CS Pin=U1-C11
+Added Pin To Net: NetName=FLASH_DQ2 Pin=U1-D10
+Added Pin To Net: NetName=+3.3V Pin=X?-1
+Added Pin To Net: NetName=GND Pin=X?-2
+Added Pin To Net: NetName=+3.3V Pin=X?-4
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(0, 190, 0)
+Added Pin To Net: NetName=100Mhz Pin=R?-2
+Added Pin To Net: NetName=100Mhz Pin=U1-H11
+Added Net: Name=100Mhz
+Added Pin To Net: NetName=OSC100M Pin=R?-1
+Added Pin To Net: NetName=OSC100M Pin=X?-3
+Added Net: Name=OSC100M
+Added Member To Class: ClassName=U_POWER_SUPPLY Member=Component C100
+Added Member To Class: ClassName=U_USB Member=Component C306
+Added Member To Class: ClassName=U_USB Member=Component C313
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component C?
+Added Member To Class: ClassName=U_USB Member=Component R305
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component R?
+Added Member To Class: ClassName=U_USB Member=Component X300 EC2620TS-12.000M TR
+Added Member To Class: ClassName=U_FPGA_BANKS Member=Component X? XLH535100.000000I

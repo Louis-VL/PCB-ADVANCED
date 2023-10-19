@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=SW1 Pin=L100-1
+Removed Pin From Net: NetName=SW3 Pin=L101-1
+Removed Pin From Net: NetName=SW2 Pin=L102-1
+Removed Pin From Net: NetName=SW2 Pin=U100-1
+Removed Pin From Net: NetName=SW3 Pin=U100-15
+Removed Pin From Net: NetName=SW1 Pin=U100-18
+Added Pin To Net: NetName=L1 Pin=L100-1
+Added Pin To Net: NetName=L1 Pin=U100-18
+Added Net: Name=L1
+Added Pin To Net: NetName=L2 Pin=L102-1
+Added Pin To Net: NetName=L2 Pin=U100-1
+Added Net: Name=L2
+Added Pin To Net: NetName=L3 Pin=L101-1
+Added Pin To Net: NetName=L3 Pin=U100-15
+Added Net: Name=L3
+Added Room: Name=U_FPGA_BANKS
+Added Room: Name=U_FPGA_POWER
