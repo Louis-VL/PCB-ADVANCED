@@ -1,0 +1,25 @@
+Change Component Footprint: Designator=C201 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C202 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C203 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C205 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C206 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C208 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C209 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C500 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C501 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C502 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C503 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C504 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C505 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C507 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C508 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C509 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C510 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C511 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C512 Old Footprint=CAP_0603 New Footprint=CAP_0402
+Change Component Footprint: Designator=C200 Old Footprint=CAP_0805 New Footprint=CAP_0603
+Change Component Footprint: Designator=C204 Old Footprint=CAP_0805 New Footprint=CAP_0603
+Change Component Footprint: Designator=C506 Old Footprint=CAP_0805 New Footprint=CAP_0603
+Change Component Footprint: Designator=C513 Old Footprint=CAP_0805 New Footprint=CAP_0603
+Added Room: Name=U_FPGA_BANKS
+Added Room: Name=U_FPGA_POWER

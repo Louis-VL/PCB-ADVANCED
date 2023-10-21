@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=FLASH_DQ3 Pin=U1-B11
+Change Component Footprint: Designator=C506 Old Footprint=CAP_0603 New Footprint=CAP_0805
+Change Component Footprint: Designator=C513 Old Footprint=CAP_0603 New Footprint=CAP_0805
+Change Component Comment : Designator=SW600 Old Comment= New Comment=SPDT SW
+Change Component Comment : Designator=SW601 Old Comment= New Comment=SPDT SW
+Change Component Comment : Designator=SW602 Old Comment= New Comment=SPDT SW
+Change Component Comment : Designator=SW603 Old Comment= New Comment=SPDT SW
+Change Component Comment : Designator=SW604 Old Comment= New Comment=SPDT SW
+Change Component Comment : Designator=SW605 Old Comment= New Comment=SPDT SW
+Change Component Comment : Designator=SW606 Old Comment= New Comment=SPDT SW
+Change Component Comment : Designator=SW607 Old Comment= New Comment=SPDT SW
+Added Pin To Net: NetName=FLASH_DQ0 Pin=U1-B11
+Added Pin To Net: NetName=UART0_RX Pin=U1-C1
+Added Pin To Net: NetName=UART0_TX Pin=U1-D1
+Added Pin To Net: NetName=JA1_N Pin=R600-2
+Added Pin To Net: NetName=JA1_N Pin=U1-N4
+Added Net: Name=JA1_N
+Added Pin To Net: NetName=JA1_P Pin=R601-1
+Added Pin To Net: NetName=JA1_P Pin=U1-P5
+Added Net: Name=JA1_P
+Added Pin To Net: NetName=JA2_N Pin=R604-2
+Added Pin To Net: NetName=JA2_N Pin=U1-M4
+Added Net: Name=JA2_N
+Added Pin To Net: NetName=JA2_P Pin=R605-1
+Added Pin To Net: NetName=JA2_P Pin=U1-M5
+Added Net: Name=JA2_P
+Added Pin To Net: NetName=JA3_N Pin=R608-2
+Added Pin To Net: NetName=JA3_N Pin=U1-L2
+Added Net: Name=JA3_N
+Added Pin To Net: NetName=JA3_P Pin=R609-1
+Added Pin To Net: NetName=JA3_P Pin=U1-L3
+Added Net: Name=JA3_P
+Added Pin To Net: NetName=JA4_N Pin=R612-2
+Added Pin To Net: NetName=JA4_N Pin=U1-L1
+Added Net: Name=JA4_N
+Added Pin To Net: NetName=JA4_P Pin=R613-1
+Added Pin To Net: NetName=JA4_P Pin=U1-M1
+Added Net: Name=JA4_P
+Added Pin To Net: NetName=JB1_N Pin=R602-2
+Added Pin To Net: NetName=JB1_N Pin=U1-J3
+Added Net: Name=JB1_N
+Added Pin To Net: NetName=JB1_P Pin=R603-1
+Added Pin To Net: NetName=JB1_P Pin=U1-J4
+Added Net: Name=JB1_P
+Added Pin To Net: NetName=JB2_N Pin=R606-2
+Added Pin To Net: NetName=JB2_N Pin=U1-K3
+Added Net: Name=JB2_N
+Added Pin To Net: NetName=JB2_P Pin=R607-1
+Added Pin To Net: NetName=JB2_P Pin=U1-K4
+Added Net: Name=JB2_P
+Added Pin To Net: NetName=JB3_N Pin=R610-2
+Added Pin To Net: NetName=JB3_N Pin=U1-D2
+Added Net: Name=JB3_N
+Added Pin To Net: NetName=JB3_P Pin=R611-1
+Added Pin To Net: NetName=JB3_P Pin=U1-E2
+Added Net: Name=JB3_P
+Added Pin To Net: NetName=JB4_N Pin=R614-2
+Added Pin To Net: NetName=JB4_N Pin=U1-F2
+Added Net: Name=JB4_N
+Added Pin To Net: NetName=JB4_P Pin=R615-1
+Added Pin To Net: NetName=JB4_P Pin=U1-F3
+Added Net: Name=JB4_P
+Added Differential Pair: Name=JA1
+Added Differential Pair: Name=JA2
+Added Differential Pair: Name=JA3
+Added Differential Pair: Name=JA4
+Added Differential Pair: Name=JB1
+Added Differential Pair: Name=JB2
+Added Differential Pair: Name=JB3
+Added Differential Pair: Name=JB4
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH600 MH
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH601 MH
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component MH602 MH
+Added Member To Class: ClassName=U_USB Member=Component X300 EC2620TS-12.000M TR
+Added Room: Name=U_FPGA_BANKS
+Added Room: Name=U_FPGA_POWER

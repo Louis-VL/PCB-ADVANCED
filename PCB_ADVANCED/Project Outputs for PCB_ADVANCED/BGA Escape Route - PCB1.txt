@@ -1,0 +1,64 @@
+BGA Escape Route
+Filename     : C:\Users\louis\Documents\PCB ADVANCED\PCB-ADVANCED\PCB_ADVANCED\PCB1.PcbDoc
+Date         : 21-10-2023
+Time         : 15:55:25
+Time Elapsed : 00:00:01
+
+U1
+    Pad U1-C3(133.5mm,89.5mm) on Top Layer on Net SW6
+    Pad U1-C11(141.5mm,89.5mm) on Top Layer on Net FLASH_CS
+    Pad U1-C4(134.5mm,89.5mm) on Top Layer on Net SW5
+    Pad U1-L12(142.5mm,81.5mm) on Top Layer on Net H1_8
+    Pad U1-C10(140.5mm,89.5mm) on Top Layer on Net FLASH_DQ3
+    Pad U1-E12(142.5mm,87.5mm) on Top Layer on Net H1_1
+    Pad U1-D11(141.5mm,88.5mm) on Top Layer on Net GND
+    Pad U1-L11(141.5mm,81.5mm) on Top Layer on Net GND
+    Pad U1-C6(136.5mm,89.5mm) on Top Layer on Net GND
+    Pad U1-F12(142.5mm,86.5mm) on Top Layer on Net H1_2
+    Pad U1-J12(142.5mm,83.5mm) on Top Layer on Net H2_1
+    Pad U1-M9(139.5mm,80.5mm) on Top Layer on Net M2
+    Pad U1-M6(136.5mm,80.5mm) on Top Layer on Net TMS
+    Pad U1-C7(137.5mm,89.5mm) on Top Layer on Net GND
+    Pad U1-H12(142.5mm,84.5mm) on Top Layer on Net 100Mhz
+    Pad U1-M7(137.5mm,80.5mm) on Top Layer on Net M0
+    Pad U1-D10(140.5mm,88.5mm) on Top Layer on Net FLASH_DQ2
+    Pad U1-D5(135.5mm,88.5mm) on Top Layer on Net GND
+    Pad U1-L10(140.5mm,81.5mm) on Top Layer on Net GND
+    Pad U1-D9(139.5mm,88.5mm) on Top Layer on Net GND
+    Pad U1-D6(136.5mm,88.5mm) on Top Layer on Net +1.0V
+    Pad U1-J11(141.5mm,83.5mm) on Top Layer on Net H2_2
+    Pad U1-L9(139.5mm,81.5mm) on Top Layer on Net +1.8V
+    Pad U1-L6(136.5mm,81.5mm) on Top Layer on Net GND
+    Pad U1-D8(138.5mm,88.5mm) on Top Layer on Net +1.0V
+    Pad U1-D7(137.5mm,88.5mm) on Top Layer on Net GND
+    Pad U1-E5(135.5mm,87.5mm) on Top Layer on Net +1.0V
+    Pad U1-H11(141.5mm,84.5mm) on Top Layer on Net 100Mhz
+    Pad U1-K5(135.5mm,82.5mm) on Top Layer on Net GND
+    Pad U1-L8(138.5mm,81.5mm) on Top Layer on Net GND
+    Pad U1-L7(137.5mm,81.5mm) on Top Layer on Net PROGRAM_B
+    Pad U1-E9(139.5mm,87.5mm) on Top Layer on Net +1.0V
+    Pad U1-E6(136.5mm,87.5mm) on Top Layer on Net GND
+    Pad U1-F10(140.5mm,86.5mm) on Top Layer on Net +1.8V
+    Pad U1-F5(135.5mm,86.5mm) on Top Layer on Net GND
+    Pad U1-J10(140.5mm,83.5mm) on Top Layer on Net GND
+    Pad U1-K9(139.5mm,82.5mm) on Top Layer on Net GND
+    Pad U1-K6(136.5mm,82.5mm) on Top Layer on Net +1.0V
+    Pad U1-E8(138.5mm,87.5mm) on Top Layer on Net GND
+    Pad U1-E7(137.5mm,87.5mm) on Top Layer on Net +1.0V
+    Pad U1-G10(140.5mm,85.5mm) on Top Layer on Net GND
+    Pad U1-G5(135.5mm,85.5mm) on Top Layer on Net +1.0V
+    Pad U1-H10(140.5mm,84.5mm) on Top Layer on Net +1.8V
+    Pad U1-H5(135.5mm,84.5mm) on Top Layer on Net GND
+    Pad U1-K8(138.5mm,82.5mm) on Top Layer on Net +1.0V
+    Pad U1-K7(137.5mm,82.5mm) on Top Layer on Net GND
+    Pad U1-F9(139.5mm,86.5mm) on Top Layer on Net GND
+    Pad U1-F6(136.5mm,86.5mm) on Top Layer on Net +1.0V
+    Pad U1-J9(139.5mm,83.5mm) on Top Layer on Net +1.0V
+    Pad U1-J6(136.5mm,83.5mm) on Top Layer on Net GND
+    Pad U1-G9(139.5mm,85.5mm) on Top Layer on Net +1.0V
+    Pad U1-G6(136.5mm,85.5mm) on Top Layer on Net GND
+    Pad U1-H9(139.5mm,84.5mm) on Top Layer on Net GND
+    Pad U1-H6(136.5mm,84.5mm) on Top Layer on Net +1.0V
+    Pad U1-J8(138.5mm,83.5mm) on Top Layer on Net GND
+    Pad U1-J7(137.5mm,83.5mm) on Top Layer on Net GND
+count : 56
