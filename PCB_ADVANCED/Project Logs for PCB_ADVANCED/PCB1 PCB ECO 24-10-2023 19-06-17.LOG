@@ -1,0 +1,5 @@
+Added Room: Name=U_FPGA_BANKS
+Added Room: Name=U_FPGA_CONFIG
+Added Room: Name=U_FPGA_POWER
+Added Room: Name=U_POWER_SUPPLY
+Added Room: Name=U_USB

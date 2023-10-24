@@ -1,0 +1,87 @@
+Added Component: Designator=D608(SOT457)
+Added Component: Designator=D609(SOT457)
+Added Component: Designator=D610(SOT457)
+Added Component: Designator=D611(SOT457)
+Added Pin To Net: NetName=GND Pin=D608-5
+Added Pin To Net: NetName=GND Pin=D608-6
+Added Pin To Net: NetName=GND Pin=D609-5
+Added Pin To Net: NetName=GND Pin=D609-6
+Added Pin To Net: NetName=GND Pin=D610-5
+Added Pin To Net: NetName=GND Pin=D610-6
+Added Pin To Net: NetName=GND Pin=D611-5
+Added Pin To Net: NetName=GND Pin=D611-6
+Added Pin To Net: NetName=NetD608_1 Pin=D608-1
+Added Pin To Net: NetName=NetD608_1 Pin=P600-3
+Added Pin To Net: NetName=NetD608_1 Pin=R600-1
+Added Net: Name=NetD608_1
+Added Pin To Net: NetName=NetD608_2 Pin=D608-2
+Added Pin To Net: NetName=NetD608_2 Pin=P600-4
+Added Pin To Net: NetName=NetD608_2 Pin=R604-1
+Added Net: Name=NetD608_2
+Added Pin To Net: NetName=NetD608_3 Pin=D608-3
+Added Pin To Net: NetName=NetD608_3 Pin=P600-5
+Added Pin To Net: NetName=NetD608_3 Pin=R608-1
+Added Net: Name=NetD608_3
+Added Pin To Net: NetName=NetD608_4 Pin=D608-4
+Added Pin To Net: NetName=NetD608_4 Pin=P600-6
+Added Pin To Net: NetName=NetD608_4 Pin=R612-1
+Added Net: Name=NetD608_4
+Added Pin To Net: NetName=NetD609_1 Pin=D609-1
+Added Pin To Net: NetName=NetD609_1 Pin=P600-12
+Added Pin To Net: NetName=NetD609_1 Pin=R613-2
+Added Net: Name=NetD609_1
+Added Pin To Net: NetName=NetD609_2 Pin=D609-2
+Added Pin To Net: NetName=NetD609_2 Pin=P600-11
+Added Pin To Net: NetName=NetD609_2 Pin=R609-2
+Added Net: Name=NetD609_2
+Added Pin To Net: NetName=NetD609_3 Pin=D609-3
+Added Pin To Net: NetName=NetD609_3 Pin=P600-10
+Added Pin To Net: NetName=NetD609_3 Pin=R605-2
+Added Net: Name=NetD609_3
+Added Pin To Net: NetName=NetD609_4 Pin=D609-4
+Added Pin To Net: NetName=NetD609_4 Pin=P600-9
+Added Pin To Net: NetName=NetD609_4 Pin=R601-2
+Added Net: Name=NetD609_4
+Added Pin To Net: NetName=NetD610_1 Pin=D610-1
+Added Pin To Net: NetName=NetD610_1 Pin=P601-3
+Added Pin To Net: NetName=NetD610_1 Pin=R602-1
+Added Net: Name=NetD610_1
+Added Pin To Net: NetName=NetD610_2 Pin=D610-2
+Added Pin To Net: NetName=NetD610_2 Pin=P601-4
+Added Pin To Net: NetName=NetD610_2 Pin=R606-1
+Added Net: Name=NetD610_2
+Added Pin To Net: NetName=NetD610_3 Pin=D610-3
+Added Pin To Net: NetName=NetD610_3 Pin=P601-5
+Added Pin To Net: NetName=NetD610_3 Pin=R610-1
+Added Net: Name=NetD610_3
+Added Pin To Net: NetName=NetD610_4 Pin=D610-4
+Added Pin To Net: NetName=NetD610_4 Pin=P601-6
+Added Pin To Net: NetName=NetD610_4 Pin=R614-1
+Added Net: Name=NetD610_4
+Added Pin To Net: NetName=NetD611_1 Pin=D611-1
+Added Pin To Net: NetName=NetD611_1 Pin=P601-12
+Added Pin To Net: NetName=NetD611_1 Pin=R615-2
+Added Net: Name=NetD611_1
+Added Pin To Net: NetName=NetD611_2 Pin=D611-2
+Added Pin To Net: NetName=NetD611_2 Pin=P601-11
+Added Pin To Net: NetName=NetD611_2 Pin=R611-2
+Added Net: Name=NetD611_2
+Added Pin To Net: NetName=NetD611_3 Pin=D611-3
+Added Pin To Net: NetName=NetD611_3 Pin=P601-10
+Added Pin To Net: NetName=NetD611_3 Pin=R607-2
+Added Net: Name=NetD611_3
+Added Pin To Net: NetName=NetD611_4 Pin=D611-4
+Added Pin To Net: NetName=NetD611_4 Pin=P601-9
+Added Pin To Net: NetName=NetD611_4 Pin=R603-2
+Added Net: Name=NetD611_4
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D608 ESD prot
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D609 ESD prot
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D610 ESD prot
+Added Member To Class: ClassName=U_GPIO_Connectors Member=Component D611 ESD prot
+Change Room Name: Old Name=BGAFANOUT New Name=U_GPIO_Connectors
+Change Room Scope: Old Scope=InComponentClass('Room Definition 1') New Scope=InComponentClass('U_GPIO_Connectors')
+Added Room: Name=U_FPGA_BANKS
+Added Room: Name=U_FPGA_CONFIG
+Added Room: Name=U_FPGA_POWER
+Added Room: Name=U_POWER_SUPPLY
+Added Room: Name=U_USB
