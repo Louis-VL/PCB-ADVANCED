@@ -1,0 +1,24 @@
+Change Net Name : Old Net Name=JA1_3_N New Net Name=JA139_N
+Change Net Name : Old Net Name=JA1_4_N New Net Name=JA2410_N
+Change Net Name : Old Net Name=JA1_5_N New Net Name=JA3511_N
+Change Net Name : Old Net Name=JA1_6_N New Net Name=JA4612_N
+Change Net Name : Old Net Name=JA1_9_P New Net Name=JA139_P
+Change Net Name : Old Net Name=JA1_10_P New Net Name=JA2410_P
+Change Net Name : Old Net Name=JA1_11_P New Net Name=JA3511_P
+Change Net Name : Old Net Name=JA1_12_P New Net Name=JA4612_P
+Change Net Name : Old Net Name=JA2_3 New Net Name=JB139_N
+Change Net Name : Old Net Name=JA2_4 New Net Name=JB2410_N
+Change Net Name : Old Net Name=JA2_5 New Net Name=JB3511_N
+Change Net Name : Old Net Name=JA2_6 New Net Name=JB4612_N
+Change Net Name : Old Net Name=JA2_9 New Net Name=JB139_P
+Change Net Name : Old Net Name=JA2_10 New Net Name=JB2410_P
+Change Net Name : Old Net Name=JA2_11 New Net Name=JB3511_P
+Change Net Name : Old Net Name=JA2_12 New Net Name=JB4612_P
+Added Differential Pair: Name=JA139
+Added Differential Pair: Name=JA2410
+Added Differential Pair: Name=JA3511
+Added Differential Pair: Name=JA4612
+Added Differential Pair: Name=JB139
+Added Differential Pair: Name=JB2410
+Added Differential Pair: Name=JB3511
+Added Differential Pair: Name=JB4612

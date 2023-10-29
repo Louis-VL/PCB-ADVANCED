@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=JA1_3 Pin=D608-1
+Removed Pin From Net: NetName=JA1_4 Pin=D608-2
+Removed Pin From Net: NetName=JA1_5 Pin=D608-3
+Removed Pin From Net: NetName=JA1_6 Pin=D608-4
+Removed Pin From Net: NetName=JA2_3 Pin=D610-1
+Removed Pin From Net: NetName=JA2_4 Pin=D610-2
+Removed Pin From Net: NetName=JA2_5 Pin=D610-3
+Removed Pin From Net: NetName=JA2_6 Pin=D610-4
+Added Pin To Net: NetName=JA1_6 Pin=D608-1
+Added Pin To Net: NetName=JA1_5 Pin=D608-2
+Added Pin To Net: NetName=JA1_4 Pin=D608-3
+Added Pin To Net: NetName=JA1_3 Pin=D608-4
+Added Pin To Net: NetName=JA2_6 Pin=D610-1
+Added Pin To Net: NetName=JA2_5 Pin=D610-2
+Added Pin To Net: NetName=JA2_4 Pin=D610-3
+Added Pin To Net: NetName=JA2_3 Pin=D610-4
