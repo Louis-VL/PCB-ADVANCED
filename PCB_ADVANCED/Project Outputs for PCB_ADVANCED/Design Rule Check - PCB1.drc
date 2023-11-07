@@ -1,21 +1,17 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\louis\Documents\PCB ADVANCED\PCB-ADVANCED\PCB_ADVANCED\PCB1.PcbDoc
-Date     : 31-10-2023
-Time     : 18:27:17
+Date     : 4-11-2023
+Time     : 16:23:37
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (WithinRoom('BGAFANOUT')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-   Violation between Clearance Constraint: (0.15mm < 0.3mm) Between Pad J100-11(141.475mm,27mm) on Multi-Layer And Polygon Region (180 hole(s)) L4 (Sig+GND) 
-   Violation between Clearance Constraint: (0.155mm < 0.3mm) Between Pad J100-11(141.475mm,27mm) on Multi-Layer And Polygon Region (220 hole(s)) L1 (Sig+GND) 
-   Violation between Clearance Constraint: (0.224mm < 0.3mm) Between Pad J100-8(134.325mm,27mm) on Multi-Layer And Polygon Region (180 hole(s)) L4 (Sig+GND) 
-   Violation between Clearance Constraint: (0.157mm < 0.3mm) Between Pad J100-8(134.325mm,27mm) on Multi-Layer And Polygon Region (220 hole(s)) L1 (Sig+GND) 
    Violation between Clearance Constraint: (0.259mm < 0.3mm) Between Split Plane  (+1.0V) on L3 (PWR) And Split Plane  (+1.8V) on L3 (PWR) 
-   Violation between Clearance Constraint: (0.259mm < 0.3mm) Between Split Plane  (+1.0V) on L3 (PWR) And Split Plane  (+3.3V) on L3 (PWR) 
+   Violation between Clearance Constraint: (0.278mm < 0.3mm) Between Split Plane  (+1.0V) on L3 (PWR) And Split Plane  (+3.3V) on L3 (PWR) 
    Violation between Clearance Constraint: (0.268mm < 0.3mm) Between Split Plane  (+1.8V) on L3 (PWR) And Split Plane  (+3.3V) on L3 (PWR) 
-   Violation between Clearance Constraint: (0.27mm < 0.3mm) Between Split Plane  (+3.3V) on L3 (PWR) And Split Plane  (+5) on L3 (PWR) 
-   Violation between Clearance Constraint: (0.29mm < 0.3mm) Between Split Plane  (+3.3V) on L3 (PWR) And Split Plane  (USBV) on L3 (PWR) 
+   Violation between Clearance Constraint: (0.259mm < 0.3mm) Between Split Plane  (+3.3V) on L3 (PWR) And Split Plane  (+5) on L3 (PWR) 
+   Violation between Clearance Constraint: (0.264mm < 0.3mm) Between Split Plane  (+3.3V) on L3 (PWR) And Split Plane  (USBV) on L3 (PWR) 
    Violation between Clearance Constraint: (Collision < 0.15mm) Between Text "1
 " (176.243mm,91.138mm) on L1 (Sig+GND) And Track (175.1mm,91mm)(175.1mm,96.75mm) on Keep-Out Layer 
    Violation between Clearance Constraint: (Collision < 0.15mm) Between Text "1
@@ -28,7 +24,7 @@ Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 " (176.155mm,95.556mm) on L4 (Sig+GND) And Track (175.1mm,96.75mm)(176.1mm,96.75mm) on Keep-Out Layer 
    Violation between Clearance Constraint: (Collision < 0.15mm) Between Text "4
 " (176.155mm,95.556mm) on L4 (Sig+GND) And Track (176.1mm,91mm)(176.1mm,96.75mm) on Keep-Out Layer 
-Rule Violations :15
+Rule Violations :11
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -37,13 +33,11 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net +5 Between Pad U100-4(157.853mm,46.77mm) on L1 (Sig+GND) And Pad U100-2(157.853mm,47.57mm) on L1 (Sig+GND) 
    Violation between Isolated copper: Split Plane  (+1.0V) on L3 (PWR). Copper island connected to pads/vias detected. Copper area is : 45.806 sq. mm
-   Violation between Isolated copper: Split Plane  (+1.0V) on L3 (PWR). Dead copper detected. Copper area is : 0.171 sq. mm
    Violation between Isolated copper: Split Plane  (+1.8V) on L3 (PWR). Copper island connected to pads/vias detected. Copper area is : 16.467 sq. mm
    Violation between Isolated copper: Split Plane  (GND) on L2 (GND). Dead copper detected. Copper area is : 0.11 sq. mm
    Violation between Isolated copper: Split Plane  (GND) on L2 (GND). Dead copper detected. Copper area is : 0.11 sq. mm
-Rule Violations :6
+Rule Violations :4
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -162,31 +156,31 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (0.097mm < 0.254mm) Between Pad SW607-3(105.942mm,116.173mm) on Multi-Layer And Via (105.942mm,118.273mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.097mm] / [Bottom Solder] Mask Sliver [0.097mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.162mm < 0.254mm) Between Pad U100-1(157.853mm,47.97mm) on L1 (Sig+GND) And Pad U100-20(158.553mm,48.67mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.162mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-1(157.853mm,47.97mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-1(157.853mm,47.97mm) on L1 (Sig+GND) And Via (158.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-1(157.853mm,47.97mm) on L1 (Sig+GND) And Via (158.803mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.162mm < 0.254mm) Between Pad U100-10(160.153mm,45.67mm) on L1 (Sig+GND) And Pad U100-11(160.853mm,46.37mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.162mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-10(160.153mm,45.67mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-10(160.153mm,45.67mm) on L1 (Sig+GND) And Via (159.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-10(160.153mm,45.67mm) on L1 (Sig+GND) And Via (159.903mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-11(160.853mm,46.37mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-11(160.853mm,46.37mm) on L1 (Sig+GND) And Via (159.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-11(160.853mm,46.37mm) on L1 (Sig+GND) And Via (159.903mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-12(160.853mm,46.77mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-12(160.853mm,46.77mm) on L1 (Sig+GND) And Via (159.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-12(160.853mm,46.77mm) on L1 (Sig+GND) And Via (159.903mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-13(160.853mm,47.17mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-14(160.853mm,47.57mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-14(160.853mm,47.57mm) on L1 (Sig+GND) And Via (159.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-14(160.853mm,47.57mm) on L1 (Sig+GND) And Via (159.903mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.162mm < 0.254mm) Between Pad U100-15(160.853mm,47.97mm) on L1 (Sig+GND) And Pad U100-16(160.153mm,48.67mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.162mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-15(160.853mm,47.97mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-15(160.853mm,47.97mm) on L1 (Sig+GND) And Via (159.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-15(160.853mm,47.97mm) on L1 (Sig+GND) And Via (159.903mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-16(160.153mm,48.67mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-16(160.153mm,48.67mm) on L1 (Sig+GND) And Via (159.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-16(160.153mm,48.67mm) on L1 (Sig+GND) And Via (159.903mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-17(159.753mm,48.67mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-17(159.753mm,48.67mm) on L1 (Sig+GND) And Via (159.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-17(159.753mm,48.67mm) on L1 (Sig+GND) And Via (159.903mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-18(159.353mm,48.67mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-19(158.953mm,48.67mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-19(158.953mm,48.67mm) on L1 (Sig+GND) And Via (158.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-19(158.953mm,48.67mm) on L1 (Sig+GND) And Via (158.803mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-2(157.853mm,47.57mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-2(157.853mm,47.57mm) on L1 (Sig+GND) And Via (158.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-2(157.853mm,47.57mm) on L1 (Sig+GND) And Via (158.803mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-20(158.553mm,48.67mm) on L1 (Sig+GND) And Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-20(158.553mm,48.67mm) on L1 (Sig+GND) And Via (158.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-20(158.553mm,48.67mm) on L1 (Sig+GND) And Via (158.803mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) And Pad U100-3(157.853mm,47.17mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) And Pad U100-4(157.853mm,46.77mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) And Pad U100-5(157.853mm,46.37mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
@@ -194,12 +188,12 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) And Pad U100-7(158.953mm,45.67mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) And Pad U100-8(159.353mm,45.67mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad U100-21(159.353mm,47.17mm) on L1 (Sig+GND) And Pad U100-9(159.753mm,45.67mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.072mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-4(157.853mm,46.77mm) on L1 (Sig+GND) And Via (158.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-4(157.853mm,46.77mm) on L1 (Sig+GND) And Via (158.803mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.162mm < 0.254mm) Between Pad U100-5(157.853mm,46.37mm) on L1 (Sig+GND) And Pad U100-6(158.553mm,45.67mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.162mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-5(157.853mm,46.37mm) on L1 (Sig+GND) And Via (158.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.208mm < 0.254mm) Between Pad U100-6(158.553mm,45.67mm) on L1 (Sig+GND) And Via (158.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.208mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-7(158.953mm,45.67mm) on L1 (Sig+GND) And Via (158.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.154mm < 0.254mm) Between Pad U100-9(159.753mm,45.67mm) on L1 (Sig+GND) And Via (159.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.154mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-5(157.853mm,46.37mm) on L1 (Sig+GND) And Via (158.803mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.143mm < 0.254mm) Between Pad U100-6(158.553mm,45.67mm) on L1 (Sig+GND) And Via (158.803mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.143mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-7(158.953mm,45.67mm) on L1 (Sig+GND) And Via (158.803mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.114mm < 0.254mm) Between Pad U100-9(159.753mm,45.67mm) on L1 (Sig+GND) And Via (159.903mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.114mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.25mm < 0.254mm) Between Pad U300-1(114.586mm,50.183mm) on L1 (Sig+GND) And Pad U300-2(114.586mm,50.683mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.25mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.25mm < 0.254mm) Between Pad U300-10(114.586mm,54.683mm) on L1 (Sig+GND) And Pad U300-11(114.586mm,55.183mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.25mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.25mm < 0.254mm) Between Pad U300-10(114.586mm,54.683mm) on L1 (Sig+GND) And Pad U300-9(114.586mm,54.183mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.25mm]
@@ -260,10 +254,10 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (0.25mm < 0.254mm) Between Pad U300-63(113.261mm,49.358mm) on L1 (Sig+GND) And Pad U300-64(113.761mm,49.358mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.25mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.25mm < 0.254mm) Between Pad U300-7(114.586mm,53.183mm) on L1 (Sig+GND) And Pad U300-8(114.586mm,53.683mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.25mm]
    Violation between Minimum Solder Mask Sliver Constraint: (0.25mm < 0.254mm) Between Pad U300-8(114.586mm,53.683mm) on L1 (Sig+GND) And Pad U300-9(114.586mm,54.183mm) on L1 (Sig+GND) [Top Solder] Mask Sliver [0.25mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.254mm) Between Via (158.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.254mm) Between Via (158.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.254mm) Between Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.853mm,46.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.254mm) Between Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.853mm,47.67mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.254mm) Between Via (158.803mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.075mm] / [Bottom Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.254mm) Between Via (158.803mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.075mm] / [Bottom Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.254mm) Between Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.903mm,46.62mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.075mm] / [Bottom Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.254mm) Between Via (159.353mm,47.17mm) from L1 (Sig+GND) to L4 (Sig+GND) And Via (159.903mm,47.72mm) from L1 (Sig+GND) to L4 (Sig+GND) [Top Solder] Mask Sliver [0.075mm] / [Bottom Solder] Mask Sliver [0.075mm]
 Rule Violations :196
 
 Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
@@ -513,6 +507,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 442
+Violations Detected : 436
 Waived Violations : 0
 Time Elapsed        : 00:00:03
