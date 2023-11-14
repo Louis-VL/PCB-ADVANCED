@@ -1,0 +1,1879 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 25 0.7539387 1.9192846 0 N D610 ESD_prot ;0=1,1=0.0433
+TOP 0 0.7007891 1.9566862 270 N 5 2 D610-1
+TOP 1 0.7007891 1.9192846 270 N 6 2 D610-2
+TOP 2 0.7007891 1.8818831 270 N 7 2 D610-3
+TOP 3 0.8070883 1.8818831 270 N 8 2 D610-4
+TOP 4 0.8070883 1.9192846 270 N 127 110 D610-5
+TOP 5 0.8070883 1.9566862 270 N 127 111 D610-6
+#
+# CMP 1
+CMP 25 0.7539387 2.8740091 0 N D608 ESD_prot ;0=1,1=0.0433
+TOP 0 0.7007891 2.9114107 270 N 13 2 D608-1
+TOP 1 0.7007891 2.8740091 270 N 14 2 D608-2
+TOP 2 0.7007891 2.8366076 270 N 15 2 D608-3
+TOP 3 0.8070883 2.8366076 270 N 16 2 D608-4
+TOP 4 0.8070883 2.8740091 270 N 127 112 D608-5
+TOP 5 0.8070883 2.9114107 270 N 127 113 D608-6
+#
+# CMP 2
+CMP 26 0.4563797 3.4910563 270 N SW607 SPDT_SW ;0=2,1=0.1043
+TOP 0 0.4563797 3.4123162 180 N 126 25 SW607-1
+TOP 1 0.4563797 3.4910564 180 N 41 0 SW607-2
+TOP 2 0.4563797 3.5697965 180 N 127 48 SW607-3
+#
+# CMP 3
+CMP 26 0.8028082 3.4910563 270 N SW606 SPDT_SW ;0=2,1=0.1043
+TOP 0 0.8028082 3.4123162 180 N 126 24 SW606-1
+TOP 1 0.8028082 3.4910564 180 N 42 0 SW606-2
+TOP 2 0.8028082 3.5697965 180 N 127 47 SW606-3
+#
+# CMP 4
+CMP 26 1.1492367 3.4910563 270 N SW605 SPDT_SW ;0=2,1=0.1043
+TOP 0 1.1492367 3.4123162 180 N 126 26 SW605-1
+TOP 1 1.1492367 3.4910564 180 N 43 0 SW605-2
+TOP 2 1.1492367 3.5697965 180 N 127 49 SW605-3
+#
+# CMP 5
+CMP 26 1.4956652 3.4910563 270 N SW604 SPDT_SW ;0=2,1=0.1043
+TOP 0 1.4956652 3.4123162 180 N 126 28 SW604-1
+TOP 1 1.4956652 3.4910564 180 N 44 0 SW604-2
+TOP 2 1.4956652 3.5697965 180 N 127 51 SW604-3
+#
+# CMP 6
+CMP 26 1.8420937 3.4910563 270 N SW603 SPDT_SW ;0=2,1=0.1043
+TOP 0 1.8420937 3.4123162 180 N 126 27 SW603-1
+TOP 1 1.8420937 3.4910564 180 N 45 0 SW603-2
+TOP 2 1.8420937 3.5697965 180 N 127 50 SW603-3
+#
+# CMP 7
+CMP 26 2.1885222 3.4910563 270 N SW602 SPDT_SW ;0=2,1=0.1043
+TOP 0 2.1885222 3.4123162 180 N 126 21 SW602-1
+TOP 1 2.1885222 3.4910564 180 N 46 0 SW602-2
+TOP 2 2.1885222 3.5697965 180 N 127 44 SW602-3
+#
+# CMP 8
+CMP 26 2.5349507 3.4910563 270 N SW601 SPDT_SW ;0=2,1=0.1043
+TOP 0 2.5349507 3.4123162 180 N 126 23 SW601-1
+TOP 1 2.5349507 3.4910564 180 N 47 0 SW601-2
+TOP 2 2.5349507 3.5697965 180 N 127 46 SW601-3
+#
+# CMP 9
+CMP 26 2.8813792 3.4910563 270 N SW600 SPDT_SW ;0=2,1=0.1043
+TOP 0 2.8813792 3.4123162 180 N 126 22 SW600-1
+TOP 1 2.8813792 3.4910564 180 N 48 0 SW600-2
+TOP 2 2.8813792 3.5697965 180 N 127 45 SW600-3
+#
+# CMP 10
+CMP 26 0.2104348 0.6960562 270 N SW400 SPDT_SW ;0=2,1=0.1043
+TOP 0 0.2104348 0.6173161 180 N 113 0 SW400-1
+TOP 1 0.2104348 0.6960563 180 N 115 0 SW400-2
+TOP 2 0.2104348 0.7747964 180 N 112 0 SW400-3
+#
+# CMP 11
+CMP 22 2.1154348 2.9510558 180 N R501 470_DNP ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Populated 'DNP'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.1449624 2.9510558 90 N 127 91 R501-1
+TOP 1 2.0859073 2.9510558 90 N 36 1 R501-2
+#
+# CMP 12
+CMP 22 2.1154348 3.0310558 0 N R500 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.0859072 3.0310558 270 N 36 0 R500-1
+TOP 1 2.1449623 3.0310558 270 N 126 61 R500-2
+#
+# CMP 13
+CMP 0 2.2104348 2.2910563 180 N X500 XLH535100.000000I ;0=1,1=0.1043
+TOP 0 2.2604348 2.3353476 90 N 126 55 X500-1
+TOP 1 2.1604348 2.3353476 90 N 127 88 X500-2
+TOP 2 2.1604348 2.2467649 90 N 37 0 X500-3
+TOP 3 2.2604348 2.2467649 90 N 126 56 X500-4
+#
+# CMP 14
+CMP 22 2.0854348 2.2910563 270 N R502 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 2.0854348 2.2615287 180 N 37 1 R502-1
+TOP 1 2.0854348 2.3205838 180 N 38 0 R502-2
+#
+# CMP 15
+CMP 3 2.2104348 2.4010563 0 N C514 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 2.1805135 2.4010563 270 N 127 89 C514-1
+TOP 1 2.240356 2.4010563 270 N 126 57 C514-2
+#
+# CMP 16
+CMP 23 0.6165763 0.3075246 90 N U301 93LC56B/SN ;0=1,1=0.0689
+PRP Code_IPC 'SOIC127P600-8'
+PRP Code_JEDEC 'MS-012'
+PRP DatasheetVersion 'revF, May-2008'
+PRP PackageDescription '8-Lead Plastic Small Outline (SN) - Narrow, 3.90mm Body [SOIC]'
+PRP PackageReference 'SOIC-SN8'
+PRP PackageVersion 'revBB, Aug-2009'
+TOP 0 0.6915763 0.4138238 0 N 99 2 U301-1
+TOP 1 0.6415763 0.4138238 0 N 100 2 U301-2
+TOP 2 0.5915763 0.4138238 0 N 40 2 U301-3
+TOP 3 0.5415763 0.4138238 0 N 39 2 U301-4
+TOP 4 0.5415763 0.2012254 0 N 127 73 U301-5
+TOP 5 0.5915763 0.2012254 0 N 0 43 U301-6
+TOP 6 0.6415763 0.2012254 0 N 0 44 U301-7
+TOP 7 0.6915763 0.2012254 0 N 126 46 U301-8
+#
+# CMP 17
+CMP 3 0.4450804 0.8310563 270 N C313 4.7u ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4.7u'
+TOP 0 0.4450804 0.801135 180 N 127 101 C313-1
+TOP 1 0.4450804 0.8609775 180 N 128 15 C313-2
+#
+# CMP 18
+CMP 3 2.0663797 0.8560563 0 N C109 4.7u ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4.7u'
+TOP 0 2.0364584 0.8560563 270 N 127 77 C109-1
+TOP 1 2.0963009 0.8560563 270 N 104 5 C109-2
+#
+# CMP 19
+CMP 3 2.0663797 0.7810563 0 N C101 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 2.0364584 0.7810563 270 N 127 78 C101-1
+TOP 1 2.0963009 0.7810563 270 N 104 6 C101-2
+#
+# CMP 20
+CMP 3 2.0654348 0.7060563 0 N C100 10n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '10n'
+TOP 0 2.0355135 0.7060563 270 N 127 79 C100-1
+TOP 1 2.095356 0.7060563 270 N 83 5 C100-2
+#
+# CMP 21
+CMP 22 2.8598672 0.2860562 180 N R411 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.8893948 0.2860562 90 N 114 2 R411-1
+TOP 1 2.8303397 0.2860562 90 N 125 3 R411-2
+#
+# CMP 22
+CMP 22 2.8598672 0.4477228 180 N R402 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.8893948 0.4477228 90 N 125 1 R402-1
+TOP 1 2.8303397 0.4477228 90 N 126 67 R402-2
+#
+# CMP 23
+CMP 15 2.2643526 1.1531429 270 N L102 2.2uH ;0=1,1=0.0787
+PRP Code_IEC '1005'
+PRP Code_JEITA '0402'
+PRP LatestRevisionDate '29-May-2009'
+PRP LatestRevisionNote 'IPC-7351 Footprint Added.'
+PRP PackageDescription 'Chip Inductor'
+PRP PackageReference '0402-A'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '2.2u'
+TOP 0 2.2643526 1.0852295 180 N 34 1 L102-1
+TOP 1 2.2643526 1.2210563 180 N 128 13 L102-2
+#
+# CMP 24
+CMP 15 2.8749232 1.1555841 270 N L101 2.2uH ;0=1,1=0.0787
+PRP Code_IEC '1005'
+PRP Code_JEITA '0402'
+PRP LatestRevisionDate '29-May-2009'
+PRP LatestRevisionNote 'IPC-7351 Footprint Added.'
+PRP PackageDescription 'Chip Inductor'
+PRP PackageReference '0402-A'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '2.2u'
+TOP 0 2.8749232 1.0876707 180 N 33 1 L101-1
+TOP 1 2.8749232 1.2234975 180 N 129 9 L101-2
+#
+# CMP 25
+CMP 15 2.5641837 1.1531429 270 N L100 2.2uH ;0=1,1=0.0787
+PRP Code_IEC '1005'
+PRP Code_JEITA '0402'
+PRP LatestRevisionDate '29-May-2009'
+PRP LatestRevisionNote 'IPC-7351 Footprint Added.'
+PRP PackageDescription 'Chip Inductor'
+PRP PackageReference '0402-A'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '2.2u'
+TOP 0 2.5641837 1.0852295 180 N 35 1 L100-1
+TOP 1 2.5641837 1.2210563 180 N 126 47 L100-2
+#
+# CMP 26
+CMP 4 0.9104348 1.0118043 180 N FB301 180R ;0=1,1=0.0571
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Core_Material 'Ferrite'
+PRP Current_Rating '300mA'
+PRP DC_Current '200mA'
+PRP DC_Resistance_(DCR) '650mR'
+PRP DC_Resistance-Max '1R'
+PRP Depth '0.55mm'
+PRP Frequency '100MHz'
+PRP Height '0.5mm'
+PRP Impedance '1kR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ferrite'
+PRP Max_Current_Rating '300mA'
+PRP Max_DC_Current '200mA'
+PRP Max_Operating_Temperature '125°C'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Circuits '1'
+PRP Number_of_Lines '1'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'BLM15AG_SN'
+PRP Shielding 'Unshielded'
+PRP Termination 'SMD/SMT'
+PRP Test_Frequency '100MHz'
+PRP Tolerance '25%'
+PRP Width '0.5mm'
+TOP 0 0.9468521 1.0118043 90 N 126 65 FB301-1
+TOP 1 0.8740175 1.0118043 90 N 91 3 FB301-2
+#
+# CMP 27
+CMP 4 0.907482 1.1850327 180 N FB300 180R ;0=1,1=0.0571
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Core_Material 'Ferrite'
+PRP Current_Rating '300mA'
+PRP DC_Current '200mA'
+PRP DC_Resistance_(DCR) '650mR'
+PRP DC_Resistance-Max '1R'
+PRP Depth '0.55mm'
+PRP Frequency '100MHz'
+PRP Height '0.5mm'
+PRP Impedance '1kR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ferrite'
+PRP Max_Current_Rating '300mA'
+PRP Max_DC_Current '200mA'
+PRP Max_Operating_Temperature '125°C'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Circuits '1'
+PRP Number_of_Lines '1'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'BLM15AG_SN'
+PRP Shielding 'Unshielded'
+PRP Termination 'SMD/SMT'
+PRP Test_Frequency '100MHz'
+PRP Tolerance '25%'
+PRP Width '0.5mm'
+TOP 0 0.9438993 1.1850327 90 N 126 64 FB300-1
+TOP 1 0.8710647 1.1850327 90 N 90 3 FB300-2
+#
+# CMP 28
+CMP 4 2.1359073 0.6160563 0 N FB100 180R ;0=1,1=0.0571
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Core_Material 'Ferrite'
+PRP Current_Rating '300mA'
+PRP DC_Current '200mA'
+PRP DC_Resistance_(DCR) '650mR'
+PRP DC_Resistance-Max '1R'
+PRP Depth '0.55mm'
+PRP Frequency '100MHz'
+PRP Height '0.5mm'
+PRP Impedance '1kR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ferrite'
+PRP Max_Current_Rating '300mA'
+PRP Max_DC_Current '200mA'
+PRP Max_Operating_Temperature '125°C'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Circuits '1'
+PRP Number_of_Lines '1'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'BLM15AG_SN'
+PRP Shielding 'Unshielded'
+PRP Termination 'SMD/SMT'
+PRP Test_Frequency '100MHz'
+PRP Tolerance '25%'
+PRP Width '0.5mm'
+TOP 0 2.09949 0.6160563 270 N 83 4 FB100-1
+TOP 1 2.1723246 0.6160563 270 N 104 3 FB100-2
+#
+# CMP 29
+CMP 5 2.2498245 1.6409929 90 N C108 10uF ;0=1,1=0.0217
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '10u'
+TOP 0 2.2498245 1.6931583 0 N 127 107 C108-1
+TOP 1 2.2498245 1.5888276 0 N 128 18 C108-2
+#
+# CMP 30
+CMP 5 2.899608 1.6338516 90 N C106 15uF ;0=1,1=0.0217
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '15u'
+TOP 0 2.899608 1.686017 0 N 127 105 C106-1
+TOP 1 2.899608 1.5816863 0 N 129 13 C106-2
+#
+# CMP 31
+CMP 5 2.5649624 1.6338515 90 N C104 10uF ;0=1,1=0.0217
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '10u'
+TOP 0 2.5649624 1.6860169 0 N 127 106 C104-1
+TOP 1 2.5649624 1.5816862 0 N 126 71 C104-2
+#
+# CMP 32
+CMP 22 0.3248048 3.2873949 270 N R631 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.3248048 3.2578673 180 N 66 0 R631-1
+TOP 1 0.3248048 3.3169224 180 N 41 1 R631-2
+#
+# CMP 33
+CMP 22 0.9778855 3.2810563 270 N R629 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.9778855 3.2515287 180 N 68 0 R629-1
+TOP 1 0.9778855 3.3105838 180 N 43 1 R629-2
+#
+# CMP 34
+CMP 22 1.6709051 3.2810563 270 N R627 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 1.6709051 3.2515287 180 N 70 0 R627-1
+TOP 1 1.6709051 3.3105838 180 N 45 1 R627-2
+#
+# CMP 35
+CMP 22 2.017415 3.6217243 90 N R620 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.017415 3.6512519 0 N 57 0 R620-1
+TOP 1 2.017415 3.5921968 0 N 80 0 R620-2
+#
+# CMP 36
+CMP 22 2.7104346 3.6217243 90 N R618 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.7104346 3.6512519 0 N 59 0 R618-1
+TOP 1 2.7104346 3.5921968 0 N 82 0 R618-2
+#
+# CMP 37
+CMP 22 0.6313758 3.6217243 90 N R624 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 0.6313758 3.6512519 0 N 53 0 R624-1
+TOP 1 0.6313758 3.5921968 0 N 76 0 R624-2
+#
+# CMP 38
+CMP 22 2.3639247 3.2810563 270 N R617 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 2.3639247 3.2515287 180 N 72 0 R617-1
+TOP 1 2.3639247 3.3105838 180 N 47 1 R617-2
+#
+# CMP 39
+CMP 22 0.6313757 3.2810563 270 N R630 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.6313757 3.2515287 180 N 67 0 R630-1
+TOP 1 0.6313757 3.3105838 180 N 42 1 R630-2
+#
+# CMP 40
+CMP 22 2.0174149 3.2810563 270 N R626 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 2.0174149 3.2515287 180 N 71 0 R626-1
+TOP 1 2.0174149 3.3105838 180 N 46 1 R626-2
+#
+# CMP 41
+CMP 22 2.3639248 3.6217243 90 N R619 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.3639248 3.6512519 0 N 58 0 R619-1
+TOP 1 2.3639248 3.5921968 0 N 81 0 R619-2
+#
+# CMP 42
+CMP 22 1.6709052 3.6217243 90 N R621 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 1.6709052 3.6512519 0 N 56 0 R621-1
+TOP 1 1.6709052 3.5921968 0 N 79 0 R621-2
+#
+# CMP 43
+CMP 22 2.7104345 3.2810563 270 N R616 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 2.7104345 3.2515287 180 N 73 0 R616-1
+TOP 1 2.7104345 3.3105838 180 N 48 1 R616-2
+#
+# CMP 44
+CMP 22 0.3248048 3.5629854 90 N R625 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 0.3248048 3.592513 0 N 52 0 R625-1
+TOP 1 0.3248048 3.5334579 0 N 75 0 R625-2
+#
+# CMP 45
+CMP 22 1.3243954 3.6217243 90 N R622 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 1.3243954 3.6512519 0 N 55 0 R622-1
+TOP 1 1.3243954 3.5921968 0 N 78 0 R622-2
+#
+# CMP 46
+CMP 22 1.3243953 3.2810563 270 N R628 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 1.3243953 3.2515287 180 N 69 0 R628-1
+TOP 1 1.3243953 3.3105838 180 N 44 1 R628-2
+#
+# CMP 47
+CMP 22 0.9778856 3.6217243 90 N R623 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 0.9778856 3.6512519 0 N 54 0 R623-1
+TOP 1 0.9778856 3.5921968 0 N 77 0 R623-2
+#
+# CMP 48
+CMP 22 2.0610254 0.334639 0 N R103 4K7 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4K7'
+TOP 0 2.0314978 0.334639 270 N 74 1 R103-1
+TOP 1 2.0905529 0.334639 270 N 126 48 R103-2
+#
+# CMP 49
+CMP 22 2.0610254 0.2519618 0 N R102 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.0314978 0.2519618 270 N 61 1 R102-1
+TOP 1 2.0905529 0.2519618 270 N 126 70 R102-2
+#
+# CMP 50
+CMP 14 0.5048349 1.5736483 270 N P601 Header_6X2 ;0=2,1=0.3902
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP Publisher 'Altium Limited'
+TOP 0 0.5048349 1.5736483 270 N 127 43 P601-1
+TOP 1 0.5048349 1.6736483 270 N 126 20 P601-2
+TOP 2 0.5048349 1.7736483 270 N 8 1 P601-3
+TOP 3 0.5048349 1.8736483 270 N 7 1 P601-4
+TOP 4 0.5048349 1.9736483 270 N 6 1 P601-5
+TOP 5 0.5048349 2.0736483 270 N 5 1 P601-6
+TOP 6 0.4048349 1.5736483 270 N 127 42 P601-7
+TOP 7 0.4048349 1.6736483 270 N 126 19 P601-8
+TOP 8 0.4048349 1.7736483 270 N 1 2 P601-9
+TOP 9 0.4048349 1.8736483 270 N 2 2 P601-10
+TOP 10 0.4048349 1.9736483 270 N 3 2 P601-11
+TOP 11 0.4048349 2.0736483 270 N 4 2 P601-12
+#
+# CMP 51
+CMP 14 0.5048349 2.5258475 270 N P600 Header_6X2 ;0=2,1=0.3902
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP Publisher 'Altium Limited'
+TOP 0 0.5048349 2.5258475 270 N 127 41 P600-1
+TOP 1 0.5048349 2.6258475 270 N 126 18 P600-2
+TOP 2 0.5048349 2.7258475 270 N 16 1 P600-3
+TOP 3 0.5048349 2.8258475 270 N 15 1 P600-4
+TOP 4 0.5048349 2.9258475 270 N 14 1 P600-5
+TOP 5 0.5048349 3.0258475 270 N 13 1 P600-6
+TOP 6 0.4048349 2.5258475 270 N 127 40 P600-7
+TOP 7 0.4048349 2.6258475 270 N 126 17 P600-8
+TOP 8 0.4048349 2.7258475 270 N 9 2 P600-9
+TOP 9 0.4048349 2.8258475 270 N 10 2 P600-10
+TOP 10 0.4048349 2.9258475 270 N 11 2 P600-11
+TOP 11 0.4048349 3.0258475 270 N 12 2 P600-12
+#
+# CMP 52
+CMP 18 3.1404348 3.8610563 0 N MH603 MH ;0=2,1=0.3902
+TOP 0 3.129923 3.7795209 0 N 0 7 MH603-1
+#
+# CMP 53
+CMP 19 3.1404348 0.1410563 0 N MH600 MH ;0=2,1=0.3902
+TOP 0 3.129923 0.1574736 0 N 0 3 MH600-1
+#
+# CMP 54
+CMP 20 0.0904348 3.8610563 0 N MH602 MH ;0=2,1=0.3902
+TOP 0 0.157482 3.7795209 0 N 0 4 MH602-1
+#
+# CMP 55
+CMP 21 0.0904348 0.1410563 0 N MH601 MH ;0=2,1=0.3902
+TOP 0 0.157482 0.1574736 0 N 0 8 MH601-1
+#
+# CMP 56
+CMP 9 0.1968521 3.5433004 0 N F602 Fiducial ;0=1,1=0.3902
+TOP 0 0.1968521 3.5433004 270 N 0 45 F602-1
+#
+# CMP 57
+CMP 10 3.129923 3.5433004 0 N F601 Fiducial ;0=1,1=0.3902
+TOP 0 3.0905529 3.5433004 270 N 0 10 F601-1
+#
+# CMP 58
+CMP 11 0.0984269 0.3936941 0 N F600 Fiducial ;0=1,1=0.3902
+TOP 0 0.1968521 0.3936941 270 N 0 9 F600-1
+#
+# CMP 59
+CMP 16 0.8028081 3.8302899 0 N D606 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 0.770564 3.8302899 0 N 53 1 D606-1
+TOP 1 0.8343042 3.8302899 0 N 127 98 D606-2
+#
+# CMP 60
+CMP 16 2.8813791 3.8302899 0 N D600 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 2.849135 3.8302899 0 N 59 1 D600-1
+TOP 1 2.9128752 3.8302899 0 N 127 99 D600-2
+#
+# CMP 61
+CMP 16 1.1492366 3.8302899 0 N D605 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 1.1169925 3.8302899 0 N 54 1 D605-1
+TOP 1 1.1807327 3.8302899 0 N 127 94 D605-2
+#
+# CMP 62
+CMP 16 1.8420936 3.8302899 0 N D603 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 1.8098495 3.8302899 0 N 56 1 D603-1
+TOP 1 1.8735897 3.8302899 0 N 127 95 D603-2
+#
+# CMP 63
+CMP 16 2.5349506 3.8302899 0 N D601 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 2.5027065 3.8302899 0 N 58 1 D601-1
+TOP 1 2.5664467 3.8302899 0 N 127 96 D601-2
+#
+# CMP 64
+CMP 16 2.1885221 3.8302899 0 N D602 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 2.156278 3.8302899 0 N 57 1 D602-1
+TOP 1 2.2200182 3.8302899 0 N 127 97 D602-2
+#
+# CMP 65
+CMP 16 1.4956651 3.8302899 0 N D604 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 1.463421 3.8302899 0 N 55 1 D604-1
+TOP 1 1.5271612 3.8302899 0 N 127 93 D604-2
+#
+# CMP 66
+CMP 16 0.4563796 3.8302899 0 N D607 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 0.4241355 3.8302899 0 N 52 1 D607-1
+TOP 1 0.4878757 3.8302899 0 N 127 92 D607-2
+#
+# CMP 67
+CMP 27 1.6988206 0.4035366 270 N D100 USBLC6-2SC6 ;0=1,1=0.0571
+PRP Capacitance_Value '3.5pF'
+PRP Clamping_Voltage '17V'
+PRP Clamping_Voltage_(Max) '17V'
+PRP Configuration 'Dual'
+PRP Datasheet_URL 'http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf'
+PRP Datasheet_Version 'Rev. 5, 10/2011'
+PRP Direction_Type 'Uni-Directional'
+PRP Leakage_Current '0.15uA'
+PRP Leakage_Current_(Max) '0.15uA'
+PRP Manufacturer 'STMicroelectronics'
+PRP Manufacturer_URL 'http://www.st.com/'
+PRP Mounting 'SurfaceMount'
+PRP Mounting_Style 'SurfaceMount'
+PRP Number_of_Elements '1'
+PRP Operating_Temp_Range '-40Cto125C'
+PRP Operating_Temperature_Classification 'Automotive'
+PRP Operating_Temperature_Max_Deg._C '125C'
+PRP Operating_Temperature_Min_Deg._C '-40C'
+PRP Package_/_Case 'SOT-23'
+PRP Package_Description '6-Pin Small Outline Transistor, Body 2.925 x 1.625 mm, Pitch 0.95 mm'
+PRP Package_Reference 'SOT23-6L'
+PRP Packaging 'TapeandReel'
+PRP Peak_Pulse_Current '5A'
+PRP Pin_Count '6'
+PRP Polarity 'Uni-Directional'
+PRP Product_Depth_(mm) '1.75mm'
+PRP Product_Height_(mm) '1.3mm'
+PRP Product_Length_(mm) '3.05mm'
+PRP Rad_Hardened 'No'
+PRP Reverse_Breakdown_Voltage '6V'
+PRP Reverse_Stand-off_Voltage '5V'
+PRP Suppressor_Type 'DiodeArrays'
+PRP Test_Current_(It) '1mA'
+PRP Working_Voltage '5V'
+PRP Working_Voltage_(Max) '5V'
+TOP 0 1.661419 0.358261 180 N 65 1 D100-1
+TOP 1 1.6988206 0.358261 180 N 104 2 D100-2
+TOP 2 1.7362221 0.358261 180 N 64 1 D100-3
+TOP 3 1.7362221 0.4488122 180 N 102 0 D100-4
+TOP 4 1.6988206 0.4488122 180 N 127 53 D100-5
+TOP 5 1.661419 0.4488122 180 N 103 0 D100-6
+#
+# CMP 68
+CMP 16 2.0754348 0.1360563 90 N D101 LED ;0=1,1=0.3902
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 2.0754348 0.1683004 90 N 61 0 D101-1
+TOP 1 2.0754348 0.1045602 90 N 74 0 D101-2
+#
+# CMP 69
+CMP 1 1.0304348 0.7047964 0 N X300 EC2620TS-12.000M_TR ;0=1,1=0.0000
+TOP 0 0.9520884 0.6494815 270 N 126 29 X300-1
+TOP 1 1.1087813 0.6494815 270 N 127 54 X300-2
+TOP 2 1.1087813 0.7601114 270 N 101 0 X300-3
+TOP 3 0.9520916 0.7601114 270 N 126 30 X300-4
+#
+# CMP 70
+CMP 22 2.5177183 0.4330642 0 N R100 4K7 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4K7'
+TOP 0 2.4881907 0.4330642 270 N 89 2 R100-1
+TOP 1 2.5472458 0.4330642 270 N 126 68 R100-2
+#
+# CMP 71
+CMP 22 2.8604348 0.7710561 0 N R104 3K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '3K'
+TOP 0 2.8309072 0.7710561 270 N 63 1 R104-1
+TOP 1 2.8899623 0.7710561 270 N 129 11 R104-2
+#
+# CMP 72
+CMP 22 2.5177183 0.6810957 0 N R105 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 2.4881907 0.6810957 270 N 62 2 R105-1
+TOP 1 2.5472458 0.6810957 270 N 128 16 R105-2
+#
+# CMP 73
+CMP 22 2.8604348 0.6093894 180 N R106 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 2.8899624 0.6093894 90 N 127 104 R106-1
+TOP 1 2.8309073 0.6093894 90 N 63 3 R106-2
+#
+# CMP 74
+CMP 22 2.5177183 0.2677098 180 N R101 1K5 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '1K5'
+TOP 0 2.5472459 0.2677098 90 N 127 75 R101-1
+TOP 1 2.4881908 0.2677098 90 N 89 0 R101-2
+#
+# CMP 75
+CMP 22 2.5177183 0.5157413 180 N R107 10K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '10K'
+TOP 0 2.5472459 0.5157413 90 N 127 76 R107-1
+TOP 1 2.4881908 0.5157413 90 N 62 0 R107-2
+#
+# CMP 76
+CMP 22 0.7838991 0.3325246 270 N R307 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.7838991 0.302997 180 N 126 45 R307-1
+TOP 1 0.7838991 0.3620521 180 N 39 1 R307-2
+#
+# CMP 77
+CMP 22 1.50386 1.8907414 90 N R302 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 1.50386 1.920269 0 N 107 0 R302-1
+TOP 1 1.50386 1.8612139 0 N 94 1 R302-2
+#
+# CMP 78
+CMP 22 0.907482 0.8779461 0 N R313 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 0.8779544 0.8779461 270 N 98 1 R313-1
+TOP 1 0.9370095 0.8779461 270 N 101 1 R313-2
+#
+# CMP 79
+CMP 22 1.42386 1.8907414 90 N R303 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 1.42386 1.920269 0 N 106 0 R303-1
+TOP 1 1.42386 1.8612139 0 N 93 1 R303-2
+#
+# CMP 80
+CMP 22 0.9538991 0.3325246 270 N R308 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.9538991 0.302997 180 N 126 44 R308-1
+TOP 1 0.9538991 0.3620521 180 N 99 1 R308-2
+#
+# CMP 81
+CMP 22 0.907482 0.9409382 180 N R306 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.9370096 0.9409382 90 N 127 109 R306-1
+TOP 1 0.8779545 0.9409382 90 N 97 1 R306-2
+#
+# CMP 82
+CMP 22 0.4354348 0.4710563 90 N R312 1K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '1K'
+TOP 0 0.4354348 0.5005839 0 N 40 1 R312-1
+TOP 1 0.4354348 0.4415288 0 N 39 0 R312-2
+#
+# CMP 83
+CMP 22 1.2401592 1.8897571 90 N R301 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 1.2401592 1.9192847 0 N 108 0 R301-1
+TOP 1 1.2401592 1.8602296 0 N 95 1 R301-2
+#
+# CMP 84
+CMP 22 1.3454348 0.1360563 270 N R311 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 1.3454348 0.1065287 180 N 60 0 R311-1
+TOP 1 1.3454348 0.1655838 180 N 126 43 R311-2
+#
+# CMP 85
+CMP 22 0.8688991 0.3325246 270 N R309 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.8688991 0.302997 180 N 126 42 R309-1
+TOP 1 0.8688991 0.3620521 180 N 100 1 R309-2
+#
+# CMP 86
+CMP 22 1.1304348 0.1360563 270 N R310 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 1.1304348 0.1065287 180 N 88 1 R310-1
+TOP 1 1.1304348 0.1655838 180 N 126 41 R310-2
+#
+# CMP 87
+CMP 22 0.911419 1.2873949 180 N R305 12K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '12K'
+TOP 0 0.9409466 1.2873949 90 N 127 108 R305-1
+TOP 1 0.8818915 1.2873949 90 N 96 2 R305-2
+#
+# CMP 88
+CMP 22 1.34386 1.8907414 90 N R304 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 1.34386 1.920269 0 N 105 0 R304-1
+TOP 1 1.34386 1.8612139 0 N 92 1 R304-2
+#
+# CMP 89
+CMP 22 0.9114191 1.34645 0 N R300 1K5 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '1K5'
+TOP 0 0.8818915 1.34645 270 N 96 1 R300-1
+TOP 1 0.9409466 1.34645 270 N 126 72 R300-2
+#
+# CMP 90
+CMP 28 1.7145687 0.1141665 0 N J100 USB_B_micro ;0=1,1=0.1043
+TOP 0 1.6633877 0.1692846 0 N 83 3 J100-1
+TOP 1 1.6889782 0.1692846 0 N 65 0 J100-2
+TOP 2 1.7145688 0.1692846 0 N 64 0 J100-3
+TOP 3 1.7401594 0.1692846 0 N 0 13 J100-4
+TOP 4 1.7657499 0.1692846 0 N 127 52 J100-5
+TOP 5 1.6232302 0.1468437 0 N 0 14 J100-6
+TOP 6 1.8059074 0.1468437 0 N 0 15 J100-7
+TOP 7 1.5738208 0.0590484 0 N 0 5 J100-8
+TOP 8 1.6702774 0.0590484 0 N 0 11 J100-9
+TOP 9 1.75886 0.0590484 0 N 0 12 J100-10
+TOP 10 1.8553168 0.0590484 0 N 0 6 J100-11
+#
+# CMP 91
+CMP 16 1.2154348 0.1360563 270 N D300 LED ;0=1,1=0.1043
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 1.2154348 0.1038122 270 N 88 0 D300-1
+TOP 1 1.2154348 0.1675524 270 N 86 1 D300-2
+#
+# CMP 92
+CMP 16 1.4104348 0.1360563 270 N D301 LED ;0=1,1=0.1043
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 1.4104348 0.1038122 270 N 60 1 D301-1
+TOP 1 1.4104348 0.1675524 270 N 87 1 D301-2
+#
+# CMP 93
+CMP 3 2.8604348 0.6921913 0 N C105 20pF ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '20p'
+TOP 0 2.8305135 0.6921913 270 N 63 2 C105-1
+TOP 1 2.890356 0.6921913 270 N 129 12 C105-2
+#
+# CMP 94
+CMP 3 2.5177183 0.5984186 0 N C107 20pF ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '20p'
+TOP 0 2.487797 0.5984186 270 N 62 3 C107-1
+TOP 1 2.5476395 0.5984186 270 N 128 17 C107-2
+#
+# CMP 95
+CMP 5 2.3141837 0.8531429 0 N C102 22u ;0=1,1=0.0217
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22u'
+TOP 0 2.2620183 0.8531429 270 N 127 74 C102-1
+TOP 1 2.366349 0.8531429 270 N 104 4 C102-2
+#
+# CMP 96
+CMP 3 2.5177183 0.350387 0 N C103 20pF ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '20p'
+TOP 0 2.487797 0.350387 270 N 89 3 C103-1
+TOP 1 2.5476395 0.350387 270 N 126 69 C103-2
+#
+# CMP 97
+CMP 3 0.3305135 1.1860563 0 N C305 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.3005922 1.1860563 270 N 127 72 C305-1
+TOP 1 0.3604347 1.1860563 270 N 128 12 C305-2
+#
+# CMP 98
+CMP 3 0.7804348 0.8310563 270 N C304 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.7804348 0.801135 180 N 127 71 C304-1
+TOP 1 0.7804348 0.8609775 180 N 128 11 C304-2
+#
+# CMP 99
+CMP 3 0.5204348 1.3610563 180 N C303 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.5503561 1.3610563 90 N 127 70 C303-1
+TOP 1 0.4905136 1.3610563 90 N 126 40 C303-2
+#
+# CMP 100
+CMP 3 0.6754348 1.3610563 0 N C302 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.6455135 1.3610563 270 N 127 69 C302-1
+TOP 1 0.705356 1.3610563 270 N 126 39 C302-2
+#
+# CMP 101
+CMP 3 0.5277575 0.8310563 270 N C301 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.5277575 0.801135 180 N 127 103 C301-1
+TOP 1 0.5277575 0.8609775 180 N 126 63 C301-2
+#
+# CMP 102
+CMP 3 0.6104346 0.8310563 270 N C300 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.6104346 0.801135 180 N 127 102 C300-1
+TOP 1 0.6104346 0.8609775 180 N 126 62 C300-2
+#
+# CMP 103
+CMP 3 1.0254348 0.5397964 180 N C314 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 1.0553561 0.5397964 90 N 127 68 C314-1
+TOP 1 0.9955136 0.5397964 90 N 126 38 C314-2
+#
+# CMP 104
+CMP 3 0.3307104 0.9881824 0 N C312 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.3007891 0.9881824 270 N 127 67 C312-1
+TOP 1 0.3606316 0.9881824 270 N 126 37 C312-2
+#
+# CMP 105
+CMP 3 0.3307104 1.076765 0 N C309 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 0.3007891 1.076765 270 N 127 66 C309-1
+TOP 1 0.3606316 1.076765 270 N 126 36 C309-2
+#
+# CMP 106
+CMP 24 2.64386 2.7210563 270 N U401 MX25V1635FM2I ;0=1,1=0.0689
+TOP 0 2.56886 2.5812925 180 N 123 0 U401-1
+TOP 1 2.61886 2.5812925 180 N 49 0 U401-2
+TOP 2 2.66886 2.5812925 180 N 51 0 U401-3
+TOP 3 2.71886 2.5812925 180 N 127 80 U401-4
+TOP 4 2.71886 2.8608201 180 N 50 0 U401-5
+TOP 5 2.66886 2.8608201 180 N 109 0 U401-6
+TOP 6 2.61886 2.8608201 180 N 111 0 U401-7
+TOP 7 2.56886 2.8608201 180 N 126 49 U401-8
+#
+# CMP 107
+CMP 12 0.6165765 1.1194027 180 N U300 FT2232HQ-Reel ;0=1,1=0.1043
+PRP Ambient_Temperature_Range_High '+85°C'
+PRP Ambient_Temperature_Range_Low '-40°C'
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP Ciiva_Ids '1315829'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf'
+PRP Data_Rate '480Mbits/s'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Interface ICs'
+PRP Device_Class_L3 'USB Interface ICs'
+PRP Digikey_Description 'IC USB HS DUAL UART/FIFO 64-QFN'
+PRP Footprint_Url 'https://www.ftdichip.com/Support/Documents/TechnicalNotes/TN_166%20FTDI%20Example%20IC%20PCB%20Footprints.pdf'
+PRP Height '0.9mm'
+PRP Import_Ts '1521843541'
+PRP Interface 'I2C,SPI,UART,USB,RS-232,RS-485,RS-422,Other'
+PRP Ipc_Land_Pattern_Name 'QFN50P900X900X85-64'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'FTDI'
+PRP Manufacturer_Part_Number 'FT2232HQ-Reel'
+PRP Max_Supply_Voltage '3.63V'
+PRP Min_Supply_Voltage '1.62V'
+PRP Mouser_Description 'USB Interface IC USB HS to Dual UART/ FIFO/SPI/JTAG/I2C'
+PRP Nominal_Supply_Current '5-70mA'
+PRP Number_Of_Ports '1'
+PRP Octopart 'https://octopart.com/ft2232hq-reel-ftdi-19172126'
+PRP Package 'QFN64'
+PRP Release_Date '1383921489'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0mm'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+PRP Usb_Standard 'USB 2.0'
+TOP 0 0.7966946 0.9717649 180 N 127 55 U300-1
+TOP 1 0.7966946 0.9914499 180 N 98 0 U300-2
+TOP 2 0.7966946 1.011135 180 N 0 16 U300-3
+TOP 3 0.7966946 1.03082 180 N 91 2 U300-4
+TOP 4 0.7966946 1.0505051 180 N 127 56 U300-5
+TOP 5 0.7966946 1.0701901 180 N 97 0 U300-6
+TOP 6 0.7966946 1.0898751 180 N 103 1 U300-7
+TOP 7 0.7966946 1.1095602 180 N 102 1 U300-8
+TOP 8 0.7966946 1.1292452 180 N 90 2 U300-9
+TOP 9 0.7966946 1.1489303 180 N 127 57 U300-10
+TOP 10 0.7966946 1.1686153 180 N 127 58 U300-11
+TOP 11 0.7966946 1.1883003 180 N 128 7 U300-12
+TOP 12 0.7966946 1.2079854 180 N 127 59 U300-13
+TOP 13 0.7966946 1.2276704 180 N 96 0 U300-14
+TOP 14 0.7966946 1.2473555 180 N 127 60 U300-15
+TOP 15 0.7966946 1.2670405 180 N 95 0 U300-16
+TOP 16 0.7642143 1.2995208 180 N 94 0 U300-17
+TOP 17 0.7445293 1.2995208 180 N 93 0 U300-18
+TOP 18 0.7248442 1.2995208 180 N 92 0 U300-19
+TOP 19 0.7051592 1.2995208 180 N 126 31 U300-20
+TOP 20 0.6854741 1.2995208 180 N 0 17 U300-21
+TOP 21 0.6657891 1.2995208 180 N 0 18 U300-22
+TOP 22 0.6461041 1.2995208 180 N 0 19 U300-23
+TOP 23 0.626419 1.2995208 180 N 0 20 U300-24
+TOP 24 0.606734 1.2995208 180 N 127 61 U300-25
+TOP 25 0.5870489 1.2995208 180 N 0 21 U300-26
+TOP 26 0.5673639 1.2995208 180 N 0 22 U300-27
+TOP 27 0.5476789 1.2995208 180 N 0 23 U300-28
+TOP 28 0.5279938 1.2995208 180 N 0 24 U300-29
+TOP 29 0.5083088 1.2995208 180 N 0 25 U300-30
+TOP 30 0.4886237 1.2995208 180 N 126 32 U300-31
+TOP 31 0.4689387 1.2995208 180 N 0 26 U300-32
+TOP 32 0.4364584 1.2670405 180 N 0 27 U300-33
+TOP 33 0.4364584 1.2473555 180 N 0 28 U300-34
+TOP 34 0.4364584 1.2276704 180 N 127 62 U300-35
+TOP 35 0.4364584 1.2079854 180 N 0 29 U300-36
+TOP 36 0.4364584 1.1883003 180 N 128 8 U300-37
+TOP 37 0.4364584 1.1686153 180 N 85 0 U300-38
+TOP 38 0.4364584 1.1489303 180 N 84 0 U300-39
+TOP 39 0.4364584 1.1292452 180 N 0 30 U300-40
+TOP 40 0.4364584 1.1095602 180 N 0 31 U300-41
+TOP 41 0.4364584 1.0898751 180 N 126 33 U300-42
+TOP 42 0.4364584 1.0701901 180 N 0 32 U300-43
+TOP 43 0.4364584 1.0505051 180 N 0 33 U300-44
+TOP 44 0.4364584 1.03082 180 N 0 34 U300-45
+TOP 45 0.4364584 1.011135 180 N 0 35 U300-46
+TOP 46 0.4364584 0.9914499 180 N 127 63 U300-47
+TOP 47 0.4364584 0.9717649 180 N 0 36 U300-48
+TOP 48 0.4689387 0.9392846 180 N 128 9 U300-49
+TOP 49 0.4886237 0.9392846 180 N 126 34 U300-50
+TOP 50 0.5083088 0.9392846 180 N 127 64 U300-51
+TOP 51 0.5279938 0.9392846 180 N 0 37 U300-52
+TOP 52 0.5476789 0.9392846 180 N 0 38 U300-53
+TOP 53 0.5673639 0.9392846 180 N 86 0 U300-54
+TOP 54 0.5870489 0.9392846 180 N 87 0 U300-55
+TOP 55 0.606734 0.9392846 180 N 126 35 U300-56
+TOP 56 0.626419 0.9392846 180 N 0 39 U300-57
+TOP 57 0.6461041 0.9392846 180 N 0 40 U300-58
+TOP 58 0.6657891 0.9392846 180 N 0 41 U300-59
+TOP 59 0.6854741 0.9392846 180 N 0 42 U300-60
+TOP 60 0.7051592 0.9392846 180 N 40 0 U300-61
+TOP 61 0.7248442 0.9392846 180 N 100 0 U300-62
+TOP 62 0.7445293 0.9392846 180 N 99 0 U300-63
+TOP 63 0.7642143 0.9392846 180 N 128 10 U300-64
+TOP 64 0.6165765 1.1194027 180 N 127 65 U300-65
+#
+# CMP 108
+CMP 22 2.82886 2.7710563 0 N R406 4K7 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4K7'
+TOP 0 2.7993324 2.7710563 270 N 123 1 R406-1
+TOP 1 2.8583875 2.7710563 270 N 126 52 R406-2
+#
+# CMP 109
+CMP 22 2.1154348 2.6185563 180 N R408 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 2.1449624 2.6185563 90 N 49 1 R408-1
+TOP 1 2.0859073 2.6185563 90 N 121 0 R408-2
+#
+# CMP 110
+CMP 22 1.9054348 1.8910563 90 N R400 4K7 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4K7'
+TOP 0 1.9054348 1.9205839 0 N 110 0 R400-1
+TOP 1 1.9054348 1.8615288 0 N 126 58 R400-2
+#
+# CMP 111
+CMP 22 2.1154348 2.7835563 180 N R415 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 2.1449624 2.7835563 90 N 109 1 R415-1
+TOP 1 2.0859073 2.7835563 90 N 124 0 R415-2
+#
+# CMP 112
+CMP 22 1.9854348 1.8910563 90 N R418 1K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '1K'
+TOP 0 1.9854348 1.9205839 0 N 117 0 R418-1
+TOP 1 1.9854348 1.8615288 0 N 126 59 R418-2
+#
+# CMP 113
+CMP 22 2.82886 2.8510563 0 N R405 4K7 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4K7'
+TOP 0 2.7993324 2.8510563 270 N 111 2 R405-1
+TOP 1 2.8583875 2.8510563 270 N 126 50 R405-2
+#
+# CMP 114
+CMP 22 2.1154348 2.7010563 180 N R413 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 2.1449624 2.7010563 90 N 111 1 R413-1
+TOP 1 2.0859073 2.7010563 90 N 119 0 R413-2
+#
+# CMP 115
+CMP 22 2.0654347 1.8915288 270 N R420 1K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '1K'
+TOP 0 2.0654347 1.8620012 180 N 127 90 R420-1
+TOP 1 2.0654347 1.9210563 180 N 116 0 R420-2
+#
+# CMP 116
+CMP 22 2.8598672 0.3668895 180 N R410 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.8893948 0.3668895 90 N 114 1 R410-1
+TOP 1 2.8303397 0.3668895 90 N 125 2 R410-2
+#
+# CMP 117
+CMP 22 2.8598672 0.5285561 180 N R401 470 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '470R'
+TOP 0 2.8893948 0.5285561 90 N 125 0 R401-1
+TOP 1 2.8303397 0.5285561 90 N 126 66 R401-2
+#
+# CMP 118
+CMP 22 2.1154348 2.5360563 180 N R412 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 2.1449624 2.5360563 90 N 51 1 R412-1
+TOP 1 2.0859073 2.5360563 90 N 120 0 R412-2
+#
+# CMP 119
+CMP 22 2.1154348 2.8660563 180 N R407 22 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '22R'
+TOP 0 2.1449624 2.8660563 90 N 50 1 R407-1
+TOP 1 2.0859073 2.8660563 90 N 122 0 R407-2
+#
+# CMP 120
+CMP 22 0.3604348 0.8310563 270 N R421 1K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '1K'
+TOP 0 0.3604348 0.8015287 180 N 127 100 R421-1
+TOP 1 0.3604348 0.8605838 180 N 112 1 R421-2
+#
+# CMP 121
+CMP 22 0.3554348 0.4710563 90 N R419 1K ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '1K'
+TOP 0 0.3554348 0.5005839 0 N 113 1 R419-1
+TOP 1 0.3554348 0.4415288 0 N 126 54 R419-2
+#
+# CMP 122
+CMP 22 1.5905529 1.8897571 90 N R403 4K7 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4K7'
+TOP 0 1.5905529 1.9192847 0 N 118 0 R403-1
+TOP 1 1.5905529 1.8602296 0 N 126 60 R403-2
+#
+# CMP 123
+CMP 22 2.82886 2.6910563 0 N R404 4K7 ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing'
+PRP PackageReference 'AXIAL-0.4'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '4K7'
+TOP 0 2.7993324 2.6910563 270 N 51 2 R404-1
+TOP 1 2.8583875 2.6910563 270 N 126 51 R404-2
+#
+# CMP 124
+CMP 16 2.3854348 0.1360563 90 N D400 LED ;0=1,1=0.1043
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-0'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 2.3854348 0.1683004 90 N 114 0 D400-1
+TOP 1 2.3854348 0.1045602 90 N 127 87 D400-2
+#
+# CMP 125
+CMP 3 2.4840468 2.8346457 270 N C400 100n ;0=1,1=0.0177
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing'
+PRP PackageReference 'RAD-0.3'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+PRP Value '100n'
+TOP 0 2.4840468 2.8047244 180 N 127 86 C400-1
+TOP 1 2.4840468 2.8645669 180 N 126 53 C400-2
+#
+# CMP 126
+CMP 17 2.5591837 0.8531429 0 N U100 LTC3569EUD#TRPBF ;0=1,1=0.0315
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.linear.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://cds.linear.com/docs/en/datasheet/3569fd.pdf'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://cds.linear.com/docs/en/packaging/QFN_20_05-08-1720.pdf'
+PRP DatasheetVersion 'Rev. D'
+PRP Frequency_Adjust_Range '1MHz - 3MHz'
+PRP Manufacturer 'Linear Technology'
+PRP Mounting_Technology 'Surface Mount'
+PRP Number_of_Outputs '3'
+PRP PackageDescription '20-Pin Plastic QFN, Body 3 x 3 mm, Pitch 0.4 mm'
+PRP PackageReference 'UD-20'
+PRP PackageVersion 'Rev. A, 06/2010'
+PRP Packing 'Tape and Reel'
+PRP PartNumber 'LTC3569EUD#TRPBF'
+PRP RoHS 'TRUE'
+TOP 0 2.5001286 0.8846389 270 N 34 2 U100-1
+TOP 1 2.5001286 0.8688909 270 N 104 7 U100-2
+TOP 2 2.5001286 0.8531429 270 N 74 2 U100-3
+TOP 3 2.5001286 0.8373949 270 N 104 8 U100-4
+TOP 4 2.5001286 0.8216468 270 N 104 9 U100-5
+TOP 5 2.5276877 0.7940878 0 N 62 1 U100-6
+TOP 6 2.5434357 0.7940878 0 N 89 1 U100-7
+TOP 7 2.5591837 0.7940878 0 N 63 0 U100-8
+TOP 8 2.5749317 0.7940878 0 N 104 10 U100-9
+TOP 9 2.5906798 0.7940878 0 N 127 81 U100-10
+TOP 10 2.6182388 0.8216468 270 N 104 11 U100-11
+TOP 11 2.6182388 0.8373949 270 N 129 10 U100-12
+TOP 12 2.6182388 0.8531429 270 N 128 14 U100-13
+TOP 13 2.6182388 0.8688909 270 N 127 82 U100-14
+TOP 14 2.6182388 0.8846389 270 N 33 2 U100-15
+TOP 15 2.5906798 0.912198 0 N 104 12 U100-16
+TOP 16 2.5749317 0.912198 0 N 104 13 U100-17
+TOP 17 2.5591837 0.912198 0 N 35 2 U100-18
+TOP 18 2.5434357 0.912198 0 N 127 83 U100-19
+TOP 19 2.5276877 0.912198 0 N 127 84 U100-20
+TOP 20 2.5591837 0.8531429 0 N 127 85 U100-21
+#
+# CMP 127
+CMP 13 1.7185057 2.342513 0 N U1 XC7S6-1FTGB196C ;0=1,1=0.1043
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.xilinx.com/support/documentation/data_sheets/ds189-spartan-7-data-sheet.pdf'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Embedded Processors and Controllers'
+PRP Device_Class_L3 'FPGAs - Field Programmable Gate Arrays'
+PRP Digikey_Description 'XC7S6-1FTGB196C'
+PRP Footprint_Url 'https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf'
+PRP Frequency '200MHz'
+PRP Height '1.55mm'
+PRP Ipc_Land_Pattern_Name 'BGA196C100P14X14_1500X1500X146'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Xilinx'
+PRP Manufacturer_Part_Number 'XC7S6-1FTGB196C'
+PRP Max_Junction_Temp '+85°C'
+PRP Max_Supply_Voltage '3.465V'
+PRP Min_Supply_Voltage '0.95V'
+PRP Number_Of_I/Os '100'
+PRP Number_Of_Logic_Blocks '938'
+PRP Number_Of_Logic_Elements_Cells '6000'
+PRP Octopart 'https://octopart.com/xc7s6-1ftgb196c-xilinx-81890684'
+PRP Package 'XC7S6-1FTGB196C'
+PRP Propagation_Delay '0.13ns'
+PRP Ram_Size '180Kbits'
+PRP RoHS 'TRUE'
+PRP Speed_Grade '1'
+PRP Standoff_Height '0.3mm'
+PRP Temperature '0°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '0°C'
+TOP 0 1.4626002 2.5984185 0 N 127 114 U1-A1
+TOP 1 1.5019703 2.5984185 0 N 77 1 U1-A2
+TOP 2 1.5413403 2.5984185 0 N 78 1 U1-A3
+TOP 3 1.5807104 2.5984185 0 N 79 1 U1-A4
+TOP 4 1.6200805 2.5984185 0 N 80 1 U1-A5
+TOP 5 1.6594506 2.5984185 0 N 127 115 U1-A6
+TOP 6 1.6988207 2.5984185 0 N 108 1 U1-A7
+TOP 7 1.7381907 2.5984185 0 N 124 1 U1-A8
+TOP 8 1.7775608 2.5984185 0 N 127 116 U1-A9
+TOP 9 1.8169309 2.5984185 0 N 0 46 U1-A10
+TOP 10 1.856301 2.5984185 0 N 127 117 U1-A11
+TOP 11 1.8956711 2.5984185 0 N 0 47 U1-A12
+TOP 12 1.9350411 2.5984185 0 N 0 48 U1-A13
+TOP 13 1.9744112 2.5984185 0 N 127 118 U1-A14
+TOP 14 1.4626002 2.5590484 0 N 0 49 U1-B1
+TOP 15 1.5019703 2.5590484 0 N 68 1 U1-B2
+TOP 16 1.5413403 2.5590484 0 N 69 1 U1-B3
+TOP 17 1.5807104 2.5590484 0 N 127 119 U1-B4
+TOP 18 1.6200805 2.5590484 0 N 70 1 U1-B5
+TOP 19 1.6594506 2.5590484 0 N 71 1 U1-B6
+TOP 20 1.6988207 2.5590484 0 N 127 120 U1-B7
+TOP 21 1.7381907 2.5590484 0 N 0 50 U1-B8
+TOP 22 1.7775608 2.5590484 0 N 127 121 U1-B9
+TOP 23 1.8169309 2.5590484 0 N 36 2 U1-B10
+TOP 24 1.856301 2.5590484 0 N 122 1 U1-B11
+TOP 25 1.8956711 2.5590484 0 N 121 1 U1-B12
+TOP 26 1.9350411 2.5590484 0 N 0 51 U1-B13
+TOP 27 1.9744112 2.5590484 0 N 0 52 U1-B14
+TOP 28 1.4626002 2.5196784 0 N 26 1 U1-C1
+TOP 29 1.5019703 2.5196784 0 N 127 122 U1-C2
+TOP 30 1.5413403 2.5196784 0 N 76 1 U1-C3
+TOP 31 1.5807104 2.5196784 0 N 67 1 U1-C4
+TOP 32 1.6200805 2.5196784 0 N 0 53 U1-C5
+TOP 33 1.6594506 2.5196784 0 N 127 123 U1-C6
+TOP 34 1.6988207 2.5196784 0 N 127 124 U1-C7
+TOP 35 1.7381907 2.5196784 0 N 127 125 U1-C8
+TOP 36 1.7775608 2.5196784 0 N 127 126 U1-C9
+TOP 37 1.8169309 2.5196784 0 N 119 1 U1-C10
+TOP 38 1.856301 2.5196784 0 N 123 2 U1-C11
+TOP 39 1.8956711 2.5196784 0 N 0 54 U1-C12
+TOP 40 1.9350411 2.5196784 0 N 127 127 U1-C13
+TOP 41 1.9744112 2.5196784 0 N 0 55 U1-C14
+TOP 42 1.4626002 2.4803083 0 N 25 1 U1-D1
+TOP 43 1.5019703 2.4803083 0 N 0 56 U1-D2
+TOP 44 1.5413403 2.4803083 0 N 66 1 U1-D3
+TOP 45 1.5807104 2.4803083 0 N 75 1 U1-D4
+TOP 46 1.6200805 2.4803083 0 N 127 128 U1-D5
+TOP 47 1.6594506 2.4803083 0 N 129 14 U1-D6
+TOP 48 1.6988207 2.4803083 0 N 127 129 U1-D7
+TOP 49 1.7381907 2.4803083 0 N 129 15 U1-D8
+TOP 50 1.7775608 2.4803083 0 N 127 130 U1-D9
+TOP 51 1.8169309 2.4803083 0 N 120 1 U1-D10
+TOP 52 1.856301 2.4803083 0 N 127 131 U1-D11
+TOP 53 1.8956711 2.4803083 0 N 0 57 U1-D12
+TOP 54 1.9350411 2.4803083 0 N 0 58 U1-D13
+TOP 55 1.9744112 2.4803083 0 N 0 59 U1-D14
+TOP 56 1.4626002 2.4409382 0 N 127 132 U1-E1
+TOP 57 1.5019703 2.4409382 0 N 0 60 U1-E2
+TOP 58 1.5413403 2.4409382 0 N 127 133 U1-E3
+TOP 59 1.5807104 2.4409382 0 N 0 61 U1-E4
+TOP 60 1.6200805 2.4409382 0 N 129 16 U1-E5
+TOP 61 1.6594506 2.4409382 0 N 127 134 U1-E6
+TOP 62 1.6988207 2.4409382 0 N 129 17 U1-E7
+TOP 63 1.7381907 2.4409382 0 N 127 135 U1-E8
+TOP 64 1.7775608 2.4409382 0 N 129 18 U1-E9
+TOP 65 1.8169309 2.4409382 0 N 127 136 U1-E10
+TOP 66 1.856301 2.4409382 0 N 0 62 U1-E11
+TOP 67 1.8956711 2.4409382 0 N 0 63 U1-E12
+TOP 68 1.9350411 2.4409382 0 N 0 64 U1-E13
+TOP 69 1.9744112 2.4409382 0 N 127 137 U1-E14
+TOP 70 1.4626002 2.4015681 0 N 28 1 U1-F1
+TOP 71 1.5019703 2.4015681 0 N 0 65 U1-F2
+TOP 72 1.5413403 2.4015681 0 N 0 66 U1-F3
+TOP 73 1.5807104 2.4015681 0 N 0 67 U1-F4
+TOP 74 1.6200805 2.4015681 0 N 127 138 U1-F5
+TOP 75 1.6594506 2.4015681 0 N 129 19 U1-F6
+TOP 76 1.6988207 2.4015681 0 N 0 68 U1-F7
+TOP 77 1.7381907 2.4015681 0 N 0 69 U1-F8
+TOP 78 1.7775608 2.4015681 0 N 127 139 U1-F9
+TOP 79 1.8169309 2.4015681 0 N 128 19 U1-F10
+TOP 80 1.856301 2.4015681 0 N 0 70 U1-F11
+TOP 81 1.8956711 2.4015681 0 N 0 71 U1-F12
+TOP 82 1.9350411 2.4015681 0 N 0 72 U1-F13
+TOP 83 1.9744112 2.4015681 0 N 81 1 U1-F14
+TOP 84 1.4626002 2.362198 0 N 27 1 U1-G1
+TOP 85 1.5019703 2.362198 0 N 126 73 U1-G2
+TOP 86 1.5413403 2.362198 0 N 127 140 U1-G3
+TOP 87 1.5807104 2.362198 0 N 0 73 U1-G4
+TOP 88 1.6200805 2.362198 0 N 129 20 U1-G5
+TOP 89 1.6594506 2.362198 0 N 127 141 U1-G6
+TOP 90 1.6988207 2.362198 0 N 0 74 U1-G7
+TOP 91 1.7381907 2.362198 0 N 0 75 U1-G8
+TOP 92 1.7775608 2.362198 0 N 129 21 U1-G9
+TOP 93 1.8169309 2.362198 0 N 127 142 U1-G10
+TOP 94 1.856301 2.362198 0 N 0 76 U1-G11
+TOP 95 1.8956711 2.362198 0 N 127 143 U1-G12
+TOP 96 1.9350411 2.362198 0 N 126 74 U1-G13
+TOP 97 1.9744112 2.362198 0 N 72 1 U1-G14
+TOP 98 1.4626002 2.322828 0 N 30 1 U1-H1
+TOP 99 1.5019703 2.322828 0 N 29 1 U1-H2
+TOP 100 1.5413403 2.322828 0 N 0 77 U1-H3
+TOP 101 1.5807104 2.322828 0 N 0 78 U1-H4
+TOP 102 1.6200805 2.322828 0 N 127 144 U1-H5
+TOP 103 1.6594506 2.322828 0 N 129 22 U1-H6
+TOP 104 1.6988207 2.322828 0 N 0 79 U1-H7
+TOP 105 1.7381907 2.322828 0 N 0 80 U1-H8
+TOP 106 1.7775608 2.322828 0 N 127 145 U1-H9
+TOP 107 1.8169309 2.322828 0 N 128 20 U1-H10
+TOP 108 1.856301 2.322828 0 N 0 81 U1-H11
+TOP 109 1.8956711 2.322828 0 N 38 1 U1-H12
+TOP 110 1.9350411 2.322828 0 N 38 2 U1-H13
+TOP 111 1.9744112 2.322828 0 N 38 3 U1-H14
+TOP 112 1.4626002 2.2834579 0 N 32 1 U1-J1
+TOP 113 1.5019703 2.2834579 0 N 31 1 U1-J2
+TOP 114 1.5413403 2.2834579 0 N 0 82 U1-J3
+TOP 115 1.5807104 2.2834579 0 N 0 83 U1-J4
+TOP 116 1.6200805 2.2834579 0 N 129 23 U1-J5
+TOP 117 1.6594506 2.2834579 0 N 127 146 U1-J6
+TOP 118 1.6988207 2.2834579 0 N 127 147 U1-J7
+TOP 119 1.7381907 2.2834579 0 N 127 148 U1-J8
+TOP 120 1.7775608 2.2834579 0 N 129 24 U1-J9
+TOP 121 1.8169309 2.2834579 0 N 127 149 U1-J10
+TOP 122 1.856301 2.2834579 0 N 0 84 U1-J11
+TOP 123 1.8956711 2.2834579 0 N 0 85 U1-J12
+TOP 124 1.9350411 2.2834579 0 N 0 86 U1-J13
+TOP 125 1.9744112 2.2834579 0 N 82 1 U1-J14
+TOP 126 1.4626002 2.2440878 0 N 127 150 U1-K1
+TOP 127 1.5019703 2.2440878 0 N 126 75 U1-K2
+TOP 128 1.5413403 2.2440878 0 N 0 87 U1-K3
+TOP 129 1.5807104 2.2440878 0 N 0 88 U1-K4
+TOP 130 1.6200805 2.2440878 0 N 127 151 U1-K5
+TOP 131 1.6594506 2.2440878 0 N 129 25 U1-K6
+TOP 132 1.6988207 2.2440878 0 N 127 152 U1-K7
+TOP 133 1.7381907 2.2440878 0 N 129 26 U1-K8
+TOP 134 1.7775608 2.2440878 0 N 127 153 U1-K9
+TOP 135 1.8169309 2.2440878 0 N 128 21 U1-K10
+TOP 136 1.856301 2.2440878 0 N 0 89 U1-K11
+TOP 137 1.8956711 2.2440878 0 N 0 90 U1-K12
+TOP 138 1.9350411 2.2440878 0 N 126 76 U1-K13
+TOP 139 1.9744112 2.2440878 0 N 127 154 U1-K14
+TOP 140 1.4626002 2.2047177 0 N 0 91 U1-L1
+TOP 141 1.5019703 2.2047177 0 N 0 92 U1-L2
+TOP 142 1.5413403 2.2047177 0 N 0 93 U1-L3
+TOP 143 1.5807104 2.2047177 0 N 127 155 U1-L4
+TOP 144 1.6200805 2.2047177 0 N 0 94 U1-L5
+TOP 145 1.6594506 2.2047177 0 N 127 156 U1-L6
+TOP 146 1.6988207 2.2047177 0 N 110 1 U1-L7
+TOP 147 1.7381907 2.2047177 0 N 127 157 U1-L8
+TOP 148 1.7775608 2.2047177 0 N 128 22 U1-L9
+TOP 149 1.8169309 2.2047177 0 N 127 158 U1-L10
+TOP 150 1.856301 2.2047177 0 N 127 159 U1-L11
+TOP 151 1.8956711 2.2047177 0 N 0 95 U1-L12
+TOP 152 1.9350411 2.2047177 0 N 0 96 U1-L13
+TOP 153 1.9744112 2.2047177 0 N 0 97 U1-L14
+TOP 154 1.4626002 2.1653476 0 N 0 98 U1-M1
+TOP 155 1.5019703 2.1653476 0 N 0 99 U1-M2
+TOP 156 1.5413403 2.1653476 0 N 0 100 U1-M3
+TOP 157 1.5807104 2.1653476 0 N 0 101 U1-M4
+TOP 158 1.6200805 2.1653476 0 N 0 102 U1-M5
+TOP 159 1.6594506 2.1653476 0 N 105 1 U1-M6
+TOP 160 1.6988207 2.1653476 0 N 117 1 U1-M7
+TOP 161 1.7381907 2.1653476 0 N 116 1 U1-M8
+TOP 162 1.7775608 2.1653476 0 N 115 1 U1-M9
+TOP 163 1.8169309 2.1653476 0 N 0 103 U1-M10
+TOP 164 1.856301 2.1653476 0 N 23 1 U1-M11
+TOP 165 1.8956711 2.1653476 0 N 24 1 U1-M12
+TOP 166 1.9350411 2.1653476 0 N 0 104 U1-M13
+TOP 167 1.9744112 2.1653476 0 N 0 105 U1-M14
+TOP 168 1.4626002 2.1259776 0 N 0 106 U1-N1
+TOP 169 1.5019703 2.1259776 0 N 126 77 U1-N2
+TOP 170 1.5413403 2.1259776 0 N 127 160 U1-N3
+TOP 171 1.5807104 2.1259776 0 N 0 107 U1-N4
+TOP 172 1.6200805 2.1259776 0 N 127 161 U1-N5
+TOP 173 1.6594506 2.1259776 0 N 126 78 U1-N6
+TOP 174 1.6988207 2.1259776 0 N 126 79 U1-N7
+TOP 175 1.7381907 2.1259776 0 N 126 80 U1-N8
+TOP 176 1.7775608 2.1259776 0 N 127 162 U1-N9
+TOP 177 1.8169309 2.1259776 0 N 17 1 U1-N10
+TOP 178 1.856301 2.1259776 0 N 18 1 U1-N11
+TOP 179 1.8956711 2.1259776 0 N 127 163 U1-N12
+TOP 180 1.9350411 2.1259776 0 N 126 81 U1-N13
+TOP 181 1.9744112 2.1259776 0 N 73 1 U1-N14
+TOP 182 1.4626002 2.0866075 0 N 127 164 U1-P1
+TOP 183 1.5019703 2.0866075 0 N 0 108 U1-P2
+TOP 184 1.5413403 2.0866075 0 N 85 1 U1-P3
+TOP 185 1.5807104 2.0866075 0 N 84 1 U1-P4
+TOP 186 1.6200805 2.0866075 0 N 0 109 U1-P5
+TOP 187 1.6594506 2.0866075 0 N 106 1 U1-P6
+TOP 188 1.6988207 2.0866075 0 N 107 1 U1-P7
+TOP 189 1.7381907 2.0866075 0 N 118 1 U1-P8
+TOP 190 1.7775608 2.0866075 0 N 125 4 U1-P9
+TOP 191 1.8169309 2.0866075 0 N 19 1 U1-P10
+TOP 192 1.856301 2.0866075 0 N 20 1 U1-P11
+TOP 193 1.8956711 2.0866075 0 N 21 1 U1-P12
+TOP 194 1.9350411 2.0866075 0 N 22 1 U1-P13
+TOP 195 1.9744112 2.0866075 0 N 127 165 U1-P14
+#

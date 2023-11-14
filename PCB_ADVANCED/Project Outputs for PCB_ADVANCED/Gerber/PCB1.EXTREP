@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PCB1.GBR   9-11-2023  00:52:41
+Gerber File Extension Report For: PCB1.GBR   10-11-2023  18:40:22
 ------------------------------------------------------------------------------------------
 
 
@@ -7,12 +7,14 @@ Gerber File Extension Report For: PCB1.GBR   9-11-2023  00:52:41
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTO                Top Overlay                             
+.GTP                Top Paste                               
 .GTS                Top Solder                              
 .GTL                L1 (Sig+GND)                            
 .G1                 L2 (GND)                                
 .G2                 L3 (PWR)                                
 .GBL                L4 (Sig+GND)                            
 .GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
 .GM1                Mechanical 1                            
 .GKO                Keep-Out Layer                          
