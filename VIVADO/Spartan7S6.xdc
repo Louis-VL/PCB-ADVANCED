@@ -88,6 +88,7 @@
 
 ##How to initialize FTDI Devices (JTAG)
 ##https://docs.xilinx.com/r/2022.1-English/ug908-vivado-programming-debugging/Programming-FTDI-Devices-for-Vivado-Hardware-Manager-Support
+##program_ftdi write -ftdi FT2232H -vendor "my vendor co" -board "my board" -m "my mfg co" -desc "my product desc" -serial FT8SX3JC
 
 ##How to store code in QSPI FLASH memory
 ##https://docs.xilinx.com/r/en-US/xapp586-spi-flash/Programming-the-SPI-Flash-Vivado-Design-Suite-IDE-Example
