@@ -42,7 +42,7 @@ entity TESTER is
     );
 end TESTER;
 
-architecture Structural of TESTER is
+architecture structural of TESTER is
 signal STE, C_ENABLE, UARTX : STD_LOGIC;
 component BD_CLK is
     Port ( 
@@ -77,7 +77,7 @@ led(5) <= sw(5);
 led(6) <= sw(6);
 led(7) <= sw(7);
 
-JA(0) <= C_ENABLE;
+JA(1) <= C_ENABLE;
 
 RsTx  <= UARTX;
 JA(1) <= UARTX;
