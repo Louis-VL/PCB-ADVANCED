@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s6ftgb196-1" LaunchTime="1701867112">
-  <File Type="PA-TCL" Name="SmallTester.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="SmallTester_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="SmallTester_reports.tcl"/>
-  <File Type="RDS-RDS" Name="SmallTester.vds"/>
-  <File Type="RDS-UTIL" Name="SmallTester_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="SmallTester_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="SmallTester.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="SmallTester_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="SmallTester_timing_summary_synth.pb"/>
-  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+<GenRun Id="synth_1" LaunchPart="xc7s6ftgb196-1" LaunchTime="1701954564">
+  <File Type="PA-TCL" Name="TESTER.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="TESTER_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="TESTER_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TESTER.vds"/>
+  <File Type="RDS-UTIL" Name="TESTER_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TESTER_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TESTER.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="TESTER_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="TESTER_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/BD_CLK.vhd">
       <FileInfo>
@@ -17,20 +17,19 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/SmallTester.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/new/UART_TX.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/TESTER.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SmallTester.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -39,7 +38,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="SmallTester"/>
+      <Option Name="TopModule" Val="TESTER"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -61,7 +60,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

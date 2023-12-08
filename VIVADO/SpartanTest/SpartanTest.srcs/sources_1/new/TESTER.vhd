@@ -77,9 +77,9 @@ led(5) <= sw(5);
 led(6) <= sw(6);
 led(7) <= sw(7);
 
-JA(1) <= C_ENABLE;
+JA(7) <= C_ENABLE;
 
 RsTx  <= UARTX;
-JA(1) <= UARTX;
+JA(8) <= UARTX;
 
 end structural;

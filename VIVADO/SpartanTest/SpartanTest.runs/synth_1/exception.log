@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\louis\Documents\PCB ADVANCED\PCB-ADVANCED\VIVADO\SpartanTest\SpartanTest.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Toegang geweigerd

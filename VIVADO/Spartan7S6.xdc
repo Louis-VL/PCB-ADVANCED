@@ -5,9 +5,20 @@
 
 
 ## Clock signal
-set_property PACKAGE_PIN H12 [get_ports clk]
+set_property PACKAGE_PIN H13 [get_ports clk]
+    #set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {clk_IBUF}]
 	set_property IOSTANDARD LVCMOS33 [get_ports clk]
 	create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports clk]
+
+
+#USB-RS232 Interface
+set_property PACKAGE_PIN P3 [get_ports RsRx]
+	set_property IOSTANDARD LVCMOS33 [get_ports RsRx]
+set_property PACKAGE_PIN P4 [get_ports RsTx]
+	set_property IOSTANDARD LVCMOS33 [get_ports RsTx]	
+##How to initialize FTDI Devices (JTAG)
+##https://docs.xilinx.com/r/2022.1-English/ug908-vivado-programming-debugging/Programming-FTDI-Devices-for-Vivado-Hardware-Manager-Support
+##program_ftdi write -ftdi FT2232H -vendor "my vendor co" -board "my board" -m "my mfg co" -desc "my product desc" -serial FT8SX3JC	
 	
 	
 ## Switches
@@ -51,20 +62,20 @@ set_property PACKAGE_PIN D4 [get_ports {led[7]}]
 ##Header JA (Header 1)
 set_property PACKAGE_PIN J2 [get_ports {JA[1]}]
 	set_property IOSTANDARD LVCMOS33 [get_ports {JA[1]}]
-#set_property PACKAGE_PIN J1 [get_ports {JA[2]}]
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[2]}]
-#set_property PACKAGE_PIN H2 [get_ports {JA[3]}]
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[3]}]
-#set_property PACKAGE_PIN H1 [get_ports {JA[4]}]
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[4]}]
-#set_property PACKAGE_PIN G1 [get_ports {JA[5]}]
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[5]}]
-#set_property PACKAGE_PIN F1 [get_ports {JA[6]}]
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[6]}]
-#set_property PACKAGE_PIN D1 [get_ports {JA[7]}]
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[7]}]
-#set_property PACKAGE_PIN C1 [get_ports {JA[8]}]
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[8]}]
+set_property PACKAGE_PIN J1 [get_ports {JA[2]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {JA[2]}]
+set_property PACKAGE_PIN H2 [get_ports {JA[3]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {JA[3]}]
+set_property PACKAGE_PIN H1 [get_ports {JA[4]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {JA[4]}]
+set_property PACKAGE_PIN G1 [get_ports {JA[5]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {JA[5]}]
+set_property PACKAGE_PIN F1 [get_ports {JA[6]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {JA[6]}]
+set_property PACKAGE_PIN D1 [get_ports {JA[7]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {JA[7]}]
+set_property PACKAGE_PIN C1 [get_ports {JA[8]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {JA[8]}]
 
 
 ##Header JB (header 2)
@@ -86,12 +97,9 @@ set_property PACKAGE_PIN J2 [get_ports {JA[1]}]
 	#set_property IOSTANDARD LVCMOS33 [get_ports {JB[8]}]
 
 
-##How to initialize FTDI Devices (JTAG)
-##https://docs.xilinx.com/r/2022.1-English/ug908-vivado-programming-debugging/Programming-FTDI-Devices-for-Vivado-Hardware-Manager-Support
-##program_ftdi write -ftdi FT2232H -vendor "my vendor co" -board "my board" -m "my mfg co" -desc "my product desc" -serial FT8SX3JC
-
-##How to store code in QSPI FLASH memory
+##How to store code in QSPI FLASH memory MX25V1635FM2I
 ##https://docs.xilinx.com/r/en-US/xapp586-spi-flash/Programming-the-SPI-Flash-Vivado-Design-Suite-IDE-Example
+##Creating the .bin file with Vivado is easy. Go to "Tools > Settings > Bitstream" and check "-bin-file".
 
 ##Quad SPI Flash
 ##Note that CCLK_0 cannot be placed in 7 series devices. You can access it using the 

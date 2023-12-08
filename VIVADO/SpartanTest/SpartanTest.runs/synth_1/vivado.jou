@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2018.3 (64-bit)
-# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
-# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Wed Dec  6 13:51:55 2023
-# Process ID: 12880
-# Current directory: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanTest/SpartanTest.runs/synth_1
-# Command line: vivado.exe -log SmallTester.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SmallTester.tcl
-# Log file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanTest/SpartanTest.runs/synth_1/SmallTester.vds
-# Journal file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanTest/SpartanTest.runs/synth_1\vivado.jou
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec  7 14:09:11 2023
+# Process ID: 17396
+# Current directory: C:/Users/louis/Documents/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanTest/SpartanTest.runs/synth_1
+# Command line: vivado.exe -log TESTER.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TESTER.tcl
+# Log file: C:/Users/louis/Documents/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanTest/SpartanTest.runs/synth_1/TESTER.vds
+# Journal file: C:/Users/louis/Documents/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanTest/SpartanTest.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source SmallTester.tcl -notrace
+source TESTER.tcl -notrace
