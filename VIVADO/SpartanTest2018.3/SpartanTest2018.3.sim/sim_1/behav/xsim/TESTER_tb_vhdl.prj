@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../SpartanTest.srcs/sources_1/new/BD_CLK.vhd" \
+"../../../../SpartanTest.srcs/sources_1/new/UART_TX.vhd" \
+"../../../../SpartanTest.srcs/sim_1/new/TESTER_tb.vhd" \
+
+# Do not sort compile order
+nosort
