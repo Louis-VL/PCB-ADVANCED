@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Dec 13 14:44:49 2023
+# Process ID: 16196
+# Current directory: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1
+# Command line: vivado.exe -log MicroBlazeV2_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MicroBlazeV2_ilmb_v10_0.tcl
+# Log file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1/MicroBlazeV2_ilmb_v10_0.vds
+# Journal file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1\vivado.jou
+# Running On: LAPTOP-K67JHBA7, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16556 MB
+#-----------------------------------------------------------
+source MicroBlazeV2_ilmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1468.305 ; gain = 161.688
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MicroBlazeV2_ilmb_v10_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 7faf3355ddcae86c to dir: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/ip/2023.1/7/f/7faf3355ddcae86c/MicroBlazeV2_dlmb_v10_0.dcp to C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1/MicroBlazeV2_ilmb_v10_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/ip/2023.1/7/f/7faf3355ddcae86c/MicroBlazeV2_dlmb_v10_0_sim_netlist.v to C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1/MicroBlazeV2_ilmb_v10_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/ip/2023.1/7/f/7faf3355ddcae86c/MicroBlazeV2_dlmb_v10_0_sim_netlist.vhdl to C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1/MicroBlazeV2_ilmb_v10_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/ip/2023.1/7/f/7faf3355ddcae86c/MicroBlazeV2_dlmb_v10_0_stub.v to C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1/MicroBlazeV2_ilmb_v10_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/ip/2023.1/7/f/7faf3355ddcae86c/MicroBlazeV2_dlmb_v10_0_stub.vhdl to C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_ilmb_v10_0_synth_1/MicroBlazeV2_ilmb_v10_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP MicroBlazeV2_ilmb_v10_0, cache-ID = 7faf3355ddcae86c.
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 13 14:45:30 2023...

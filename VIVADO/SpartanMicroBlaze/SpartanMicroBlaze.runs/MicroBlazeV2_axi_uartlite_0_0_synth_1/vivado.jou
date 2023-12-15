@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Dec 15 09:35:52 2023
+# Process ID: 19112
+# Current directory: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_axi_uartlite_0_0_synth_1
+# Command line: vivado.exe -log MicroBlazeV2_axi_uartlite_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MicroBlazeV2_axi_uartlite_0_0.tcl
+# Log file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_axi_uartlite_0_0_synth_1/MicroBlazeV2_axi_uartlite_0_0.vds
+# Journal file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/MicroBlazeV2_axi_uartlite_0_0_synth_1\vivado.jou
+# Running On: LAPTOP-K67JHBA7, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16556 MB
+#-----------------------------------------------------------
+source MicroBlazeV2_axi_uartlite_0_0.tcl -notrace
