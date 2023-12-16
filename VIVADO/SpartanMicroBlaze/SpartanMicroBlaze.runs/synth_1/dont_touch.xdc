@@ -42,4 +42,13 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==MicroBlazeV
 # IP: bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==MicroBlazeV2_axi_uartlite_0_0 || ORIG_REF_NAME==MicroBlazeV2_axi_uartlite_0_0} -quiet] -quiet
 
+# IP: bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==MicroBlazeV2_axi_gpio_1_0 || ORIG_REF_NAME==MicroBlazeV2_axi_gpio_1_0} -quiet] -quiet
+
+# IP: bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==MicroBlazeV2_axi_gpio_0_1 || ORIG_REF_NAME==MicroBlazeV2_axi_gpio_0_1} -quiet] -quiet
+
+# IP: bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==MicroBlazeV2_axi_gpio_1_1 || ORIG_REF_NAME==MicroBlazeV2_axi_gpio_1_1} -quiet] -quiet
+
 # XDC: c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/MicroBlazeV2_ooc.xdc

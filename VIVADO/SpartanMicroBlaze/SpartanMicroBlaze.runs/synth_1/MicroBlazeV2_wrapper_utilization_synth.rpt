@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Fri Dec 15 09:38:01 2023
+| Date         : Sat Dec 16 23:14:17 2023
 | Host         : LAPTOP-K67JHBA7 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file MicroBlazeV2_wrapper_utilization_synth.rpt -pb MicroBlazeV2_wrapper_utilization_synth.pb
 | Design       : MicroBlazeV2_wrapper
@@ -92,7 +92,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |    5 |     0 |          0 |       100 |  5.00 |
+| Bonded IOB                  |   35 |     0 |          0 |       100 | 35.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         2 |  0.00 |
 | PHASER_REF                  |    0 |     0 |          0 |         2 |  0.00 |
 | OUT_FIFO                    |    0 |     0 |          0 |         8 |  0.00 |
@@ -145,8 +145,8 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| IBUF     |    3 |                  IO |
-| OBUF     |    2 |                  IO |
+| OBUF     |   25 |                  IO |
+| IBUF     |   10 |                  IO |
 +----------+------+---------------------+
 
 
@@ -166,6 +166,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 | MicroBlazeV2_dlmb_v10_0           |    1 |
 | MicroBlazeV2_dlmb_bram_if_cntlr_0 |    1 |
 | MicroBlazeV2_axi_uartlite_0_0     |    1 |
+| MicroBlazeV2_axi_gpio_1_1         |    1 |
+| MicroBlazeV2_axi_gpio_1_0         |    1 |
+| MicroBlazeV2_axi_gpio_0_1         |    1 |
 | MicroBlazeV2_axi_gpio_0_0         |    1 |
 +-----------------------------------+------+
 

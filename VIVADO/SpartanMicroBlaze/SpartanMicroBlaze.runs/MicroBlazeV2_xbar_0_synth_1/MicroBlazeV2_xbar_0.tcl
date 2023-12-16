@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "MicroBlazeV2_xbar_0_synth_1" START { ROLLUP_AUTO }
-set_param tcl.statsThreshold 360
 set_param chipscope.maxJobs 4
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
@@ -90,7 +89,7 @@ set_property ip_output_repo {c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-AD
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0.xci}}
+read_ip -quiet {{C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0.xci}}
 set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0_ooc.xdc}}]
 
 OPTRACE "Adding files" END { }
