@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1'
+HD_PWD='C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

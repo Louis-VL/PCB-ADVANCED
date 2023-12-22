@@ -1,0 +1,16 @@
+vhdl xil_defaultlib  \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/sim/MicroBlazeV2_microblaze_0_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/sim/MicroBlazeV2_dlmb_v10_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/sim/MicroBlazeV2_ilmb_v10_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/sim/MicroBlazeV2_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/sim/MicroBlazeV2_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/sim/MicroBlazeV2_mdm_1_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/sim/MicroBlazeV2_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/sim/MicroBlazeV2_axi_gpio_0_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/sim/MicroBlazeV2_axi_uartlite_0_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/sim/MicroBlazeV2_axi_gpio_1_0.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/sim/MicroBlazeV2_axi_gpio_0_1.vhd" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/sim/MicroBlazeV2_axi_gpio_1_1.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,8 +1,23 @@
-00:41:03 **** Incremental Build of configuration Debug for project Spartan ****
+12:30:47 **** Incremental Build of configuration Debug for project Spartan ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/sw/MicroBlazeFULL_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:99:5: warning: implicit declaration of function 'LedStartup' [-Wimplicit-function-declaration]
+   99 |     LedStartup(data, gpio_led);
+      |     ^~~~~~~~~~
+../src/helloworld.c:114:9: warning: "/*" within comment [-Wcomment]
+  114 |         /*
+      |          
+../src/helloworld.c: At top level:
+../src/helloworld.c:131:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  131 | LedStartup(u32 data, XGpio gpio_led){
+      | ^~~~~~~~~~
+../src/helloworld.c: In function 'LedStartup':
+../src/helloworld.c:166:1: warning: control reaches end of non-void function [-Wreturn-type]
+  166 | }
+      | ^
 'Finished building: ../src/helloworld.c'
 ' '
 'Building target: Spartan.elf'
@@ -13,9 +28,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/louis/Documents/Github/PCB-ADVANC
 'Invoking: MicroBlaze Print Size'
 mb-size Spartan.elf  |tee "Spartan.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   3476	    336	   3116	   6928	   1b10	Spartan.elf
+   4336	    340	   3116	   7792	   1e70	Spartan.elf
 'Finished building: Spartan.elf.size'
 ' '
 
-00:41:04 Build Finished (took 990ms)
+12:30:48 Build Finished (took 552ms)
 

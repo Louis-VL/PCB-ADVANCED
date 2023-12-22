@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7s6ftgb196-1" LaunchTime="1702764740">
+<GenRun Id="impl_1" LaunchPart="xc7s6ftgb196-1" LaunchTime="1703065615">
   <File Type="ROUTE-PWR" Name="MicroBlazeV2_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="MicroBlazeV2_wrapper.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="MicroBlazeV2_wrapper_power_summary_routed.pb"/>
@@ -100,6 +100,12 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../Vitis/Spartan/Debug/Spartan.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="MicroBlazeV2_wrapper"/>
@@ -133,7 +139,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

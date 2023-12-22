@@ -12,69 +12,70 @@
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source MicroBlazeV2_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.945 ; gain = 161.984
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1463.074 ; gain = 155.227
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1521.973 ; gain = 54.336
 Command: link_design -top MicroBlazeV2_wrapper -part xc7s6ftgb196-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xc7s6ftgb196-1
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.dcp' for cell 'MicroBlazeV2_i/axi_gpio_Header1'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.dcp' for cell 'MicroBlazeV2_i/axi_gpio_Header2'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.dcp' for cell 'MicroBlazeV2_i/axi_gpio_LEDS'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.dcp' for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.dcp' for cell 'MicroBlazeV2_i/axi_uartlite_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.dcp' for cell 'MicroBlazeV2_i/mdm_1'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.dcp' for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_axi_periph/xbar'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_v10'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_v10'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/lmb_bram'
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.241 . Memory (MB): peak = 1940.594 ; gain = 0.000
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.dcp' for cell 'MicroBlazeV2_i/axi_gpio_Header1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.dcp' for cell 'MicroBlazeV2_i/axi_gpio_Header2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.dcp' for cell 'MicroBlazeV2_i/axi_gpio_LEDS'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.dcp' for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.dcp' for cell 'MicroBlazeV2_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.dcp' for cell 'MicroBlazeV2_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.dcp' for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0.dcp' for cell 'MicroBlazeV2_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.748 . Memory (MB): peak = 1932.105 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 245 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2023.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.xdc] for cell 'MicroBlazeV2_i/microblaze_0/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.xdc] for cell 'MicroBlazeV2_i/microblaze_0/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_board.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_board.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
-Parsing XDC File [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
-Finished Parsing XDC File [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc] for cell 'MicroBlazeV2_i/mdm_1/U0'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc:50]
-get_clocks: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2542.090 ; gain = 474.160
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc] for cell 'MicroBlazeV2_i/mdm_1/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.xdc] for cell 'MicroBlazeV2_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.xdc] for cell 'MicroBlazeV2_i/microblaze_0/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_board.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_board.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_board.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_board.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1/U0'
+Parsing XDC File [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
+Finished Parsing XDC File [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc] for cell 'MicroBlazeV2_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2533.180 ; gain = 473.523
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc] for cell 'MicroBlazeV2_i/mdm_1/U0'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Generating merged BMM file for the design top 'MicroBlazeV2_wrapper'...
-INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/data/mb_bootloop_le.elf 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2542.090 ; gain = 0.000
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2533.180 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 96 instances were transformed.
   LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
@@ -82,7 +83,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 26 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2542.090 ; gain = 1014.848
+link_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 2533.180 ; gain = 1011.207
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7s6'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s6'
@@ -93,13 +94,13 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.943 . Memory (MB): peak = 2542.090 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2533.180 ; gain = 0.000
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Cache Timing Information Task | Checksum: 146d36803
+Ending Cache Timing Information Task | Checksum: 11b527dfd
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.209 . Memory (MB): peak = 2562.832 ; gain = 20.742
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.469 . Memory (MB): peak = 2552.148 ; gain = 18.969
 
 Starting Logic Optimization Task
 
@@ -107,24 +108,24 @@ Phase 1 Retarget
 INFO: [Opt 31-1566] Pulled 1 inverters resulting in an inversion of 14 pins
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 1c1636f57
+Phase 1 Retarget | Checksum: 1d4e3d17d
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.293 . Memory (MB): peak = 2900.457 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.819 . Memory (MB): peak = 2891.113 ; gain = 0.000
 INFO: [Opt 31-389] Phase Retarget created 128 cells and removed 194 cells
 INFO: [Opt 31-1021] In phase Retarget, 9 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Phase 2 Constant propagation | Checksum: 11c636811
+Phase 2 Constant propagation | Checksum: 1652afec2
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.332 . Memory (MB): peak = 2900.457 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.913 . Memory (MB): peak = 2891.113 ; gain = 0.000
 INFO: [Opt 31-389] Phase Constant propagation created 8 cells and removed 40 cells
 INFO: [Opt 31-1021] In phase Constant propagation, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: 16e1d48d8
+Phase 3 Sweep | Checksum: 14cd2d10c
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.545 . Memory (MB): peak = 2900.457 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2891.113 ; gain = 0.000
 INFO: [Opt 31-389] Phase Sweep created 24 cells and removed 100 cells
 INFO: [Opt 31-1021] In phase Sweep, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
@@ -132,22 +133,22 @@ Phase 4 BUFG optimization
 INFO: [Opt 31-194] Inserted BUFG clk100Mhz_IBUF_BUFG_inst to drive 1653 load(s) on clock net clk100Mhz_IBUF_BUFG
 INFO: [Opt 31-194] Inserted BUFG MicroBlazeV2_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 39 load(s) on clock net MicroBlazeV2_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
 INFO: [Opt 31-193] Inserted 2 BUFG(s) on clock nets
-Phase 4 BUFG optimization | Checksum: fa740195
+Phase 4 BUFG optimization | Checksum: 119688951
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.649 . Memory (MB): peak = 2900.457 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2891.113 ; gain = 0.000
 INFO: [Opt 31-662] Phase BUFG optimization created 2 cells of which 2 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
-Phase 5 Shift Register Optimization | Checksum: 20a5c816b
+Phase 5 Shift Register Optimization | Checksum: 1bf900336
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.922 . Memory (MB): peak = 2900.457 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2891.113 ; gain = 0.000
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
-Phase 6 Post Processing Netlist | Checksum: 213601efb
+Phase 6 Post Processing Netlist | Checksum: 1c62b9da6
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.949 . Memory (MB): peak = 2900.457 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2891.113 ; gain = 0.000
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 INFO: [Opt 31-1021] In phase Post Processing Netlist, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
@@ -169,10 +170,10 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2900.457 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 213601efb
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2891.113 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1c62b9da6
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.970 . Memory (MB): peak = 2900.457 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2891.113 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -188,40 +189,41 @@ Starting PowerOpt Patch Enables Task
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 4
-Ending PowerOpt Patch Enables Task | Checksum: 213601efb
+Ending PowerOpt Patch Enables Task | Checksum: 1c62b9da6
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2983.480 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 213601efb
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 2975.625 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1c62b9da6
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2983.480 ; gain = 83.023
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2975.625 ; gain = 84.512
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 213601efb
+Ending Final Cleanup Task | Checksum: 1c62b9da6
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2983.480 ; gain = 0.000
-Ending Netlist Obfuscation Task | Checksum: 213601efb
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2975.625 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1c62b9da6
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 56 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 441.391
+opt_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 2975.625 ; gain = 442.445
 INFO: [runtcl-4] Executing : report_drc -file MicroBlazeV2_wrapper_drc_opted.rpt -pb MicroBlazeV2_wrapper_drc_opted.pb -rpx MicroBlazeV2_wrapper_drc_opted.rpx
 Command: report_drc -file MicroBlazeV2_wrapper_drc_opted.rpt -pb MicroBlazeV2_wrapper_drc_opted.pb -rpx MicroBlazeV2_wrapper_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_drc_opted.rpt.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_drc_opted.rpt.
 report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2983.480 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_opt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 2975.625 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_opt.dcp' has been generated.
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7s6'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s6'
@@ -239,53 +241,53 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1285c8bbc
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2983.480 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2975.625 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 32145543
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.265 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.686 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
 Phase 1.3 Build Placer Netlist Model | Checksum: 14ab5213b
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
 Phase 1.4 Constrain Clocks/Macros | Checksum: 14ab5213b
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 1 Placer Initialization | Checksum: 14ab5213b
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
 Phase 2.1 Floorplanning | Checksum: 18ef7ba1d
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 2.2 Update Timing before SLR Path Opt
 Phase 2.2 Update Timing before SLR Path Opt | Checksum: 170f07523
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 2.3 Post-Processing in Floorplanning
 Phase 2.3 Post-Processing in Floorplanning | Checksum: 170f07523
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 2.4 Global Placement Core
 
 Phase 2.4.1 UpdateTiming Before Physical Synthesis
 Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 27c104a68
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 2.4.2 Physical Synthesis In Placer
 INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 149 LUT instances to create LUTNM shape
@@ -301,7 +303,7 @@ INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was
 INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
 INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -325,53 +327,53 @@ Summary of Physical Synthesis Optimizations
 
 Phase 2.4.2 Physical Synthesis In Placer | Checksum: 16160b57d
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 2.4 Global Placement Core | Checksum: 160d01fe0
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 2 Global Placement | Checksum: 160d01fe0
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
 Phase 3.1 Commit Multi Column Macros | Checksum: 1767f6d41
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
 Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: f1bdd2e1
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
 Phase 3.3 Area Swap Optimization | Checksum: 103292885
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: c7398145
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3.5 Small Shape Detail Placement
 Phase 3.5 Small Shape Detail Placement | Checksum: 141c596b4
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3.6 Re-assign LUT pins
 Phase 3.6 Re-assign LUT pins | Checksum: c331388f
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3.7 Pipeline Register Optimization
 Phase 3.7 Pipeline Register Optimization | Checksum: 886fd014
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 3 Detail Placement | Checksum: 886fd014
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -388,32 +390,32 @@ Starting Physical Synthesis Task
 Phase 1 Physical Synthesis Initialization
 INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=3.032 | TNS=0.000 |
-Phase 1 Physical Synthesis Initialization | Checksum: 1a6fc0bea
+Phase 1 Physical Synthesis Initialization | Checksum: 159c78a95
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.170 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.402 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
-Ending Physical Synthesis Task | Checksum: 1a6fc0bea
+Ending Physical Synthesis Task | Checksum: 159c78a95
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.203 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.475 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 4.1.1.1 BUFG Insertion | Checksum: 1b1b97098
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 4.1.1.2 Post Placement Timing Optimization
 INFO: [Place 30-746] Post Placement Timing Summary WNS=3.032. For the most accurate timing information please run report_timing.
 Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: c6e8b294
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 4.1 Post Commit Optimization | Checksum: c6e8b294
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
 Phase 4.2 Post Placement Cleanup | Checksum: c6e8b294
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:21 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
 
@@ -434,43 +436,43 @@ INFO: [Place 30-612] Post-Placement Estimated Congestion
 
 Phase 4.3.1 Print Estimated Congestion | Checksum: c6e8b294
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:21 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 4.3 Placer Reporting | Checksum: c6e8b294
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:21 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:21 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 4 Post Placement Optimization and Clean-Up | Checksum: 8ff933d2
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:21 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Ending Placer Task | Checksum: 8508f9e9
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:21 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 91 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2983.480 ; gain = 0.000
+place_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_io -file MicroBlazeV2_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2983.480 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file MicroBlazeV2_wrapper_utilization_placed.rpt -pb MicroBlazeV2_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file MicroBlazeV2_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2983.480 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.422 . Memory (MB): peak = 2983.480 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_placed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.992 . Memory (MB): peak = 2975.625 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_placed.dcp' has been generated.
 Command: phys_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7s6'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s6'
 
 Starting Initial Update Timing Task
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.551 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
 INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
 INFO: [Common 17-83] Releasing license: Implementation
@@ -480,8 +482,8 @@ INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.434 . Memory (MB): peak = 2983.480 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_physopt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 2975.625 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_physopt.dcp' has been generated.
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7s6'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s6'
@@ -499,25 +501,25 @@ Checksum: PlaceDB: 32c75c10 ConstDB: 0 ShapeSum: 52419dd9 RouteDB: 0
 Post Restoration Checksum: NetGraph: 53081ad6 | NumContArr: 6a3f8eb1 | Constraints: 190a55ad | Timing: 0
 Phase 1 Build RT Design | Checksum: d651ff34
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 2 Router Initialization
 
 Phase 2.1 Fix Topology Constraints
 Phase 2.1 Fix Topology Constraints | Checksum: d651ff34
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 2.2 Pre Route Cleanup
 Phase 2.2 Pre Route Cleanup | Checksum: d651ff34
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2975.625 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.3 Update Timing
 Phase 2.3 Update Timing | Checksum: 17f4c61aa
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.111  | TNS=0.000  | WHS=-0.241 | THS=-55.501|
 
 
@@ -535,17 +537,17 @@ Router Utilization Summary
 
 Phase 2 Router Initialization | Checksum: 1f0a41707
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 3 Initial Routing
 
 Phase 3.1 Global Routing
 Phase 3.1 Global Routing | Checksum: 1f0a41707
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 3 Initial Routing | Checksum: 1150a77a2
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
@@ -557,7 +559,7 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.623  | TNS=0.000  | WHS
 
 Phase 4.1 Global Iteration 0 | Checksum: 17d5aec90
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 4.2 Global Iteration 1
  Number of Nodes with overlaps = 0
@@ -565,25 +567,25 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.623  | TNS=0.000  | WHS
 
 Phase 4.2 Global Iteration 1 | Checksum: 15aa907fe
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 4 Rip-up And Reroute | Checksum: 15aa907fe
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 Phase 5.1 Delay CleanUp | Checksum: 15aa907fe
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
 Phase 5.2 Clock Skew Optimization | Checksum: 15aa907fe
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 5 Delay and Skew Optimization | Checksum: 15aa907fe
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
@@ -592,15 +594,15 @@ Phase 6.1 Hold Fix Iter
 Phase 6.1.1 Update Timing
 Phase 6.1.1 Update Timing | Checksum: 18f447e0a
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.703  | TNS=0.000  | WHS=0.039  | THS=0.000  |
 
 Phase 6.1 Hold Fix Iter | Checksum: 1c73f8169
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 Phase 6 Post Hold Fix | Checksum: 1c73f8169
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 7 Route finalize
 
@@ -618,19 +620,19 @@ Router Utilization Summary
 
 Phase 7 Route finalize | Checksum: 1e03edc56
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
 Phase 8 Verifying routed nets | Checksum: 1e03edc56
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 9 Depositing Routes
 Phase 9 Depositing Routes | Checksum: 182dd6a86
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Phase 10 Post Router Timing
 INFO: [Route 35-57] Estimated Timing Summary | WNS=2.703  | TNS=0.000  | WHS=0.039  | THS=0.000  |
@@ -638,32 +640,32 @@ INFO: [Route 35-57] Estimated Timing Summary | WNS=2.703  | TNS=0.000  | WHS=0.0
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
 Phase 10 Post Router Timing | Checksum: 182dd6a86
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
 Phase 11 Post-Route Event Processing
 Phase 11 Post-Route Event Processing | Checksum: 8f78ab20
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 2983.480 ; gain = 0.000
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2975.625 ; gain = 0.000
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 115 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2983.480 ; gain = 0.000
+route_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 2975.625 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file MicroBlazeV2_wrapper_drc_routed.rpt -pb MicroBlazeV2_wrapper_drc_routed.pb -rpx MicroBlazeV2_wrapper_drc_routed.rpx
 Command: report_drc -file MicroBlazeV2_wrapper_drc_routed.rpt -pb MicroBlazeV2_wrapper_drc_routed.pb -rpx MicroBlazeV2_wrapper_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_drc_routed.rpt.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_drc_routed.rpt.
 report_drc completed successfully
 INFO: [runtcl-4] Executing : report_methodology -file MicroBlazeV2_wrapper_methodology_drc_routed.rpt -pb MicroBlazeV2_wrapper_methodology_drc_routed.pb -rpx MicroBlazeV2_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file MicroBlazeV2_wrapper_methodology_drc_routed.rpt -pb MicroBlazeV2_wrapper_methodology_drc_routed.pb -rpx MicroBlazeV2_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_methodology_drc_routed.rpt.
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
 INFO: [runtcl-4] Executing : report_power -file MicroBlazeV2_wrapper_power_routed.rpt -pb MicroBlazeV2_wrapper_power_summary_routed.pb -rpx MicroBlazeV2_wrapper_power_routed.rpx
 Command: report_power -file MicroBlazeV2_wrapper_power_routed.rpt -pb MicroBlazeV2_wrapper_power_summary_routed.pb -rpx MicroBlazeV2_wrapper_power_routed.rpx
@@ -689,8 +691,8 @@ INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.464 . Memory (MB): peak = 3024.070 ; gain = 19.152
-INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.541 . Memory (MB): peak = 3005.613 ; gain = 14.418
+INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/impl_1/MicroBlazeV2_wrapper_routed.dcp' has been generated.
 Command: write_bitstream -force MicroBlazeV2_wrapper.bit -bin_file
 Attempting to get a license for feature 'Implementation' and/or device 'xc7s6'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s6'
@@ -713,5 +715,5 @@ INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT dev
 INFO: [Common 17-83] Releasing license: Implementation
 14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 3465.281 ; gain = 441.211
-INFO: [Common 17-206] Exiting Vivado at Sat Dec 16 23:15:53 2023...
+write_bitstream: Time (s): cpu = 00:00:29 ; elapsed = 00:00:25 . Memory (MB): peak = 3450.445 ; gain = 444.832
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 20 10:52:51 2023...

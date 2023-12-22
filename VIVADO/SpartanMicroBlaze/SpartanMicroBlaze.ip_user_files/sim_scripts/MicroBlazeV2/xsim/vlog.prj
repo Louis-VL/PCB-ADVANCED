@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "../../../../SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ipshared/ec67/hdl" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/sim/MicroBlazeV2_lmb_bram_0.v" \
+"../../../bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/sim/MicroBlazeV2_xbar_0.v" \
+"../../../bd/MicroBlazeV2/sim/MicroBlazeV2.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

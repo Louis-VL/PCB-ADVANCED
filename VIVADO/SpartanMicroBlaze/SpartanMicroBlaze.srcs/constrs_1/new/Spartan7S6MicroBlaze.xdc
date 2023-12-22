@@ -11,6 +11,7 @@ set_property PACKAGE_PIN H13 [get_ports clk100Mhz]
 	create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports clk100Mhz]
 ## period = 1/100M // waveform = period/2 == Duty Cycle
 
+
 #USB-RS232 Interface
 set_property PACKAGE_PIN P3 [get_ports RsRx]
 	set_property IOSTANDARD LVCMOS33 [get_ports RsRx]

@@ -1,56 +1,56 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.38014",
-   "Default View_TopLeft":"-660,3",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-343,-30",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
 #  -string -flagsOSRD
 preplace port port-id_RST -pg 1 -lvl 0 -x -10 -y 860 -defaultsOSRD
 preplace port port-id_RsRx -pg 1 -lvl 0 -x -10 -y 760 -defaultsOSRD
-preplace port port-id_RsTx -pg 1 -lvl 5 -x 1510 -y 600 -defaultsOSRD
+preplace port port-id_RsTx -pg 1 -lvl 6 -x 1860 -y 600 -defaultsOSRD
 preplace port port-id_clk100Mhz -pg 1 -lvl 0 -x -10 -y 790 -defaultsOSRD
-preplace portBus led -pg 1 -lvl 5 -x 1510 -y 100 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 6 -x 1860 -y 100 -defaultsOSRD
 preplace portBus sw -pg 1 -lvl 0 -x -10 -y 980 -defaultsOSRD
-preplace portBus JA -pg 1 -lvl 5 -x 1510 -y 440 -defaultsOSRD
-preplace portBus JB -pg 1 -lvl 5 -x 1510 -y 280 -defaultsOSRD
-preplace inst microblaze_0 -pg 1 -lvl 2 -x 630 -y 690 -defaultsOSRD
-preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -x 1030 -y 700 -defaultsOSRD
-preplace inst mdm_1 -pg 1 -lvl 1 -x 200 -y 690 -defaultsOSRD
-preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 1 -x 200 -y 880 -defaultsOSRD
-preplace inst axi_gpio_LEDS -pg 1 -lvl 4 -x 1350 -y 90 -defaultsOSRD
-preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -x 1030 -y 360 -defaultsOSRD
-preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 1350 -y 590 -defaultsOSRD
-preplace inst axi_gpio_SWITCHES -pg 1 -lvl 4 -x 1350 -y 750 -defaultsOSRD
-preplace inst axi_gpio_Header2 -pg 1 -lvl 4 -x 1350 -y 410 -defaultsOSRD
-preplace inst axi_gpio_Header1 -pg 1 -lvl 4 -x 1350 -y 250 -defaultsOSRD
-preplace netloc axi_uartlite_0_tx 1 4 1 NJ 600
-preplace netloc mdm_1_debug_sys_rst 1 0 2 30 620 370
-preplace netloc microblaze_0_Clk 1 0 4 20 610 400 590 890 130 1210
-preplace netloc reset_rtl_0_1 1 0 1 NJ 860
-preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 1 2 390 600 860J
-preplace netloc rst_clk_wiz_1_100M_mb_reset 1 1 1 400 720n
-preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 1 3 380J 580 870 140 1220
-preplace netloc rx_0_1 1 0 5 10J 780 NJ 780 NJ 780 1210J 840 1490
-preplace netloc axi_gpio_0_gpio_io_o 1 4 1 NJ 100
-preplace netloc gpio_io_i_0_1 1 0 5 NJ 980 NJ 980 NJ 980 NJ 980 1480
-preplace netloc axi_gpio_0_gpio_io_t 1 4 1 NJ 440
-preplace netloc axi_gpio_Header1_gpio_io_t 1 4 1 NJ 280
-preplace netloc microblaze_0_M_AXI_DP 1 2 1 880 200n
-preplace netloc microblaze_0_axi_periph_M00_AXI 1 3 1 1170 70n
-preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 1 1190 330n
-preplace netloc microblaze_0_debug 1 1 1 N 680
-preplace netloc microblaze_0_dlmb_1 1 2 1 N 670
-preplace netloc microblaze_0_ilmb_1 1 2 1 N 690
-preplace netloc microblaze_0_axi_periph_M02_AXI 1 3 1 1170 350n
-preplace netloc microblaze_0_axi_periph_M03_AXI 1 3 1 1180 230n
-preplace netloc microblaze_0_axi_periph_M04_AXI 1 3 1 N 390
-levelinfo -pg 1 -10 200 630 1030 1350 1510
-pagesize -pg 1 -db -bbox -sgen -130 0 1610 1000
+preplace portBus JA -pg 1 -lvl 6 -x 1860 -y 440 -defaultsOSRD
+preplace portBus JB -pg 1 -lvl 6 -x 1860 -y 280 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -x 960 -y 690 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -x 1370 -y 700 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -x 520 -y 690 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 520 -y 880 -defaultsOSRD
+preplace inst axi_gpio_LEDS -pg 1 -lvl 5 -x 1690 -y 90 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 4 -x 1370 -y 360 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -x 1690 -y 590 -defaultsOSRD
+preplace inst axi_gpio_SWITCHES -pg 1 -lvl 5 -x 1690 -y 750 -defaultsOSRD
+preplace inst axi_gpio_Header2 -pg 1 -lvl 5 -x 1690 -y 410 -defaultsOSRD
+preplace inst axi_gpio_Header1 -pg 1 -lvl 5 -x 1690 -y 250 -defaultsOSRD
+preplace netloc axi_gpio_0_gpio_io_o 1 5 1 NJ 100
+preplace netloc axi_gpio_0_gpio_io_t 1 5 1 1830J 420n
+preplace netloc axi_gpio_Header1_gpio_io_t 1 5 1 1830J 260n
+preplace netloc axi_uartlite_0_tx 1 5 1 NJ 600
+preplace netloc gpio_io_i_0_1 1 0 6 NJ 980 N 980 NJ 980 NJ 980 NJ 980 1820
+preplace netloc mdm_1_debug_sys_rst 1 1 2 350 770 690
+preplace netloc microblaze_0_Clk 1 0 5 N 790 340 780 730 780 1220 130 1540
+preplace netloc reset_rtl_0_1 1 0 2 NJ 860 N
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 2 N 860 1230J
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 1 720 720n
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 3 700J 600 1200 140 1550
+preplace netloc rx_0_1 1 0 6 NJ 760 N 760 710J 830 NJ 830 NJ 830 1830
+preplace netloc microblaze_0_M_AXI_DP 1 3 1 1210 200n
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 4 1 1510 70n
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 4 1 1520 330n
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 4 1 1510 350n
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 4 1 1560 230n
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 4 1 N 390
+preplace netloc microblaze_0_debug 1 2 1 N 680
+preplace netloc microblaze_0_dlmb_1 1 3 1 N 670
+preplace netloc microblaze_0_ilmb_1 1 3 1 N 690
+levelinfo -pg 1 -10 180 520 960 1370 1690 1860
+pagesize -pg 1 -db -bbox -sgen -130 -10 1970 1270
 "
 }
 {
-   "da_axi4_cnt":"6",
-   "da_board_cnt":"6",
+   "da_axi4_cnt":"7",
+   "da_board_cnt":"7",
    "da_clkrst_cnt":"1",
    "da_mb_cnt":"1"
 }

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Sat Dec 16 23:15:40 2023
+| Date         : Wed Dec 20 10:52:22 2023
 | Host         : LAPTOP-K67JHBA7 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file MicroBlazeV2_wrapper_methodology_drc_routed.rpt -pb MicroBlazeV2_wrapper_methodology_drc_routed.pb -rpx MicroBlazeV2_wrapper_methodology_drc_routed.rpx
 | Design       : MicroBlazeV2_wrapper

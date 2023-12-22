@@ -3,19 +3,20 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sat Dec 16 23:13:27 2023
-# Process ID: 19764
-# Current directory: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1
+# Start of session at: Wed Dec 20 10:47:05 2023
+# Process ID: 20700
+# Current directory: C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1
 # Command line: vivado.exe -log MicroBlazeV2_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MicroBlazeV2_wrapper.tcl
-# Log file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/MicroBlazeV2_wrapper.vds
-# Journal file: C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1\vivado.jou
+# Log file: C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/MicroBlazeV2_wrapper.vds
+# Journal file: C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1\vivado.jou
 # Running On: LAPTOP-K67JHBA7, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16556 MB
 #-----------------------------------------------------------
 source MicroBlazeV2_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.402 ; gain = 160.488
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1469.125 ; gain = 161.656
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1509.059 ; gain = 39.934
 Command: synth_design -top MicroBlazeV2_wrapper -part xc7s6ftgb196-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7s6'
@@ -23,96 +24,95 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s6'
 INFO: [Device 21-403] Loading part xc7s6ftgb196-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3868
+INFO: [Synth 8-7075] Helper process launched with PID 5492
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2281.918 ; gain = 407.453
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2284.031 ; gain = 409.039
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_wrapper' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/hdl/MicroBlazeV2_wrapper.v:13]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:13]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_1_1' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_1_1' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_1_stub.v:6]
-WARNING: [Synth 8-7071] port 'gpio_io_o' of module 'MicroBlazeV2_axi_gpio_1_1' is unconnected for instance 'axi_gpio_Header1' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:185]
-WARNING: [Synth 8-7023] instance 'axi_gpio_Header1' of module 'MicroBlazeV2_axi_gpio_1_1' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:185]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_0_1' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_0_1' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_1_stub.v:6]
-WARNING: [Synth 8-7071] port 'gpio_io_o' of module 'MicroBlazeV2_axi_gpio_0_1' is unconnected for instance 'axi_gpio_Header2' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:207]
-WARNING: [Synth 8-7023] instance 'axi_gpio_Header2' of module 'MicroBlazeV2_axi_gpio_0_1' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:207]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_0_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_0_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'gpio_io_t' of module 'MicroBlazeV2_axi_gpio_0_0' is unconnected for instance 'axi_gpio_LEDS' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:229]
-WARNING: [Synth 8-7023] instance 'axi_gpio_LEDS' of module 'MicroBlazeV2_axi_gpio_0_0' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:229]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_1_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_1_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'gpio_io_o' of module 'MicroBlazeV2_axi_gpio_1_0' is unconnected for instance 'axi_gpio_SWITCHES' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:251]
-WARNING: [Synth 8-7071] port 'gpio_io_t' of module 'MicroBlazeV2_axi_gpio_1_0' is unconnected for instance 'axi_gpio_SWITCHES' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:251]
-WARNING: [Synth 8-7023] instance 'axi_gpio_SWITCHES' of module 'MicroBlazeV2_axi_gpio_1_0' has 22 connections declared, but only 20 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:251]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_uartlite_0_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_uartlite_0_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_uartlite_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'interrupt' of module 'MicroBlazeV2_axi_uartlite_0_0' is unconnected for instance 'axi_uartlite_0' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:272]
-WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'MicroBlazeV2_axi_uartlite_0_0' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:272]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_mdm_1_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_mdm_1_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_microblaze_0_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_microblaze_0_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_microblaze_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'MicroBlazeV2_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:307]
-WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'MicroBlazeV2_microblaze_0_0' has 52 connections declared, but only 51 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:307]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_microblaze_0_axi_periph_0' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:521]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1MOUN6X' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1483]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1MOUN6X' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1483]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1IKLGRT' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1615]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1IKLGRT' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1615]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1YFJ2AX' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1747]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1YFJ2AX' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1747]
-INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1T7AT9L' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1879]
-INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1T7AT9L' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1879]
-INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_13PXFXL' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2011]
-INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_13PXFXL' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2011]
-INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_166WMCP' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2143]
-INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_166WMCP' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2143]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1LEASL6' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2509]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1LEASL6' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2509]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_xbar_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_xbar_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_xbar_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'MicroBlazeV2_xbar_0' is unconnected for instance 'xbar' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1442]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'MicroBlazeV2_xbar_0' is unconnected for instance 'xbar' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1442]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'MicroBlazeV2_xbar_0' has 40 connections declared, but only 38 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1442]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_microblaze_0_axi_periph_0' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:521]
-WARNING: [Synth 8-7071] port 'M05_AXI_araddr' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_arvalid' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_awaddr' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_awvalid' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_bready' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_rready' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_wdata' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_wstrb' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7071] port 'M05_AXI_wvalid' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-WARNING: [Synth 8-7023] instance 'microblaze_0_axi_periph' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' has 137 connections declared, but only 128 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
-INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_9MKBRA' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2275]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_dlmb_bram_if_cntlr_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_dlmb_bram_if_cntlr_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_dlmb_v10_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_dlmb_v10_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_v10_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'MicroBlazeV2_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2421]
-WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'MicroBlazeV2_dlmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2421]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_ilmb_bram_if_cntlr_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_ilmb_bram_if_cntlr_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_ilmb_v10_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_ilmb_v10_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_v10_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'MicroBlazeV2_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2467]
-WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'MicroBlazeV2_ilmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2467]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_lmb_bram_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_lmb_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_lmb_bram_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_lmb_bram_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'rsta_busy' of module 'MicroBlazeV2_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2492]
-WARNING: [Synth 8-7071] port 'rstb_busy' of module 'MicroBlazeV2_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2492]
-WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'MicroBlazeV2_lmb_bram_0' has 16 connections declared, but only 14 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2492]
-INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_9MKBRA' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2275]
-INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_rst_clk_wiz_1_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-19764-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_rst_clk_wiz_1_100M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:510]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:510]
-WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:510]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2' (0#1) [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_wrapper' (0#1) [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/hdl/MicroBlazeV2_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_wrapper' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/hdl/MicroBlazeV2_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:13]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_1_1' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_1_1' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'gpio_io_o' of module 'MicroBlazeV2_axi_gpio_1_1' is unconnected for instance 'axi_gpio_Header1' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:185]
+WARNING: [Synth 8-7023] instance 'axi_gpio_Header1' of module 'MicroBlazeV2_axi_gpio_1_1' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:185]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_0_1' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_0_1' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'gpio_io_o' of module 'MicroBlazeV2_axi_gpio_0_1' is unconnected for instance 'axi_gpio_Header2' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:207]
+WARNING: [Synth 8-7023] instance 'axi_gpio_Header2' of module 'MicroBlazeV2_axi_gpio_0_1' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:207]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_0_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_0_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'gpio_io_t' of module 'MicroBlazeV2_axi_gpio_0_0' is unconnected for instance 'axi_gpio_LEDS' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:229]
+WARNING: [Synth 8-7023] instance 'axi_gpio_LEDS' of module 'MicroBlazeV2_axi_gpio_0_0' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:229]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_gpio_1_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_gpio_1_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_gpio_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'gpio_io_o' of module 'MicroBlazeV2_axi_gpio_1_0' is unconnected for instance 'axi_gpio_SWITCHES' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:251]
+WARNING: [Synth 8-7071] port 'gpio_io_t' of module 'MicroBlazeV2_axi_gpio_1_0' is unconnected for instance 'axi_gpio_SWITCHES' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:251]
+WARNING: [Synth 8-7023] instance 'axi_gpio_SWITCHES' of module 'MicroBlazeV2_axi_gpio_1_0' has 22 connections declared, but only 20 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:251]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_axi_uartlite_0_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_axi_uartlite_0_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_axi_uartlite_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'MicroBlazeV2_axi_uartlite_0_0' is unconnected for instance 'axi_uartlite_0' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:272]
+WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'MicroBlazeV2_axi_uartlite_0_0' has 22 connections declared, but only 21 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:272]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_mdm_1_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_mdm_1_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_microblaze_0_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_microblaze_0_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_microblaze_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'MicroBlazeV2_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:307]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'MicroBlazeV2_microblaze_0_0' has 52 connections declared, but only 51 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:307]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_microblaze_0_axi_periph_0' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:521]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1MOUN6X' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1501]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1MOUN6X' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1501]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1IKLGRT' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1633]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1IKLGRT' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1633]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1YFJ2AX' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1765]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1YFJ2AX' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1765]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1T7AT9L' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1897]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1T7AT9L' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:1897]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_13PXFXL' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2029]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_13PXFXL' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2029]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_166WMCP' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2161]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_166WMCP' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2161]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1LEASL6' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2541]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1LEASL6' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2541]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_xbar_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_xbar_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_microblaze_0_axi_periph_0' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:521]
+WARNING: [Synth 8-7071] port 'M05_AXI_araddr' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_arprot' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_arvalid' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_awaddr' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_awprot' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_awvalid' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_bready' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_rready' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_wdata' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_wstrb' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7071] port 'M05_AXI_wvalid' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+WARNING: [Synth 8-7023] instance 'microblaze_0_axi_periph' of module 'MicroBlazeV2_microblaze_0_axi_periph_0' has 139 connections declared, but only 128 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:359]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_9MKBRA' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2307]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_dlmb_bram_if_cntlr_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_dlmb_bram_if_cntlr_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_dlmb_v10_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_dlmb_v10_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'MicroBlazeV2_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2453]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'MicroBlazeV2_dlmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2453]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_ilmb_bram_if_cntlr_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_ilmb_bram_if_cntlr_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_ilmb_v10_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_ilmb_v10_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'MicroBlazeV2_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2499]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'MicroBlazeV2_ilmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2499]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_lmb_bram_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_lmb_bram_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'MicroBlazeV2_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2524]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'MicroBlazeV2_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2524]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'MicroBlazeV2_lmb_bram_0' has 16 connections declared, but only 14 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2524]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_9MKBRA' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:2307]
+INFO: [Synth 8-6157] synthesizing module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/.Xil/Vivado-20700-LAPTOP-K67JHBA7/realtime/MicroBlazeV2_rst_clk_wiz_1_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:510]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:510]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'MicroBlazeV2_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:510]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2' (0#1) [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/synth/MicroBlazeV2.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'MicroBlazeV2_wrapper' (0#1) [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/hdl/MicroBlazeV2_wrapper.v:13]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1LEASL6 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1LEASL6 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ACLK in module s00_couplers_imp_1LEASL6 is either unconnected or has no load
@@ -141,147 +141,88 @@ WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_1MOUN6X is either
 WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_1MOUN6X is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ACLK in module m00_couplers_imp_1MOUN6X is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ARESETN in module m00_couplers_imp_1MOUN6X is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[31] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[30] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[29] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[28] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[27] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[26] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[25] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[24] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[23] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[22] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[21] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[20] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[19] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[18] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[17] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[16] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[15] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[14] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[13] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[12] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[11] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[10] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[9] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[8] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[7] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[6] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[5] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[4] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[3] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[2] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_araddr[1] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[31] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[30] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[29] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[28] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[27] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[26] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[25] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[24] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[23] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[22] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[21] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[20] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[19] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[18] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[17] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[16] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[15] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[14] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[13] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[12] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[11] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[10] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[9] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[8] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[7] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[6] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[5] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[4] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[3] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[2] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_awaddr[1] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[31] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[30] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[29] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[28] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[27] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[26] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[25] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[24] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[23] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port M05_AXI_wdata[22] in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
-INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port M00_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M05_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M05_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2380.414 ; gain = 505.949
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2380.684 ; gain = 505.691
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2398.328 ; gain = 523.863
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2398.605 ; gain = 523.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2398.328 ; gain = 523.863
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2398.605 ; gain = 523.613
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2398.328 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.133 . Memory (MB): peak = 2398.605 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_v10'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_v10'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_v10'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_v10'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/lmb_bram'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/lmb_bram'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/mdm_1'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/mdm_1'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_axi_periph/xbar'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_axi_periph/xbar'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2'
-Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1'
-Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1'
-Parsing XDC File [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
-Finished Parsing XDC File [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MicroBlazeV2_wrapper_propImpl.xdc].
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_dlmb_v10_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/mdm_1'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/mdm_1'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'MicroBlazeV2_i/rst_clk_wiz_1_100M'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_LEDS'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0_in_context.xdc] for cell 'MicroBlazeV2_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_uartlite_0'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_SWITCHES'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header2'
+Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1'
+Finished Parsing XDC File [c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_0_0_in_context.xdc] for cell 'MicroBlazeV2_i/axi_gpio_Header1'
+Parsing XDC File [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
+Finished Parsing XDC File [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MicroBlazeV2_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/MicroBlazeV2_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2426.207 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2426.473 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2426.207 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2426.473 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MicroBlazeV2_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s6ftgb196-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -303,10 +244,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for MicroBlazeV2_i/axi_gpio_SWITCHES.
 Applied set_property KEEP_HIERARCHY = SOFT for MicroBlazeV2_i/axi_gpio_Header2. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for MicroBlazeV2_i/axi_gpio_Header1. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -328,26 +269,40 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port M00_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M05_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M05_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module MicroBlazeV2_microblaze_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Timing Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -365,37 +320,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished IO Insertion : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -441,24 +396,24 @@ Report Cell Usage:
 |16    |OBUF                            |    25|
 +------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 144 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 2426.207 ; gain = 523.863
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2426.207 ; gain = 551.742
+Synthesis finished with 0 errors, 0 critical warnings and 15 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:01:13 . Memory (MB): peak = 2426.473 ; gain = 523.613
+Synthesis Optimization Complete : Time (s): cpu = 00:01:17 ; elapsed = 00:01:19 . Memory (MB): peak = 2426.473 ; gain = 551.480
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2426.207 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 2426.473 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2426.207 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2426.473 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 3b2656d7
+Synth Design complete | Checksum: 31845495
 INFO: [Common 17-83] Releasing license: Synthesis
-67 Infos, 138 Warnings, 0 Critical Warnings and 0 Errors encountered.
+66 Infos, 93 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 2426.207 ; gain = 917.734
-INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/MicroBlazeV2_wrapper.dcp' has been generated.
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 2426.473 ; gain = 917.414
+INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/MicroBlazeV2_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file MicroBlazeV2_wrapper_utilization_synth.rpt -pb MicroBlazeV2_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Dec 16 23:14:17 2023...
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 20 10:49:18 2023...

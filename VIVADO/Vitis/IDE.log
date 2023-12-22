@@ -520,3 +520,690 @@ con
 ----------------End of Script----------------
 
 00:41:13 INFO  : Disconnected from the channel tcfchan#13.
+23:23:30 DEBUG : Logs will be stored at 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/IDE.log'.
+23:23:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\louis\Documents\Github\PCB-ADVANCED\PCB-ADVANCED\VIVADO\Vitis\temp_xsdb_launch_script.tcl
+23:23:36 INFO  : XSCT server has started successfully.
+23:23:37 INFO  : plnx-install-location is set to ''
+23:23:37 INFO  : Successfully done setting XSCT server connection channel  
+23:23:37 INFO  : Registering command handlers for Vitis TCF services
+23:23:38 INFO  : Platform repository initialization has completed.
+23:23:40 INFO  : Successfully done setting workspace for the tool. 
+23:23:40 INFO  : Successfully done query RDI_DATADIR 
+23:25:37 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+23:28:29 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+23:30:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:30:05 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:30:05 INFO  : 'jtag frequency' command is executed.
+23:30:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:30:06 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:30:06 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:30:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:30:06 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:06 INFO  : System reset is completed.
+23:30:09 INFO  : 'after 3000' command is executed.
+23:30:09 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:09 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:30:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:30:09 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:09 INFO  : 'con' command is executed.
+23:30:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:30:09 INFO  : Disconnected from the channel tcfchan#1.
+23:30:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:30:39 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:30:39 INFO  : 'jtag frequency' command is executed.
+23:30:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:30:39 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:30:39 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:30:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:30:40 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:40 INFO  : System reset is completed.
+23:30:43 INFO  : 'after 3000' command is executed.
+23:30:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:43 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:30:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:30:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:43 INFO  : 'con' command is executed.
+23:30:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:30:43 INFO  : Disconnected from the channel tcfchan#2.
+23:30:51 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+23:30:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:30:56 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:30:56 INFO  : 'jtag frequency' command is executed.
+23:30:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:30:57 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:30:57 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:30:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:30:57 INFO  : Context for processor 'microblaze_0' is selected.
+23:30:57 INFO  : System reset is completed.
+23:31:00 INFO  : 'after 3000' command is executed.
+23:31:00 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:00 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:31:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:31:00 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:00 INFO  : 'con' command is executed.
+23:31:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:31:00 INFO  : Disconnected from the channel tcfchan#3.
+23:31:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:31:28 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:31:28 INFO  : 'jtag frequency' command is executed.
+23:31:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:31:28 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:31:29 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:31:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:31:29 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:29 INFO  : System reset is completed.
+23:31:32 INFO  : 'after 3000' command is executed.
+23:31:32 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:32 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:31:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:31:32 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:32 INFO  : 'con' command is executed.
+23:31:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:31:32 INFO  : Disconnected from the channel tcfchan#4.
+23:31:48 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+23:31:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:31:54 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:31:54 INFO  : 'jtag frequency' command is executed.
+23:31:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:31:54 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:31:54 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:31:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:31:55 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:55 INFO  : System reset is completed.
+23:31:58 INFO  : 'after 3000' command is executed.
+23:31:58 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:58 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:31:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:31:58 INFO  : Context for processor 'microblaze_0' is selected.
+23:31:58 INFO  : 'con' command is executed.
+23:31:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:31:58 INFO  : Disconnected from the channel tcfchan#5.
+23:34:44 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+23:34:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:34:53 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:34:53 INFO  : 'jtag frequency' command is executed.
+23:34:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:34:53 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:34:53 INFO  : Context for processor 'microblaze_0' is selected.
+23:34:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:34:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:34:54 INFO  : Context for processor 'microblaze_0' is selected.
+23:34:54 INFO  : System reset is completed.
+23:34:57 INFO  : 'after 3000' command is executed.
+23:34:57 INFO  : Context for processor 'microblaze_0' is selected.
+23:34:57 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:34:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:34:57 INFO  : Context for processor 'microblaze_0' is selected.
+23:34:57 INFO  : 'con' command is executed.
+23:34:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:34:57 INFO  : Disconnected from the channel tcfchan#6.
+23:35:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:35:21 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:35:21 INFO  : 'jtag frequency' command is executed.
+23:35:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:35:22 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:35:22 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:35:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:35:22 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:22 INFO  : System reset is completed.
+23:35:25 INFO  : 'after 3000' command is executed.
+23:35:25 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:26 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:35:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:35:26 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:26 INFO  : 'con' command is executed.
+23:35:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:35:26 INFO  : Disconnected from the channel tcfchan#7.
+23:36:03 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+23:36:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:36:09 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:36:09 INFO  : 'jtag frequency' command is executed.
+23:36:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:36:09 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:36:10 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:10 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:36:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:36:10 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:10 INFO  : System reset is completed.
+23:36:13 INFO  : 'after 3000' command is executed.
+23:36:13 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:13 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:36:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:36:13 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:13 INFO  : 'con' command is executed.
+23:36:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:36:13 INFO  : Disconnected from the channel tcfchan#8.
+23:36:40 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+23:36:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:36:46 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+23:36:46 INFO  : 'jtag frequency' command is executed.
+23:36:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+23:36:47 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+23:36:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+23:36:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:36:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:47 INFO  : System reset is completed.
+23:36:50 INFO  : 'after 3000' command is executed.
+23:36:50 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:50 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+23:36:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+23:36:50 INFO  : Context for processor 'microblaze_0' is selected.
+23:36:50 INFO  : 'con' command is executed.
+23:36:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:36:50 INFO  : Disconnected from the channel tcfchan#9.
+09:35:38 DEBUG : Logs will be stored at 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/IDE.log'.
+09:35:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\louis\Documents\Github\PCB-ADVANCED\PCB-ADVANCED\VIVADO\Vitis\temp_xsdb_launch_script.tcl
+09:35:46 INFO  : XSCT server has started successfully.
+09:35:46 INFO  : plnx-install-location is set to ''
+09:35:46 INFO  : Successfully done setting XSCT server connection channel  
+09:35:46 INFO  : Successfully done setting workspace for the tool. 
+09:36:05 INFO  : Registering command handlers for Vitis TCF services
+09:36:06 INFO  : Platform repository initialization has completed.
+09:36:09 INFO  : Successfully done query RDI_DATADIR 
+09:36:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:36:13 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+09:36:13 INFO  : 'jtag frequency' command is executed.
+09:36:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+09:36:14 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+09:36:14 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+09:36:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:36:14 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:14 INFO  : System reset is completed.
+09:36:17 INFO  : 'after 3000' command is executed.
+09:36:17 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:17 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+09:36:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+09:36:17 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+09:36:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:36:24 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+09:36:24 INFO  : 'jtag frequency' command is executed.
+09:36:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+09:36:25 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+09:36:25 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+09:36:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:36:25 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:25 INFO  : System reset is completed.
+09:36:28 INFO  : 'after 3000' command is executed.
+09:36:28 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:28 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+09:36:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+09:36:28 INFO  : Context for processor 'microblaze_0' is selected.
+09:36:28 INFO  : 'con' command is executed.
+09:36:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:36:28 INFO  : Disconnected from the channel tcfchan#1.
+11:23:01 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+11:23:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:23:07 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+11:23:07 INFO  : 'jtag frequency' command is executed.
+11:23:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+11:23:08 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+11:23:08 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+11:23:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:23:08 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:08 INFO  : System reset is completed.
+11:23:11 INFO  : 'after 3000' command is executed.
+11:23:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:11 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+11:23:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+11:23:11 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+11:23:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:23:26 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+11:23:26 INFO  : 'jtag frequency' command is executed.
+11:23:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+11:23:27 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+11:23:27 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+11:23:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:23:27 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:27 INFO  : System reset is completed.
+11:23:30 INFO  : 'after 3000' command is executed.
+11:23:30 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:30 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+11:23:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+11:23:30 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:30 INFO  : 'con' command is executed.
+11:23:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:23:30 INFO  : Disconnected from the channel tcfchan#2.
+11:30:49 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+11:32:27 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+11:32:54 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+11:32:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:00 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+11:33:00 INFO  : 'jtag frequency' command is executed.
+11:33:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+11:33:00 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+11:33:00 INFO  : Context for processor 'microblaze_0' is selected.
+11:33:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+11:33:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:33:01 INFO  : Context for processor 'microblaze_0' is selected.
+11:33:01 INFO  : System reset is completed.
+11:33:04 INFO  : 'after 3000' command is executed.
+11:33:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:33:04 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+11:33:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+11:33:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:33:04 INFO  : 'con' command is executed.
+11:33:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:33:04 INFO  : Disconnected from the channel tcfchan#3.
+11:56:14 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+11:56:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:24 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+11:56:24 INFO  : 'jtag frequency' command is executed.
+11:56:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+11:56:24 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+11:56:24 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+11:56:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:56:24 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:24 INFO  : System reset is completed.
+11:56:27 INFO  : 'after 3000' command is executed.
+11:56:27 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:27 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+11:56:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+11:56:27 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:27 INFO  : 'con' command is executed.
+11:56:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:56:27 INFO  : Disconnected from the channel tcfchan#4.
+11:57:14 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+12:04:17 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+12:04:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:34 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+12:04:34 INFO  : 'jtag frequency' command is executed.
+12:04:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+12:04:35 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+12:04:35 INFO  : Context for processor 'microblaze_0' is selected.
+12:04:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+12:04:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:04:35 INFO  : Context for processor 'microblaze_0' is selected.
+12:04:35 INFO  : System reset is completed.
+12:04:38 INFO  : 'after 3000' command is executed.
+12:04:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:04:38 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+12:04:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+12:04:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:04:38 INFO  : 'con' command is executed.
+12:04:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:04:38 INFO  : Disconnected from the channel tcfchan#5.
+12:16:06 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+12:16:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:16:11 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+12:16:11 INFO  : 'jtag frequency' command is executed.
+12:16:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+12:16:11 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+12:16:11 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+12:16:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:16:11 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:11 INFO  : System reset is completed.
+12:16:14 INFO  : 'after 3000' command is executed.
+12:16:14 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:14 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+12:16:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+12:16:14 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:14 INFO  : 'con' command is executed.
+12:16:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:16:14 INFO  : Disconnected from the channel tcfchan#6.
+12:16:37 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+12:16:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:16:46 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+12:16:46 INFO  : 'jtag frequency' command is executed.
+12:16:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+12:16:47 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+12:16:47 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+12:16:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:16:47 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:47 INFO  : System reset is completed.
+12:16:50 INFO  : 'after 3000' command is executed.
+12:16:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:50 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+12:16:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+12:16:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:50 INFO  : 'con' command is executed.
+12:16:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:16:50 INFO  : Disconnected from the channel tcfchan#7.
+12:30:18 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+12:30:47 INFO  : Checking for BSP changes to sync application flags for project 'Spartan'...
+12:30:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:30:56 INFO  : Jtag cable 'Louis Spartan Board 0ABC02A' is selected.
+12:30:56 INFO  : 'jtag frequency' command is executed.
+12:30:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}' command is executed.
+12:30:56 INFO  : Device configured successfully with "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit"
+12:30:56 INFO  : Context for processor 'microblaze_0' is selected.
+12:30:56 INFO  : Hardware design and registers information is loaded from 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa'.
+12:30:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:30:56 INFO  : Context for processor 'microblaze_0' is selected.
+12:30:56 INFO  : System reset is completed.
+12:30:59 INFO  : 'after 3000' command is executed.
+12:30:59 INFO  : Context for processor 'microblaze_0' is selected.
+12:30:59 INFO  : The application 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf' is downloaded to processor 'microblaze_0'.
+12:30:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Louis Spartan Board 0ABC02A" && level==0 && jtag_device_ctx=="jsn-Spartan Board-0ABC02A-03622093-0"}
+fpga -file C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/_ide/bitstream/MicroBlazeFULL_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/MicroBlazeFULL_wrapper/export/MicroBlazeFULL_wrapper/hw/MicroBlazeFULL_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+----------------End of Script----------------
+
+12:30:59 INFO  : Context for processor 'microblaze_0' is selected.
+12:30:59 INFO  : 'con' command is executed.
+12:30:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:30:59 INFO  : Disconnected from the channel tcfchan#8.

@@ -57,13 +57,13 @@
 
 #define BTN_CHANNEL 1
 #define LED_CHANNEL 1
-#define BTN_MASK 0b1111
+#define BTN_MASK 0b11111111
 #define LED_MASK 0b11111111
 
 int main()
 {
     init_platform();
-    u32 data;
+    u32 data = 0b00000001;
 
     print("Hello World\n\r");
 
@@ -96,9 +96,16 @@ int main()
     // Set Led Tristate
     XGpio_SetDataDirection(&gpio_led, LED_CHANNEL, 0);
 
+    LedStartup(data, gpio_led);
+
     while(1){
 
-    	data = XGpio_DiscreteRead(&gpio_sw, BTN_CHANNEL);
+    	// Read button state, Write button state on leds
+    	u64 buttons = Xil_In64(XPAR_AXI_GPIO_SWITCHES_BASEADDR);
+    	Xil_Out64(XPAR_AXI_GPIO_LEDS_BASEADDR, buttons);
+
+
+    	/*data = XGpio_DiscreteRead(&gpio_sw, BTN_CHANNEL);
     	data &= BTN_MASK;
     		if (data != 0) {
     			data = LED_MASK;
@@ -106,6 +113,7 @@ int main()
     			data = 0;
     		}
     	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, data);
+
     	/*
     	XGpio_DiscreteWrite(&gpio_led, 1, 1);
 
@@ -121,4 +129,41 @@ int main()
     }
     cleanup_platform();
     return 0;
+}
+
+LedStartup(u32 data, XGpio gpio_led){
+
+	for (int i = 0; i<7; i++){
+	   	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, data);
+		data = data << 1;
+ 		usleep(100000);
+  	}
+
+	for (int i = 0; i<7; i++){
+		XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, data);
+		data = data >> 1;
+		usleep(100000);
+	}
+
+	usleep(100000);
+	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, 0b10000001);
+	usleep(100000);
+
+	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, 0b11000011);
+	usleep(100000);
+
+	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, 0b11100111);
+	usleep(100000);
+
+	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, 0b11111111);
+	usleep(100000);
+
+	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, 0b00000000);
+	usleep(200000);
+
+	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, 0b11111111);
+	usleep(200000);
+
+	XGpio_DiscreteWrite(&gpio_led, LED_CHANNEL, 0b00000000);
+	usleep(250000);
 }

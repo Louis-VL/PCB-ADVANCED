@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/MicroBlazeV2_wrapper.tcl"
+  variable script "C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.runs/synth_1/MicroBlazeV2_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s6ftgb196-1
 
@@ -78,48 +77,49 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir {C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/wt [current_project]
+set_property parent.project_path C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/ip} [current_project]
+set_property ip_output_repo c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib {{C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/hdl/MicroBlazeV2_wrapper.v}}
-add_files {{C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/sources_1/bd/MicroBlazeV2/MicroBlazeV2.bd}}
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_ooc_debug.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0_ooc_trace.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/MicroBlazeV2_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/data/mb_bootloop_le.elf}}]
+add_files C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/Spartan/Debug/Spartan.elf
+read_verilog -library xil_defaultlib C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/hdl/MicroBlazeV2_wrapper.v
+add_files C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/sources_1/bd/MicroBlazeV2/MicroBlazeV2.bd
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/MicroBlazeV2_microblaze_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_v10_0/MicroBlazeV2_dlmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_v10_0/MicroBlazeV2_ilmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_dlmb_bram_if_cntlr_0/MicroBlazeV2_dlmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_ilmb_bram_if_cntlr_0/MicroBlazeV2_ilmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_lmb_bram_0/MicroBlazeV2_lmb_bram_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_mdm_1_0/MicroBlazeV2_mdm_1_0_ooc_trace.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_rst_clk_wiz_1_100M_0/MicroBlazeV2_rst_clk_wiz_1_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_0/MicroBlazeV2_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_xbar_0/MicroBlazeV2_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_uartlite_0_0/MicroBlazeV2_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_0/MicroBlazeV2_axi_gpio_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_0_1/MicroBlazeV2_axi_gpio_0_1.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_axi_gpio_1_1/MicroBlazeV2_axi_gpio_1_1.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/MicroBlazeV2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.gen/sources_1/bd/MicroBlazeV2/ip/MicroBlazeV2_microblaze_0_0/data/mb_bootloop_le.elf]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -130,8 +130,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/louis/Documents/Github/PCB ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc}}]
+read_xdc C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc
+set_property used_in_implementation false [get_files C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/SpartanMicroBlaze/SpartanMicroBlaze.srcs/constrs_1/new/Spartan7S6MicroBlaze.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
