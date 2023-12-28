@@ -41,3 +41,6 @@ timestamp=[2023-12-20 12:16:07], mode=BUILD, duration=0:00:00.625, duration_ms=6
 timestamp=[2023-12-20 12:16:37], mode=BUILD, duration=0:00:00.568, duration_ms=568, data={name=Spartan, configuration=Debug, clean_build=false}
 timestamp=[2023-12-20 12:30:19], mode=BUILD, duration=0:00:00.450, duration_ms=450, data={name=Spartan, configuration=Debug, clean_build=false}
 timestamp=[2023-12-20 12:30:48], mode=BUILD, duration=0:00:00.567, duration_ms=567, data={name=Spartan, configuration=Debug, clean_build=false}
+timestamp=[2023-12-28 13:47:21], mode=WORKBENCH_START, duration=0:00:14.883, duration_ms=14883, data={}
+timestamp=[2023-12-28 13:47:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.545, duration_ms=545, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=MicroBlazeFULL_wrapper,RemoteSystemsTempFiles,Spartan,Spartan_system}
+timestamp=[2023-12-28 13:47:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.543, duration_ms=1543, data={}

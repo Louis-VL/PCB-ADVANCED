@@ -1207,3 +1207,12 @@ con
 ----------------End of Script----------------
 
 12:30:59 INFO  : Disconnected from the channel tcfchan#8.
+13:47:13 DEBUG : Logs will be stored at 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/IDE.log'.
+13:47:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\louis\Documents\Github\PCB-ADVANCED\PCB-ADVANCED\VIVADO\Vitis\temp_xsdb_launch_script.tcl
+13:47:20 INFO  : XSCT server has started successfully.
+13:47:20 INFO  : Successfully done setting XSCT server connection channel  
+13:47:20 INFO  : plnx-install-location is set to ''
+13:47:20 INFO  : Successfully done setting workspace for the tool. 
+13:47:22 INFO  : Registering command handlers for Vitis TCF services
+13:47:24 INFO  : Platform repository initialization has completed.
+13:47:26 INFO  : Successfully done query RDI_DATADIR 

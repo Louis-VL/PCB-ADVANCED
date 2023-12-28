@@ -12281,3 +12281,51 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: 
 
 !ENTRY com.xilinx.sdk.utils 0 0 2023-12-20 12:30:59.898
 !MESSAGE XSCT command with result: [disconnect tcfchan#8], Result: [null, ]. Thread: Thread-805
+!SESSION 2023-12-28 13:46:30.614 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2023-12-28 13:47:10.590
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:20.650
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:20.650
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:20.666
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:20.695
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:20.695
+!MESSAGE XSCT Command: [setws C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis], Thread: Thread-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:20.698
+!MESSAGE XSCT command with result: [setws C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis], Result: [null, ]. Thread: Thread-38
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-12-28 13:47:20.977
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-12-28 13:47:20.978
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-12-28 13:47:20.978
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:22.757
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:26.441
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:26.442
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-28 13:47:26.444
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/SharedData/2023.1/data;C:/Xilinx/Vitis/2023.1/data]. Thread: Worker-5: Initializing s/w repositories
