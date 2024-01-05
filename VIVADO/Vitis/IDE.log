@@ -1216,3 +1216,21 @@ con
 13:47:22 INFO  : Registering command handlers for Vitis TCF services
 13:47:24 INFO  : Platform repository initialization has completed.
 13:47:26 INFO  : Successfully done query RDI_DATADIR 
+00:56:37 DEBUG : Logs will be stored at 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/IDE.log'.
+00:56:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\louis\Documents\Github\PCB-ADVANCED\PCB-ADVANCED\VIVADO\Vitis\temp_xsdb_launch_script.tcl
+00:56:48 INFO  : Registering command handlers for Vitis TCF services
+00:56:48 INFO  : XSCT server has started successfully.
+00:56:48 INFO  : plnx-install-location is set to ''
+00:56:51 INFO  : Platform repository initialization has completed.
+00:56:55 INFO  : Successfully done setting XSCT server connection channel  
+00:56:55 INFO  : Successfully done query RDI_DATADIR 
+00:56:55 INFO  : Successfully done setting workspace for the tool. 
+01:21:33 DEBUG : Logs will be stored at 'C:/Users/louis/Documents/Github/PCB-ADVANCED/PCB-ADVANCED/VIVADO/Vitis/IDE.log'.
+01:21:35 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\louis\Documents\Github\PCB-ADVANCED\PCB-ADVANCED\VIVADO\Vitis\temp_xsdb_launch_script.tcl
+01:21:43 INFO  : XSCT server has started successfully.
+01:21:43 INFO  : plnx-install-location is set to ''
+01:21:43 INFO  : Successfully done setting XSCT server connection channel  
+01:21:43 INFO  : Successfully done setting workspace for the tool. 
+01:21:51 INFO  : Registering command handlers for Vitis TCF services
+01:21:54 INFO  : Platform repository initialization has completed.
+01:21:57 INFO  : Successfully done query RDI_DATADIR 

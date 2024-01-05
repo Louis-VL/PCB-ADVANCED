@@ -87,9 +87,6 @@ int main()
     cfg_ptr = XGpio_LookupConfig(XPAR_AXI_GPIO_HEADER2_DEVICE_ID);
     XGpio_CfgInitialize(&gpio_JB, cfg_ptr, cfg_ptr->BaseAddress);
 
-    print("Successfully ran Hello World application");
-
-
     // Set Button Tristate
     XGpio_SetDataDirection(&gpio_sw, BTN_CHANNEL, BTN_MASK);
 
@@ -97,6 +94,8 @@ int main()
     XGpio_SetDataDirection(&gpio_led, LED_CHANNEL, 0);
 
     LedStartup(data, gpio_led);
+
+    print("Successfully ran Hello World application");
 
     while(1){
 
